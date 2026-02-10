@@ -460,7 +460,8 @@ def main():
         print_step(5, 6, "Generating Results and Sending Email")
         all_passed, summary_text, slot_results = generate_result_summary(inform, data_path, report_path)
         send_result_email(tester_email, all_passed, summary_text, inform)
-
+        print_status('info', "Turning OFF power supply...")
+        psu.close()
         # Show Page 9: Open cover for board removal
         pop.show_image_popup(
             title="Page 9: Review Result and Open Cover",
@@ -478,8 +479,7 @@ def main():
         )
 
         # Final summary display
-        print_status('info', "Turning OFF power supply...")
-        psu.close()
+
         print_header("Checkout Test Complete")
         if all_passed:
             print(Fore.GREEN + "  ✓✓✓ ALL TESTS PASSED ✓✓✓" + Style.RESET_ALL)

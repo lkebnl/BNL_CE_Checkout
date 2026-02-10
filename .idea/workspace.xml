@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ebd17e98-48cf-4177-bb50-ff0f47603bb5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/pop_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/pop_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/femb_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/femb_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/Pop-ups_FEMB_QC1117.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/Pop-ups_FEMB_QC_1125.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/Rigol_DP800_CTS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/rigol_DP800_0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/rigol_dp832_ps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +97,7 @@
       <workItem from="1768835843267" duration="728000" />
       <workItem from="1768836784290" duration="1520000" />
       <workItem from="1768838346080" duration="27915000" />
-      <workItem from="1770755090326" duration="3721000" />
+      <workItem from="1770755090326" duration="4278000" />
     </task>
     <servers />
   </component>
@@ -142,10 +146,6 @@
           <url>file://$PROJECT_DIR$/cts_ssh_FEMB.py</url>
           <line>671</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GUI/rigol_DP800_0.py</url>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cts_ssh_FEMB.py</url>
