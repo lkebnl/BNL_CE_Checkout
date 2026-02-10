@@ -1,0 +1,10 @@
+﻿tester,lke
+email,lke@bnl.gov
+SLOT0,BNL_FEMB_I0-1865-1K_00016
+SLOT1,BNL_FEMB_I0-1865-1K_00026
+SLOT2,BNL_FEMB_I0-1865-1K_00021
+SLOT3,BNL_FEMB_I0-1865-1K_00023
+test_site,BNL
+test_type,Checkout
+top_path,D:/
+comment,Checkout test
