@@ -415,18 +415,19 @@ def show_removal_popup(
 
         if value == expected_id:
             # ID matched - show confirm button
-            status_label.config(text=f"ID Matched: {value}", foreground="green")
+            status_label.config(text=f"ID Matched: {value}")
             entry.config(state="disabled")
             submit_btn.pack_forget()
 
-            # Show confirm button
+            # Show confirm button - green for pass, orange for fail/other
+            btn_color = "#4CAF50" if test_status == 'pass' else "#FF8C00"
             confirm_btn = tk.Button(
                 button_frame,
                 text="Confirm & Remove",
                 command=on_confirm,
                 font=("Arial", 24, "bold"),
                 width=20,
-                bg="#4CAF50",
+                bg=btn_color,
                 fg="white"
             )
             confirm_btn.pack(pady=10)

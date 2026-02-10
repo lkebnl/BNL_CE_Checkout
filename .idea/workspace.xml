@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebd17e98-48cf-4177-bb50-ff0f47603bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BNL_CE_Checkout.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CTS_Checkout.py" beforeDir="false" afterPath="$PROJECT_DIR$/CTS_Checkout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/send_email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/pop_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/pop_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/femb_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/femb_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init_setup.csv" beforeDir="false" afterPath="$PROJECT_DIR$/init_setup.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +93,7 @@
       <workItem from="1768835843267" duration="728000" />
       <workItem from="1768836784290" duration="1520000" />
       <workItem from="1768838346080" duration="27915000" />
-      <workItem from="1770755090326" duration="2143000" />
+      <workItem from="1770755090326" duration="3721000" />
     </task>
     <servers />
   </component>
