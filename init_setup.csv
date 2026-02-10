@@ -1,5 +1,6 @@
 Test_Site,BNL
 Tech_site_email,lke@bnl.gov
+Tech_receiver,ke.lingyun@outlook.com
 Tech_Coordinator,LKE
 QC_data_root_folder,/home/dune/Documents/data
 Rigol_PS_for_WIB,True

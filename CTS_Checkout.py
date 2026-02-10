@@ -135,6 +135,7 @@ def save_config(tester_name, tester_email, femb_ids, init_config):
         'toy_TPC': init_config.get('toy_TPC', 'y'),
         'top_path': init_config.get('QC_data_root_folder', '/home/dune/Documents/data'),
         'Tech_site_email': tester_email or init_config.get('Tech_site_email', ''),
+        'Tech_receiver': init_config.get('Tech_receiver', 'lke@bnl.gov'),
         'Test_Site': init_config.get('Test_Site', 'BNL'),
         'Tech_Coordinator': init_config.get('Tech_Coordinator', ''),
         'QC_data_root_folder': init_config.get('QC_data_root_folder', '/home/dune/Documents/data'),
@@ -333,11 +334,20 @@ def process_board_removal(inform, slot_results):
 
 
 def send_result_email(tester_email, all_passed, summary_text, inform):
-    """Send email notification with test results"""
+    """Send email notification with test results to tester and tech receiver"""
     print_header("Sending Email Notification")
 
-    if not tester_email or '@' not in tester_email:
-        print_status('warning', "Invalid email address. Skipping email notification.")
+    # Build recipient list
+    recipients = []
+    if tester_email and '@' in tester_email:
+        recipients.append(tester_email)
+
+    tech_receiver = inform.get('Tech_receiver', 'lke@bnl.gov')
+    if tech_receiver and '@' in tech_receiver and tech_receiver not in recipients:
+        recipients.append(tech_receiver)
+
+    if not recipients:
+        print_status('warning', "No valid email recipients. Skipping email notification.")
         return False
 
     status_str = "PASS" if all_passed else "FAIL"
@@ -358,11 +368,11 @@ This is an automated message from the FEMB Post-Assembly Checkout System.
         send_email.send_email(
             SENDER_EMAIL,
             SENDER_PASSWORD,
-            tester_email,
+            recipients,
             subject,
             body
         )
-        print_status('success', f"Email sent to: {tester_email}")
+        print_status('success', f"Email sent to: {', '.join(recipients)}")
         return True
     except Exception as email_err:
         print_status('error', f"Failed to send email: {email_err}")
@@ -468,20 +478,21 @@ def main():
         )
 
         # Final summary display
+        print_status('info', "Turning OFF power supply...")
+        psu.close()
         print_header("Checkout Test Complete")
         if all_passed:
             print(Fore.GREEN + "  ✓✓✓ ALL TESTS PASSED ✓✓✓" + Style.RESET_ALL)
         else:
             print(Fore.RED + "  ✗✗✗ SOME TESTS FAILED ✗✗✗" + Style.RESET_ALL)
             print(Fore.YELLOW + "\n  Please check the failed FEMBs and take appropriate action." + Style.RESET_ALL)
-        print_status('info', "Turning OFF power supply...")
-        psu.close()
         print_status('success', "Power supply turned OFF and connection closed.")
         return 0 if all_passed else 1
 
     finally:
         # Always turn off power supply, even on exceptions
-        input(Fore.CYAN + "  Press Enter to exit..." + Style.RESET_ALL)
+        input(Fore.CYAN + "  Press Enter to next" + Style.RESET_ALL)
+        print(Fore.CYAN + "  Press Enter 'exit' in terminal line to quit..." + Style.RESET_ALL)
 
 
 if __name__ == "__main__":

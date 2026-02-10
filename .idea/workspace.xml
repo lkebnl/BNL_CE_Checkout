@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebd17e98-48cf-4177-bb50-ff0f47603bb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/BNL_CE_Checkout.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTS_Checkout.py" beforeDir="false" afterPath="$PROJECT_DIR$/CTS_Checkout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/send_email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/femb_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/femb_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init_setup.csv" beforeDir="false" afterPath="$PROJECT_DIR$/init_setup.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +52,12 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "Rebasing CTS__2025",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/dune/PycharmProjects/BNL_CE_WIB_SW_QC/GUI",
+    "last_opened_file_path": "/home/dune/PycharmProjects/BNL_CE_Checkout",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -90,6 +98,7 @@
       <workItem from="1768835843267" duration="728000" />
       <workItem from="1768836784290" duration="1520000" />
       <workItem from="1768838346080" duration="27915000" />
+      <workItem from="1770755090326" duration="2143000" />
     </task>
     <servers />
   </component>
@@ -101,17 +110,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/CTS_Checkout.py</url>
-          <line>187</line>
+          <line>188</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/CTS_Checkout.py</url>
-          <line>188</line>
+          <line>189</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/CTS_Checkout.py</url>
-          <line>189</line>
+          <line>190</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">

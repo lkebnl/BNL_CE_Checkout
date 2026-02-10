@@ -6,17 +6,22 @@ from email import encoders
 import os
 
 def send_email(sender_email, sender_password, receiver_email, subject, body):
+   # Support single string or list of recipients
+   if isinstance(receiver_email, str):
+       recipients = [r.strip() for r in receiver_email.split(',') if r.strip()]
+   else:
+       recipients = list(receiver_email)
    message = MIMEMultipart()
    message['From'] = sender_email
-   message['To'] = receiver_email
+   message['To'] = ', '.join(recipients)
    message['Subject'] = subject
    message.attach(MIMEText(body, 'plain'))
    try:
        server = smtplib.SMTP('smtp.gmail.com', 587)
-       server.starttls()  # 启用TLS加密
+       server.starttls()
        server.login(sender_email, sender_password)
        text = message.as_string()
-       server.sendmail(sender_email, receiver_email, text)
+       server.sendmail(sender_email, recipients, text)
        print("Please Check Email!")
    except Exception as e:
        print(f"Email send fail ... : {e}")
@@ -31,14 +36,19 @@ def send_email_with_attachment(sender_email, sender_password, receiver_email, su
     Args:
         sender_email: Sender email address
         sender_password: Sender email password/app password
-        receiver_email: Receiver email address
+        receiver_email: Receiver email address (string or list of strings)
         subject: Email subject
         body: Email body text
         attachment_path: Optional path to text file to attach
     """
+    # Support single string or list of recipients
+    if isinstance(receiver_email, str):
+        recipients = [r.strip() for r in receiver_email.split(',') if r.strip()]
+    else:
+        recipients = list(receiver_email)
     message = MIMEMultipart()
     message['From'] = sender_email
-    message['To'] = receiver_email
+    message['To'] = ', '.join(recipients)
     message['Subject'] = subject
     message.attach(MIMEText(body, 'plain'))
 
@@ -63,7 +73,7 @@ def send_email_with_attachment(sender_email, sender_password, receiver_email, su
         server.starttls()
         server.login(sender_email, sender_password)
         text = message.as_string()
-        server.sendmail(sender_email, receiver_email, text)
+        server.sendmail(sender_email, recipients, text)
         print("Email sent successfully!")
     except Exception as e:
         print(f"Email send fail: {e}")
