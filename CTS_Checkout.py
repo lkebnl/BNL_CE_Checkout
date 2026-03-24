@@ -17,7 +17,6 @@ import GUI.Rigol_DP800 as rigol
 import GUI.pop_window as pop
 from qc_utils import QC_Process
 from qc_results import analyze_test_results, display_qc_results
-from qc_ui import get_email
 
 # Image paths for instruction popups
 IMG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'GUI', 'output_pngs')
@@ -146,7 +145,7 @@ def save_config(tester_name, tester_email, femb_ids, init_config):
         'PS_Control_Mode': init_config.get('PS_Control_Mode', 'USB'),
         'CTS_LN2_Fill_Wait': init_config.get('CTS_LN2_Fill_Wait', '1800'),
         'CTS_Warmup_Wait': init_config.get('CTS_Warmup_Wait', '3600'),
-        'Network_Upload_Path': init_config.get('Network_Upload_Path', '/data/rtss/femb'),
+        'Network_Upload_Path': init_config.get('Network_Upload_Path', '/data/femb/FEMB_CHK'),
     }
 
     # Ensure directory exists
@@ -336,28 +335,21 @@ def process_board_removal(inform, slot_results):
 def send_result_email(tester_email, all_passed, summary_text, inform):
     """Send email notification with test results to tester and tech receiver"""
     print_header("Sending Email Notification")
-
     # Build recipient list
     recipients = []
     if tester_email and '@' in tester_email:
         recipients.append(tester_email)
-
     tech_receiver = inform.get('Tech_receiver', 'lke@bnl.gov')
     if tech_receiver and '@' in tech_receiver and tech_receiver not in recipients:
         recipients.append(tech_receiver)
-
     if not recipients:
         print_status('warning', "No valid email recipients. Skipping email notification.")
         return False
-
     status_str = "PASS" if all_passed else "FAIL"
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
     test_site = inform.get('test_site', 'BNL')
-
     subject = f"[CTS Checkout {status_str}] {test_site} - {timestamp}"
-
     body = f"""CTS FEMB Checkout Test Completed
-
 {summary_text}
 
 ---
@@ -392,8 +384,7 @@ def main():
     if not tester_name:
         tester_name = "Unknown"
 
-    print("\n" + Fore.YELLOW + "  Email will be used for result notification." + Style.RESET_ALL)
-    tester_email = get_email()
+    tester_email = SENDER_EMAIL
 
     # Show Page 1: Test site setup instruction
     pop.show_image_popup(
@@ -423,7 +414,6 @@ def main():
     print_step(3, 5, "Configuration Review")
     print(Fore.GREEN + "\nPlease review the configuration:" + Style.RESET_ALL)
     print(f"  Tester: {tester_name}")
-    print(f"  Email: {tester_email}")
     for slot_key in ['SLOT0', 'SLOT1', 'SLOT2', 'SLOT3']:
         femb_id = femb_ids.get(slot_key, '')
         status = femb_id if femb_id else "Empty"
@@ -439,7 +429,15 @@ def main():
         title="Page 8: Review Information and Close Cover",
         image_path=os.path.join(IMG_DIR, "8.png")
     )
-
+    while True:
+        print(Fore.YELLOW + "\n⚠️  SAFETY CHECK:" + Style.RESET_ALL)
+        print("Please confirm the CTS chamber is empty.")
+        print("Type " + Fore.GREEN + "'I confirm the cover is closed'" + Style.RESET_ALL + " to proceed")
+        com = input(Fore.YELLOW + '>> ' + Style.RESET_ALL)
+        if com.lower() == 'i confirm the cover is closed':
+            print(
+                Fore.GREEN + '✓ Ready for Test.' + Style.RESET_ALL)
+            break
     # Read init_setup.csv for configuration
     init_config = read_init_setup()
 

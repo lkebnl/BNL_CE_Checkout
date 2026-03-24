@@ -48,7 +48,7 @@ else:
 if 'OW' in sys.argv:
     NewWIB = False
 else:
-    NewWIB = False
+    NewWIB = True
 ###########################################
 #      PART 01 Input test information     #
 ###########################################
@@ -132,6 +132,36 @@ chk.femb_power_com_on(fembs)
 
 # chk.femb_safe_powering(fembs, bias_ilim=0.3, dc0_ilim=1.8, dc1_ilim=1.8, dc2_ilim=1.8)
 time.sleep(0.5)
+for ifemb in range(len(fembs)):
+    print(fembs)
+    print(ifemb)
+    femb_id = "FEMB ID {}".format(fembNo['femb%d' % fembs[ifemb]])
+    coldata_SN_CD0 = chk.dat_coldata_efuse_rd(femb_id=fembs[ifemb], cd_id="CD1", efuseid=1)
+    coldata_SN_CD1 = chk.dat_coldata_efuse_rd(femb_id=fembs[ifemb], cd_id="CD2", efuseid=2)
+    log.report_log00[femb_id]["COLDATA_SN_CD0"] = coldata_SN_CD0
+    log.report_log00[femb_id]["COLDATA_SN_CD1"] = coldata_SN_CD1
+    print(log.report_log00[femb_id]["COLDATA_SN_CD0"] )
+    print(log.report_log00[femb_id]["COLDATA_SN_CD1"] )
+
+# print("Power off FEMBs to initial the test")
+# chk.femb_powering([])
+#
+# RP = 1
+# if RP == 1:
+#     chk.fembs_vol_set(vfe=3.0, vcd=3.0, vadc=3.5)
+#
+# #   set FEMB voltages
+# #chk.fembs_vol_set(vfe = paras.voltage_FE, vcd = paras.voltage_COLDATA, vadc = paras.voltage_ColdADC)
+# chk.fembs_vol_set(vfe = 3.0, vcd = 3.0, vadc = 3.5)   #   this parameter can not be used in LN2
+# # chk.fembs_vol_set(vfe = 4, vcd = 4, vadc = 4)
+# print("Check FEMB currents")
+# fembs_remove = []
+#
+# # if env == "LN":
+# #     chk.femb_LN2QC_powering(fembs)
+# # else:
+# # chk.femb_safe_powering(fembs, bias_ilim=0.3, dc0_ilim=1.8, dc1_ilim=1.8, dc2_ilim=1.8)
+# chk.femb_power_com_on(fembs)
 
 chk.femb_cd_rst()
 cfg_paras_rec = []
@@ -195,10 +225,10 @@ for ifemb in range(len(fembs)):
 # for femb_id in fembs:
 #     print(femb_id)
 #     print(2222222222222222)
-    coldata_SN_CD0 = chk.dat_coldata_efuse_rd(femb_id=ifemb, cd_id="CD0", efuseid=0)
-    coldata_SN_CD1 = chk.dat_coldata_efuse_rd(femb_id=ifemb, cd_id="CD1", efuseid=0)
-    log.report_log00[femb_id]["COLDATA_SN_CD0"] = coldata_SN_CD0
-    log.report_log00[femb_id]["COLDATA_SN_CD1"] = coldata_SN_CD1
+#     coldata_SN_CD0 = chk.dat_coldata_efuse_rd(femb_id=ifemb, cd_id="CD1", efuseid=1)
+#     coldata_SN_CD1 = chk.dat_coldata_efuse_rd(femb_id=ifemb, cd_id="CD2", efuseid=2)
+#     log.report_log00[femb_id]["COLDATA_SN_CD0"] = coldata_SN_CD0
+#     log.report_log00[femb_id]["COLDATA_SN_CD1"] = coldata_SN_CD1
 
 for femb_id in fembs_remove:
     fembs.remove(femb_id)

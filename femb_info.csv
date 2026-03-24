@@ -1,13 +1,13 @@
 ﻿tester,lke
-SLOT0,IO-1865-1D 00042
-SLOT1,
-SLOT2,
-SLOT3,
+SLOT0,BNL_FEMB_IO-1865-1L_00039
+SLOT1,BNL_FEMB_IO-1865-1L_00025
+SLOT2,BNL_FEMB_IO-1865-1L_00032
+SLOT3,BNL_FEMB_IO-1865-1L_00038
 comment,Checkout test
 test_site,BNL
 toy_TPC,y
 top_path,/home/dune/Documents/data
-Tech_site_email,lke@bnl.gov
+Tech_site_email,bnlr216@gmail.com
 Tech_receiver,ke.lingyun@outlook.com
 Test_Site,BNL
 Tech_Coordinator,LKE

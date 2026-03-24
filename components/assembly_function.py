@@ -109,8 +109,8 @@ def monitor_power_rail(interface, fembs, datadir, save = False):
     chk.wib_mon_switches(dac0_sel=1, dac1_sel=1, dac2_sel=1, dac3_sel=1, mon_vs_pulse_sel=0, inj_cal_pulse=0)
     vold = chk.wib_vol_mon(femb_ids=fembs, sps=sps)
     dkeys = list(vold.keys())
-    # LSB = 2.5 / 16384
-    LSB = 2.048 / 16384
+    LSB = 2.5 / 16384
+    # LSB = 2.048 / 16384
     for fembid in fembs:
         vgnd = vold["GND"][0][fembid]
         for key in dkeys:
@@ -623,7 +623,7 @@ def mon_path_ana(fembs, mon_refs, mon_temps, mon_adcs, datareport, fembNo, env, 
                 print(vssa_tmp)
             else:
                 vssa[i] = "{}".format(vssa_tmp)
-            ground = vssa_tmp
+            # ground = vssa_tmp
             #   fe_t
             cols = list(zip(*mon_temps[f'chip{i}'])); fe_t_tmp = round([sum(col) / len(col) for col in cols][ifemb] * fadc - ground, 1)
             if abs(fe_t_tmp - fe_t_ref) > fe_t_err:
