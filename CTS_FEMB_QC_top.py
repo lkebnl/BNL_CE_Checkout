@@ -125,7 +125,7 @@ def background_timer_reminder(wait_seconds, task_name, ready_message):
 #         qc_data_root: Root folder containing FEMB_QC test data (e.g., /mnt/data)
 #         csv_file: Path to femb_info.csv
 #         csv_file_implement: Path to femb_info_implement.csv
-#         network_path: Network drive upload path (e.g., /data/rtss/femb)
+#         network_path: Network drive upload path (e.g., /data/femb/FEMB_CHK)
 #         femb_ids: List of FEMB IDs being tested (for logging only)
 #
 #     Returns:
@@ -1557,14 +1557,14 @@ if 3 in state_list:
                         if wqreport_path and os.path.exists(wqreport_path):
                             try:
                                 import shutil
-                                network_path = inform.get('Network_Upload_Path', '/data/rtss/femb')
+                                network_path = inform.get('Network_Upload_Path', '/data/femb/FEMB_CHK')
                                 qc_data_root = inform['QC_data_root_folder']
 
                                 if network_path and network_path != qc_data_root:
                                     femb_qc_root = os.path.join(qc_data_root, "FEMB_QC")
                                     if wqreport_path.startswith(femb_qc_root):
                                         report_rel_path = os.path.relpath(wqreport_path, femb_qc_root)
-                                        network_report_dir = os.path.join(network_path, "FEMB_QC", report_rel_path)
+                                        network_report_dir = os.path.join(network_path, report_rel_path)
 
                                         print(Fore.CYAN + f"📤 Syncing Warm QC report to network..." + Style.RESET_ALL)
                                         os.makedirs(os.path.dirname(network_report_dir), exist_ok=True)
@@ -2006,14 +2006,14 @@ if 4 in state_list and not goto_disassembly:
                 if lqreport_path and os.path.exists(lqreport_path):
                     try:
                         import shutil
-                        network_path = infoln.get('Network_Upload_Path', '/data/rtss/femb')
+                        network_path = infoln.get('Network_Upload_Path', '/data/femb/FEMB_CHK')
                         qc_data_root = infoln['QC_data_root_folder']
 
                         if network_path and network_path != qc_data_root:
                             femb_qc_root = os.path.join(qc_data_root, "FEMB_QC")
                             if lqreport_path.startswith(femb_qc_root):
                                 report_rel_path = os.path.relpath(lqreport_path, femb_qc_root)
-                                network_report_dir = os.path.join(network_path, "FEMB_QC", report_rel_path)
+                                network_report_dir = os.path.join(network_path, report_rel_path)
 
                                 print(Fore.CYAN + f"📤 Syncing Cold QC report to network..." + Style.RESET_ALL)
                                 os.makedirs(os.path.dirname(network_report_dir), exist_ok=True)
@@ -2859,11 +2859,11 @@ try:
                 key, value = row
                 upload_config[key.strip()] = value.strip()
 
-    network_upload_path = upload_config.get('Network_Upload_Path', '/data/rtss/femb')
+    network_upload_path = upload_config.get('Network_Upload_Path', '/data/femb/FEMB_CHK')
     qc_root = upload_config.get('QC_data_root_folder', '/mnt/data')
 except Exception as e:
     print_status('warning', f"Could not load upload configuration: {e}")
-    network_upload_path = '/data/rtss/femb'
+    network_upload_path = '/data/femb/FEMB_CHK'
     qc_root = '/mnt/data'
 
 # Collect FEMB IDs for upload folder naming

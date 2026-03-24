@@ -803,7 +803,7 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
 
             try:
                 # Get network path from input_info
-                network_path = self.input_info.get('Network_Upload_Path', '/data/rtss/femb')
+                network_path = self.input_info.get('Network_Upload_Path', '/data/femb/FEMB_CHK')
 
                 # Skip if network path not configured or same as local
                 if not network_path or network_path == self.root:
@@ -811,7 +811,7 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
 
                 # Calculate relative paths to maintain structure
                 # raw_dir: /mnt/data/FEMB_QC/Data/Time_XXX_CHK/
-                # Network: /data/rtss/femb/FEMB_QC/Data/Time_XXX_CHK/
+                # Network: /data/femb/FEMB_CHK/Data/Time_XXX_CHK/
 
                 # Extract relative path from root
                 # Example: Data/Time_2025_11_20_16_34_18_CTS_BNL_S0xxx_S1xxx_RT_CHK/
@@ -819,10 +819,10 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
                     raw_rel_path = os.path.relpath(raw_dir, self.root)
                     report_rel_path = os.path.relpath(report_dir, self.root)
 
-                    network_raw_dir = os.path.join(network_path, "FEMB_QC", raw_rel_path)
-                    network_report_dir = os.path.join(network_path, "FEMB_QC", report_rel_path)
+                    network_raw_dir = os.path.join(network_path, raw_rel_path)
+                    network_report_dir = os.path.join(network_path, report_rel_path)
 
-                    print(Fore.CYAN + f"📤 Syncing to network: {network_path}/FEMB_QC/" + Style.RESET_ALL)
+                    print(Fore.CYAN + f"📤 Syncing to network: {network_path}/" + Style.RESET_ALL)
 
                     # Copy raw data to network
                     if os.path.exists(raw_dir):
@@ -1031,15 +1031,15 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
             # Sync to network path immediately after local copy
             try:
                 import shutil
-                network_path = input_info.get('Network_Upload_Path', '/data/rtss/femb')
+                network_path = input_info.get('Network_Upload_Path', '/data/femb/FEMB_CHK')
 
                 if network_path and network_path != root:
                     # Calculate relative paths to maintain structure
                     if fddir.startswith(root):
                         data_rel_path = os.path.relpath(fddir, root)
-                        network_data_dir = os.path.join(network_path, "FEMB_QC", data_rel_path)
+                        network_data_dir = os.path.join(network_path, data_rel_path)
 
-                        print(Fore.CYAN + f"📤 Syncing QC data to network: {network_path}/FEMB_QC/" + Style.RESET_ALL)
+                        print(Fore.CYAN + f"📤 Syncing QC data to network: {network_path}/" + Style.RESET_ALL)
 
                         # Copy data to network
                         if os.path.exists(fddir):
@@ -1119,16 +1119,16 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
     if QC_TST_EN == 3:  # QC test completed
         try:
             import shutil
-            network_path = input_info.get('Network_Upload_Path', '/data/rtss/femb')
+            network_path = input_info.get('Network_Upload_Path', '/data/femb/FEMB_CHK')
             report_path_to_sync = logs['PC_rawreport_root']
 
             if network_path and network_path != root and os.path.exists(report_path_to_sync):
                 # Calculate relative path for report
                 if report_path_to_sync.startswith(root):
                     report_rel_path = os.path.relpath(report_path_to_sync, root)
-                    network_report_dir = os.path.join(network_path, "FEMB_QC", report_rel_path)
+                    network_report_dir = os.path.join(network_path, report_rel_path)
 
-                    print(Fore.CYAN + f"📤 Syncing QC report to network: {network_path}/FEMB_QC/" + Style.RESET_ALL)
+                    print(Fore.CYAN + f"📤 Syncing QC report to network: {network_path}/" + Style.RESET_ALL)
 
                     # Copy report to network
                     os.makedirs(os.path.dirname(network_report_dir), exist_ok=True)

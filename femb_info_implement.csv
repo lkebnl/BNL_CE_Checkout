@@ -18,4 +18,4 @@ CTS_LN2_PM,1200
 PS_Control_Mode,USB
 CTS_LN2_Fill_Wait,1800
 CTS_Warmup_Wait,3600
-Network_Upload_Path,/data/rtss/femb
+Network_Upload_Path,/data/femb/FEMB_CHK
