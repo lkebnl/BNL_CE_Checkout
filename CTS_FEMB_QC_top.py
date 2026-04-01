@@ -989,7 +989,7 @@ if 1 in state_list:
 
         #### 11. Version Identification based on ID
         if femb_id_0 != 'EMPTY':
-            femb_id_0 = femb_id_0.replace('/', '_')
+            femb_id_0 = femb_id_0.replace('/', '_').replace(' ', '_')
             if "1826" in femb_id_0:
                 version = "HD"  # Horizontal Drift
             else:
@@ -1139,7 +1139,7 @@ if 1 in state_list:
 
         # Version identification
         if femb_id_1 != 'EMPTY':
-            femb_id_1 = femb_id_1.replace('/', '_')
+            femb_id_1 = femb_id_1.replace('/', '_').replace(' ', '_')
             if "1826" in femb_id_1:
                 version = "HD"
             else:

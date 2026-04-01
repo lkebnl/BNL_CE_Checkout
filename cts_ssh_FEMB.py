@@ -145,7 +145,7 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
         try:
             power_off_cmd = [
                 "ssh", "root@192.168.121.123",
-                "cd BNL_CE_WIB_SW_QC; python3 top_femb_powering.py off off off off"
+                "cd BNL_CE_WIB_SW_QC; emb_powering.py off off off off"
             ]
             subrun(power_off_cmd, timeout=60, out=False)
             print(Fore.GREEN + "FEMB channels powered off" + Style.RESET_ALL)
@@ -237,6 +237,7 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
     savename = ''
     tmp = ''
     if slot0 != ' ':
+        slot0 = slot0.replace(' ', '_')
         slot_list += ' 0 '
         FEMB_list += slot0 + '\n'
         power_en += ' on '
@@ -244,6 +245,7 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
     else:
         power_en += ' off '
     if slot1 != ' ':
+        slot1 = slot1.replace(' ', '_')
         slot_list += ' 1 '
         FEMB_list += slot1 + '\n'
         power_en += ' on '
@@ -251,6 +253,7 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
     else:
         power_en += ' off '
     if slot2 != ' ':
+        slot2 = slot2.replace(' ', '_')
         slot_list += ' 2 '
         FEMB_list += slot2 + '\n'
         power_en += ' on '
@@ -258,6 +261,7 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
     else:
         power_en += ' off '
     if slot3 != ' ':
+        slot3 = slot3.replace(' ', '_')
         slot_list += ' 3 '
         FEMB_list += slot3 + '\n'
         power_en += ' on '
@@ -403,8 +407,13 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
 
     # ========== Begin of 01 FEMB Slot Confirm (Optimized) ==========================
 
-    def check_slot_connection(slot_check_output, slot_num, slot_info):
-        """Check power connection status for a single SLOT"""
+    def check_slot_connection(slot_check_output, slot_num, slot_info, slot_list):
+        """Check power connection status for a single SLOT.
+        Only checks slots that are in the test. Slots not in test are skipped."""
+        if slot_num not in slot_list:
+            # Slot not in test, skip — does not affect result
+            return slot_info, False
+
         slot_msg = f'SLOT#{slot_num} Power Connection Normal'
 
         if slot_msg in slot_check_output:
@@ -449,7 +458,8 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
         return slot_check, ln_result
 
     def run_cable_test(slot_list):
-        """Run cable test"""
+        """Run cable test only for slots in the test.
+        Slots not in slot_list are not tested and do not affect the result."""
         try:
             print("\n[Running Cable Test...]")
             time.sleep(1)
@@ -466,10 +476,26 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
                 if isinstance(output, bytes):
                     output = output.decode('utf-8')
 
-            # Validate results
+            # Validate results — only check slots that are in the test
             if "Cable Test Done" in output:
-                print(Fore.GREEN + "Cable Test PASSED" + Style.RESET_ALL)
-                return True, output
+                # Check per-slot results for tested slots only
+                all_passed = True
+                for slot_num in ['0', '1', '2', '3']:
+                    if slot_num not in slot_list:
+                        continue  # Skip slots not in test
+                    slot_fail_msg = f'Slot {slot_num} Cable Test FAILED'
+                    if slot_fail_msg in output:
+                        print(Fore.RED + f"  Slot {slot_num}: Cable Test FAILED" + Style.RESET_ALL)
+                        all_passed = False
+                    else:
+                        print(Fore.GREEN + f"  Slot {slot_num}: Cable Test PASSED" + Style.RESET_ALL)
+
+                if all_passed:
+                    print(Fore.GREEN + "Cable Test PASSED" + Style.RESET_ALL)
+                    return True, output
+                else:
+                    print(Fore.RED + "Cable Test FAILED: Check data cable connection" + Style.RESET_ALL)
+                    return False, output
             else:
                 print(Fore.RED + "Cable Test FAILED: Check data cable connection" + Style.RESET_ALL)
                 return False, output
@@ -509,25 +535,25 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
                 # Check SLOT connections
                 Slot_change = False
                 for slot_num, (info_key, var_name) in slot_mapping.items():
-                    if slot_num in slot_list:
-                        slot_value, is_changed = check_slot_connection(
-                            SlotCheck,
-                            slot_num,
-                            input_info[info_key]
-                        )
-                        globals()[var_name] = slot_value
-                        Slot_change = Slot_change or is_changed
+                    slot_value, is_changed = check_slot_connection(
+                        SlotCheck,
+                        slot_num,
+                        input_info[info_key],
+                        slot_list
+                    )
+                    globals()[var_name] = slot_value
+                    Slot_change = Slot_change or is_changed
 
                 # SLOT connection check failed
                 if Slot_change:
                     print(Fore.RED + "\nSLOT connection check FAILED" + Style.RESET_ALL)
-                    print("Please check SLOT connections and femb_info.csv")
+                    print("Please check SLOT Power connections and femb_info.csv")
 
                     # Only power off FEMB channels (do not power off Rigol and WIB)
                     power_off_femb_channels()
 
                     # Ask user (ask even if max attempts exceeded)
-                    choice = prompt_retry_or_exit("SLOT connection error", attempt, MAX_RETRIES)
+                    choice = prompt_retry_or_exit("SLOT Power connection error", attempt, MAX_RETRIES)
 
                     if choice == 'retry':
                         continue

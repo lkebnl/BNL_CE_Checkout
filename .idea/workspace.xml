@@ -9,8 +9,6 @@
       <change beforePath="$PROJECT_DIR$/CTS_FEMB_QC_top.py" beforeDir="false" afterPath="$PROJECT_DIR$/CTS_FEMB_QC_top.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cts_ssh_FEMB.py" beforeDir="false" afterPath="$PROJECT_DIR$/cts_ssh_FEMB.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/femb_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/femb_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/femb_info_implement.csv" beforeDir="false" afterPath="$PROJECT_DIR$/femb_info_implement.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init_setup.csv" beforeDir="false" afterPath="$PROJECT_DIR$/init_setup.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,38 +135,68 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cts_ssh_FEMB.py</url>
-          <line>642</line>
+          <line>668</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cts_ssh_FEMB.py</url>
-          <line>643</line>
+          <line>669</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cts_ssh_FEMB.py</url>
-          <line>669</line>
+          <line>695</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cts_ssh_FEMB.py</url>
-          <line>670</line>
+          <line>696</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cts_ssh_FEMB.py</url>
-          <line>671</line>
+          <line>697</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cts_ssh_FEMB.py</url>
-          <line>681</line>
+          <line>707</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wib_cfgs.py</url>
           <line>1737</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cts_ssh_FEMB.py</url>
+          <line>467</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cts_ssh_FEMB.py</url>
+          <line>466</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cts_ssh_FEMB.py</url>
+          <line>468</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cts_ssh_FEMB.py</url>
+          <line>536</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cts_ssh_FEMB.py</url>
+          <line>537</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cts_ssh_FEMB.py</url>
+          <line>538</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
