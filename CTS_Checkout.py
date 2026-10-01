@@ -419,10 +419,16 @@ def main():
         status = femb_id if femb_id else "Empty"
         print(f"  {slot_key}: {status}")
 
-    confirm = input(Fore.YELLOW + "\nProceed with checkout test? (y/n): " + Style.RESET_ALL).lower()
-    if confirm != 'y':
-        print_status('info', "Test cancelled by user.")
-        sys.exit(0)
+
+    while True:
+        confirm = input(Fore.YELLOW + "\nProceed with checkout test? (y/n): " + Style.RESET_ALL).lower()
+        if confirm == 'n':
+            print_status('info', "Test cancelled by user.")
+            sys.exit(0)
+        elif confirm == 'y':
+            print_status('info', "Test continue by user.")
+            break
+
 
     # Show Page 8: Close cover and start test
     pop.show_image_popup(

@@ -879,12 +879,12 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
             validation = {'all_passed': True, 'failed_slots': []}
 
             for slot in Config.VALID_SLOTS:
-                print('debug01')
+                # print('debug01')
                 if slot not in self.slot_list:
                     continue
-                print('debug02')
+                # print('debug02')
                 expected_msg = f'Slot {slot} PASS\t ALL ASSEMBLY CHECKOUT'
-                print('debug03')
+                # print('debug03')
                 if expected_msg in stdout:
                     print(f"\033[32mSLOT#{slot} CHECKOUT Normal\033[0m")
                     log.ck_log00[slot] = "pass"
