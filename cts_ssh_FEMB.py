@@ -621,6 +621,7 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
         WIB_CHK_DIR = "/home/root/BNL_CE_WIB_SW_QC/CHK/"
         WIB_REPORT_DIR = "/home/root/BNL_CE_WIB_SW_QC/CHK/Report/"
         WIB_LNP_DIR = "/home/root/BNL_CE_WIB_SW_QC/tmp_ln/"
+        WIB_VI_JSON_PATH = "/home/root/BNL_CE_WIB_SW_QC/visual_inspection.json"
         CHECKOUT_TIMEOUT = 500
         SCP_TIMEOUT = 10
         MAX_RETRIES = 3
@@ -689,27 +690,31 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
             """Execute a complete checkout process"""
             try:
                 # 1. Clean WIB data
-                print("\n[1/5] Cleaning WIB data...")
+                print("\n[1/6] Cleaning WIB data...")
                 self._cleanup_wib_data()
 
-                # 2. Run checkout test
-                print("\n[2/5] Running FEMB test...")
+                # 2. Send visual inspection JSON to WIB
+                print("\n[2/6] Sending visual inspection data to WIB...")
+                self._send_visual_inspection_json()
+
+                # 3. Run checkout test
+                print("\n[3/6] Running FEMB test...")
                 test_result = self._run_femb_test()
                 if not test_result:
                     return CheckoutResult(False, "Test execution failed")
 
-                # 3. Transfer data
-                print("\n[3/5] Transferring data to PC...")
+                # 4. Transfer data
+                print("\n[4/6] Transferring data to PC...")
                 data_dirs = self._transfer_data(test_result)
                 if not data_dirs:
                     return CheckoutResult(False, "Data transfer failed")
 
-                # 4. Validate results
-                print("\n[4/5] Validating results...")
+                # 5. Validate results
+                print("\n[5/6] Validating results...")
                 validation = self._validate_checkout(test_result.stdout)
 
-                # 5. Open reports
-                print("\n[5/5] Opening reports...")
+                # 6. Open reports
+                print("\n[6/6] Opening reports...")
                 self._open_reports(data_dirs['raw'])
 
                 # Clean WIB data
@@ -737,6 +742,41 @@ def cts_ssh_FEMB(root="D:/FEMB_QC/", QC_TST_EN=0, input_info=None):
                 subprocess.run(command, timeout=Config.SCP_TIMEOUT, capture_output=True)
             except subprocess.TimeoutExpired:
                 print('Cleanup timeout, continuing...')
+
+        def _send_visual_inspection_json(self):
+            """Send visual inspection JSON file to WIB for report generation"""
+            import os as os_module
+
+            # Path to local JSON file
+            local_json = os_module.path.join(
+                os_module.path.dirname(os_module.path.abspath(__file__)),
+                'visual_inspection.json'
+            )
+
+            if not os_module.path.exists(local_json):
+                print(Fore.YELLOW + f"  Visual inspection JSON not found: {local_json}" + Style.RESET_ALL)
+                return False
+
+            # SCP the file to WIB
+            command = [
+                "scp", local_json,
+                f"{Config.WIB_HOST}:{Config.WIB_VI_JSON_PATH}"
+            ]
+
+            try:
+                result = subprocess.run(command, timeout=Config.SCP_TIMEOUT, capture_output=True)
+                if result.returncode == 0:
+                    print(Fore.GREEN + f"  ✓ Visual inspection data sent to WIB" + Style.RESET_ALL)
+                    return True
+                else:
+                    print(Fore.RED + f"  ✗ Failed to send VI data: {result.stderr.decode()}" + Style.RESET_ALL)
+                    return False
+            except subprocess.TimeoutExpired:
+                print(Fore.YELLOW + '  SCP timeout, continuing without VI data...' + Style.RESET_ALL)
+                return False
+            except Exception as e:
+                print(Fore.RED + f"  ✗ Error sending VI data: {e}" + Style.RESET_ALL)
+                return False
 
         def _run_femb_test(self):
             """Run FEMB test"""

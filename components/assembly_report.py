@@ -1,5 +1,31 @@
 import components.assembly_log as log
 import subprocess
+import json
+import os
+
+
+# Path to visual inspection JSON file (sent from local PC to WIB)
+VI_JSON_PATH = "/home/root/BNL_CE_WIB_SW_QC/visual_inspection.json"
+
+
+def load_visual_inspection_data():
+    """
+    Load visual inspection data from JSON file.
+    This file is sent from the local PC before the test runs.
+    Returns a dict with FEMB IDs as keys.
+    """
+    if os.path.exists(VI_JSON_PATH):
+        try:
+            with open(VI_JSON_PATH, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                print(f"[VI] Loaded visual inspection data: {data}")
+                return data
+        except Exception as e:
+            print(f"[VI] Error loading visual inspection JSON: {e}")
+            return {}
+    else:
+        print(f"[VI] Visual inspection JSON not found at {VI_JSON_PATH}")
+        return {}
 
 
 #================   Final Report    ===================================
@@ -54,9 +80,17 @@ def final_report(datareport, fembs, fembNo, Rail=True):
 
     print('\n')
 
+    # Load visual inspection data from JSON file (sent from local PC)
+    vi_json_data = load_visual_inspection_data()
+
     all_true = {}
     for ifemb in fembs:
         femb_id = "FEMB ID {}".format(fembNo['femb%d' % ifemb])
+
+        # Item 0: Visual Inspection (before pickup) - read from JSON file
+        femb_sn = fembNo['femb%d' % ifemb]
+        vi_data = vi_json_data.get(femb_sn, {})
+        log.final_status[femb_id]["item0_visual_inspection"] = vi_data.get("passed", True)
 
         log.final_status[femb_id]["item2"] = log.report_log021[femb_id]["Result"]
         log.final_status[femb_id]["item3"] = log.report_log03[femb_id]["Result"]
@@ -124,6 +158,31 @@ def final_report(datareport, fembs, fembNo, Rail=True):
             # Summary（带颜色的标题）
             file.write(f'<h1>{summary}</h1>\n')
             file.write('<br>\n<br>\n')
+
+            # Part 00: Visual Inspection (before pickup) - read from JSON file
+            femb_sn_for_vi = fembNo['femb%d' % ifemb]
+            vi_data = vi_json_data.get(femb_sn_for_vi, {})
+            vi_passed = vi_data.get("passed", True)
+            vi_notes = vi_data.get("notes", "")
+            vi_parts = vi_data.get("checked_parts", [1, 2, 3, 4, 5])
+            print(f"[VI Report] FEMB {femb_sn_for_vi}: passed={vi_passed}, notes='{vi_notes}'")
+
+            if vi_passed:
+                Head00 = '<h3><span style="color: green;">PART 00 Visual Inspection &nbsp;&nbsp; &lt; Pass &gt;</span></h3>\n'
+            else:
+                Head00 = '<h3><span style="color: red;">PART 00 Visual Inspection &nbsp;&nbsp; | Issue Found</span></h3>\n'
+            file.write(Head00)
+
+            # Visual inspection details table
+            vi_table = "<table border='1' style='border-collapse: collapse;'>"
+            vi_table += "<tr><th>Item</th><th>Status</th></tr>"
+            vi_table += f"<tr><td>Visual Inspection Result</td><td>{'PASS' if vi_passed else 'ISSUE FOUND'}</td></tr>"
+            vi_table += f"<tr><td>Checked Parts</td><td>{', '.join(map(str, vi_parts)) if vi_parts else 'N/A'}</td></tr>"
+            if vi_notes:
+                vi_table += f"<tr><td>Issue Notes</td><td style='color: red;'>{vi_notes}</td></tr>"
+            vi_table += "</table>"
+            file.write(vi_table + '<br>\n')
+            file.write('<hr>\n')
 
             # Part 01：输入信息标题
             Head01 = '<h3>PART 01 INPUT INFORMATION</h3>\n'

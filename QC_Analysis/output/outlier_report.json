@@ -1,0 +1,6249 @@
+[
+  {
+    "femb_id": "J00011",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/21_20_03_02_CTS_BNL_S0J00011_S100043_RT_CHK/Report/FEMBJ00011_RT_PCB_Based/DataBase_FEMB_J00011_S0_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          15
+        ],
+        "details": [
+          {
+            "channel": 15,
+            "chip": 0,
+            "value": 12.67,
+            "median": 10.93,
+            "deviation": 1.74,
+            "z_score": 4.48,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.933710601924727,
+          "mad": 0.26231597285371944,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "00043",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/21_20_03_02_CTS_BNL_S0J00011_S100043_RT_CHK/Report/FEMB00043_RT_PCB_Based/DataBase_FEMB_00043_S1_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          104
+        ],
+        "details": [
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 4.31,
+            "median": 11.29,
+            "deviation": 6.98,
+            "z_score": 17.03,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.287753559988264,
+          "mad": 0.27635771433793277,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          104
+        ],
+        "details": [
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 7181.94,
+            "median": 942.58,
+            "deviation": 6239.36,
+            "z_score": 56.32,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 942.5813802083333,
+          "mad": 74.71744791666669,
+          "count": 1
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          104
+        ],
+        "details": [
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 11565.0,
+            "median": 12846.5,
+            "deviation": 1281.5,
+            "z_score": 11.45,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12846.5,
+          "mad": 75.5,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          104
+        ],
+        "details": [
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 11418.0,
+            "median": 4415.5,
+            "deviation": 7002.5,
+            "z_score": 69.46,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4415.5,
+          "mad": 68.0,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          104
+        ],
+        "details": [
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 11492.0,
+            "median": 8626.0,
+            "deviation": 2866.0,
+            "z_score": 31.18,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8626.0,
+          "mad": 62.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "00043",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/21_18_43_11_CTS_BNL_S000043_RT_CHK/Report/FEMB00043_RT_PCB_Based/DataBase_FEMB_00043_S0_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          104
+        ],
+        "details": [
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 4.25,
+            "median": 11.19,
+            "deviation": 6.95,
+            "z_score": 16.65,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.192251831463777,
+          "mad": 0.2814597717689642,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          104
+        ],
+        "details": [
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 7184.58,
+            "median": 963.66,
+            "deviation": 6220.92,
+            "z_score": 57.81,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 963.6627232142857,
+          "mad": 72.5879464285714,
+          "count": 1
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          104
+        ],
+        "details": [
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 11559.0,
+            "median": 12859.0,
+            "deviation": 1300.0,
+            "z_score": 11.31,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12859.0,
+          "mad": 77.5,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          104
+        ],
+        "details": [
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 11414.0,
+            "median": 4427.5,
+            "deviation": 6986.5,
+            "z_score": 66.84,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4427.5,
+          "mad": 70.5,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          104
+        ],
+        "details": [
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 11488.0,
+            "median": 8640.5,
+            "deviation": 2847.5,
+            "z_score": 30.98,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8640.5,
+          "mad": 62.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "1865-1D-0068",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/24_04_01_15_CTS_BNL_S01865-1D-0068_RT_CHK/Report/FEMB1865-1D-0068_RT_PCB_Based/DataBase_FEMB_1865-1D-0068_S0_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          47
+        ],
+        "details": [
+          {
+            "channel": 47,
+            "chip": 2,
+            "value": 5.03,
+            "median": 10.6,
+            "deviation": 5.57,
+            "z_score": 9.95,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.600796270129248,
+          "mad": 0.37779788162466854,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          47
+        ],
+        "details": [
+          {
+            "channel": 47,
+            "chip": 2,
+            "value": 7552.29,
+            "median": 991.36,
+            "deviation": 6560.93,
+            "z_score": 70.34,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 991.3624131944443,
+          "mad": 62.91384548611097,
+          "count": 1
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          47
+        ],
+        "details": [
+          {
+            "channel": 47,
+            "chip": 2,
+            "value": 11875.0,
+            "median": 12911.0,
+            "deviation": 1036.0,
+            "z_score": 9.71,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12911.0,
+          "mad": 72.0,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          47
+        ],
+        "details": [
+          {
+            "channel": 47,
+            "chip": 2,
+            "value": 11782.0,
+            "median": 4497.0,
+            "deviation": 7285.0,
+            "z_score": 84.72,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4497.0,
+          "mad": 58.0,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          47
+        ],
+        "details": [
+          {
+            "channel": 47,
+            "chip": 2,
+            "value": 11826.0,
+            "median": 8706.5,
+            "deviation": 3119.5,
+            "z_score": 40.46,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8706.5,
+          "mad": 52.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_I0-1865-1G_00070",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_21_11_07_CTS_BNL_S0BNL_FEMB_IO-1865-1G00036_S1BNL_FEMB_I0-1865-1G_00062_S2BNL_FEMB_I0-1865-1G_00072_S3BNL_FEMB_I0-1865-1G_00070_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1G_00070_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1G_00070_S3_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          63
+        ],
+        "details": [
+          {
+            "channel": 63,
+            "chip": 3,
+            "value": 12.26,
+            "median": 10.82,
+            "deviation": 1.44,
+            "z_score": 3.45,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.819079431033177,
+          "mad": 0.28091105306741593,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_I0-1865-1G_00062",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_21_11_07_CTS_BNL_S0BNL_FEMB_IO-1865-1G00036_S1BNL_FEMB_I0-1865-1G_00062_S2BNL_FEMB_I0-1865-1G_00072_S3BNL_FEMB_I0-1865-1G_00070_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1G_00062_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1G_00062_S1_P.csv",
+    "outliers": {
+      "PPK_mean": {
+        "channels": [
+          56
+        ],
+        "details": [
+          {
+            "channel": 56,
+            "chip": 3,
+            "value": 12599.0,
+            "median": 12905.5,
+            "deviation": 306.5,
+            "z_score": 3.56,
+            "method": "MAD"
+          }
+        ],
+        "stats": {
+          "median": 12905.5,
+          "mad": 58.0,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          62
+        ],
+        "details": [
+          {
+            "channel": 62,
+            "chip": 3,
+            "value": 8408.0,
+            "median": 8660.5,
+            "deviation": 252.5,
+            "z_score": 3.37,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8660.5,
+          "mad": 50.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_I0-1865-1J_00003",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_23_10_54_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00013_S1BNL_FEMB_I0-1865-1J_00003_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00003_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00003_S1_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          18
+        ],
+        "details": [
+          {
+            "channel": 18,
+            "chip": 1,
+            "value": 13.59,
+            "median": 12.22,
+            "deviation": 1.37,
+            "z_score": 3.16,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12.216656354363725,
+          "mad": 0.29312791365709057,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          16,
+          88
+        ],
+        "details": [
+          {
+            "channel": 16,
+            "chip": 1,
+            "value": 1228.59,
+            "median": 904.3,
+            "deviation": 324.29,
+            "z_score": 3.44,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1288.49,
+            "median": 904.3,
+            "deviation": 384.2,
+            "z_score": 4.07,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 904.2970920138889,
+          "mad": 63.595052083333314,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_I0-1865-1J_00013",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_23_10_54_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00013_S1BNL_FEMB_I0-1865-1J_00003_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00013_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00013_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          56,
+          72,
+          88,
+          112
+        ],
+        "details": [
+          {
+            "channel": 56,
+            "chip": 3,
+            "value": 1211.12,
+            "median": 911.69,
+            "deviation": 299.43,
+            "z_score": 3.91,
+            "method": "IQR"
+          },
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 1172.67,
+            "median": 911.69,
+            "deviation": 260.98,
+            "z_score": 3.41,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1217.93,
+            "median": 911.69,
+            "deviation": 306.23,
+            "z_score": 4.0,
+            "method": "IQR"
+          },
+          {
+            "channel": 112,
+            "chip": 7,
+            "value": 1199.62,
+            "median": 911.69,
+            "deviation": 287.93,
+            "z_score": 3.76,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 911.6907552083333,
+          "mad": 51.66796875,
+          "count": 4
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_I0-1865-1J_00004",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_21_45_49_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00010_S100025_S200047_S3BNL_FEMB_I0-1865-1J_00004_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00004_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00004_S3_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          15,
+          43
+        ],
+        "details": [
+          {
+            "channel": 15,
+            "chip": 0,
+            "value": 12.4,
+            "median": 11.18,
+            "deviation": 1.23,
+            "z_score": 3.45,
+            "method": "IQR"
+          },
+          {
+            "channel": 43,
+            "chip": 2,
+            "value": 4.34,
+            "median": 11.18,
+            "deviation": 6.83,
+            "z_score": 19.27,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.179505901919589,
+          "mad": 0.239258728075459,
+          "count": 2
+        }
+      },
+      "ped": {
+        "channels": [
+          43
+        ],
+        "details": [
+          {
+            "channel": 43,
+            "chip": 2,
+            "value": 7273.91,
+            "median": 904.6,
+            "deviation": 6369.32,
+            "z_score": 53.8,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 904.5959821428571,
+          "mad": 79.85870535714287,
+          "count": 1
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          43
+        ],
+        "details": [
+          {
+            "channel": 43,
+            "chip": 2,
+            "value": 11679.0,
+            "median": 12812.0,
+            "deviation": 1133.0,
+            "z_score": 9.61,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12812.0,
+          "mad": 79.5,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          43
+        ],
+        "details": [
+          {
+            "channel": 43,
+            "chip": 2,
+            "value": 11573.0,
+            "median": 4405.0,
+            "deviation": 7168.0,
+            "z_score": 73.81,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4405.0,
+          "mad": 65.5,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          43
+        ],
+        "details": [
+          {
+            "channel": 43,
+            "chip": 2,
+            "value": 11626.0,
+            "median": 8605.0,
+            "deviation": 3021.0,
+            "z_score": 32.87,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8605.0,
+          "mad": 62.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "00025",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_21_45_49_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00010_S100025_S200047_S3BNL_FEMB_I0-1865-1J_00004_RT_CHK/Report/FEMB00025_RT_PCB_Based/DataBase_FEMB_00025_S1_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          13
+        ],
+        "details": [
+          {
+            "channel": 13,
+            "chip": 0,
+            "value": 1432.67,
+            "median": 854.63,
+            "deviation": 578.05,
+            "z_score": 5.27,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 854.6254464285714,
+          "mad": 73.94375000000002,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          13,
+          25
+        ],
+        "details": [
+          {
+            "channel": 13,
+            "chip": 0,
+            "value": 4847.0,
+            "median": 4430.5,
+            "deviation": 416.5,
+            "z_score": 4.19,
+            "method": "IQR"
+          },
+          {
+            "channel": 25,
+            "chip": 1,
+            "value": 4067.0,
+            "median": 4430.5,
+            "deviation": 363.5,
+            "z_score": 3.66,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4430.5,
+          "mad": 67.0,
+          "count": 2
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          13
+        ],
+        "details": [
+          {
+            "channel": 13,
+            "chip": 0,
+            "value": 8993.0,
+            "median": 8635.0,
+            "deviation": 358.0,
+            "z_score": 4.31,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8635.0,
+          "mad": 56.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "00047",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_21_45_49_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00010_S100025_S200047_S3BNL_FEMB_I0-1865-1J_00004_RT_CHK/Report/FEMB00047_RT_PCB_Based/DataBase_FEMB_00047_S2_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          40
+        ],
+        "details": [
+          {
+            "channel": 40,
+            "chip": 2,
+            "value": 1193.48,
+            "median": 903.47,
+            "deviation": 290.01,
+            "z_score": 3.39,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 903.4660714285715,
+          "mad": 57.77366071428571,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_I0-1865-1J_00010",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_21_45_49_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00010_S100025_S200047_S3BNL_FEMB_I0-1865-1J_00004_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00010_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00010_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          8
+        ],
+        "details": [
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 1277.38,
+            "median": 903.56,
+            "deviation": 373.82,
+            "z_score": 3.52,
+            "method": "MAD"
+          }
+        ],
+        "stats": {
+          "median": 903.5629464285714,
+          "mad": 71.71116071428571,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          86
+        ],
+        "details": [
+          {
+            "channel": 86,
+            "chip": 5,
+            "value": 4149.0,
+            "median": 4424.0,
+            "deviation": 275.0,
+            "z_score": 3.2,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4424.0,
+          "mad": 58.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1G00042",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_20_36_27_CTS_BNL_S0BNL_FEMB_IO-1865-1G00018_S1BNL_FEMB_I0-1865-1J_00015_S2BNL_FEMB_IO-1865-1G00042_S3BNL_FEMB_IO-1865-1G00033_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1G00042_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1G00042_S2_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          15
+        ],
+        "details": [
+          {
+            "channel": 15,
+            "chip": 0,
+            "value": 12.35,
+            "median": 10.75,
+            "deviation": 1.6,
+            "z_score": 3.42,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.752394415620483,
+          "mad": 0.3158936908938239,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1G00018",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_20_36_27_CTS_BNL_S0BNL_FEMB_IO-1865-1G00018_S1BNL_FEMB_I0-1865-1J_00015_S2BNL_FEMB_IO-1865-1G00042_S3BNL_FEMB_IO-1865-1G00033_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1G00018_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1G00018_S0_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          88
+        ],
+        "details": [
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 9.43,
+            "median": 10.86,
+            "deviation": 1.43,
+            "z_score": 3.1,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.861203392186408,
+          "mad": 0.3117948453937638,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1G00033",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_20_36_27_CTS_BNL_S0BNL_FEMB_IO-1865-1G00018_S1BNL_FEMB_I0-1865-1J_00015_S2BNL_FEMB_IO-1865-1G00042_S3BNL_FEMB_IO-1865-1G00033_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1G00033_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1G00033_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          0
+        ],
+        "details": [
+          {
+            "channel": 0,
+            "chip": 0,
+            "value": 1204.28,
+            "median": 921.88,
+            "deviation": 282.4,
+            "z_score": 3.65,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 921.8823660714286,
+          "mad": 52.24486607142859,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "G00061",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/20_18_28_33_CTS_BNL_S0IO-1865-1D_00015_S1G00061_S2G00014_S3G00071_RT_CHK/Report/FEMBG00061_RT_PCB_Based/DataBase_FEMB_G00061_S1_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          24
+        ],
+        "details": [
+          {
+            "channel": 24,
+            "chip": 1,
+            "value": 1239.41,
+            "median": 915.62,
+            "deviation": 323.79,
+            "z_score": 3.47,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 915.6203125,
+          "mad": 62.95491071428569,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          96
+        ],
+        "details": [
+          {
+            "channel": 96,
+            "chip": 6,
+            "value": 4765.0,
+            "median": 4458.5,
+            "deviation": 306.5,
+            "z_score": 3.6,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4458.5,
+          "mad": 57.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "G00071",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/20_18_28_33_CTS_BNL_S0IO-1865-1D_00015_S1G00061_S2G00014_S3G00071_RT_CHK/Report/FEMBG00071_RT_PCB_Based/DataBase_FEMB_G00071_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          32
+        ],
+        "details": [
+          {
+            "channel": 32,
+            "chip": 2,
+            "value": 1220.31,
+            "median": 906.35,
+            "deviation": 313.96,
+            "z_score": 3.4,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 906.3470982142858,
+          "mad": 62.23638392857151,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "IO-1865-1D_00015",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/20_18_28_33_CTS_BNL_S0IO-1865-1D_00015_S1G00061_S2G00014_S3G00071_RT_CHK/Report/FEMBIO-1865-1D_00015_RT_PCB_Based/DataBase_FEMB_IO-1865-1D_00015_S0_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          14
+        ],
+        "details": [
+          {
+            "channel": 14,
+            "chip": 0,
+            "value": 12.15,
+            "median": 10.52,
+            "deviation": 1.63,
+            "z_score": 3.3,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.523379393561662,
+          "mad": 0.3333406044966205,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "G00014",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/20_18_28_33_CTS_BNL_S0IO-1865-1D_00015_S1G00061_S2G00014_S3G00071_RT_CHK/Report/FEMBG00014_RT_PCB_Based/DataBase_FEMB_G00014_S2_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          0
+        ],
+        "details": [
+          {
+            "channel": 0,
+            "chip": 0,
+            "value": 9.32,
+            "median": 10.65,
+            "deviation": 1.33,
+            "z_score": 3.63,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.651744556346422,
+          "mad": 0.2466424824057709,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          112
+        ],
+        "details": [
+          {
+            "channel": 112,
+            "chip": 7,
+            "value": 1194.77,
+            "median": 881.48,
+            "deviation": 313.3,
+            "z_score": 4.11,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 881.4756696428572,
+          "mad": 51.4316964285714,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "G00025",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/20_21_52_14_CTS_BNL_S0G00025_S1IO-1865-1D_00075_S2G00027_S3G00022_RT_CHK/Report/FEMBG00025_RT_PCB_Based/DataBase_FEMB_G00025_S0_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          11
+        ],
+        "details": [
+          {
+            "channel": 11,
+            "chip": 0,
+            "value": 12.5,
+            "median": 10.72,
+            "deviation": 1.78,
+            "z_score": 3.65,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.719924669402682,
+          "mad": 0.32858237623966247,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          24
+        ],
+        "details": [
+          {
+            "channel": 24,
+            "chip": 1,
+            "value": 1218.13,
+            "median": 892.99,
+            "deviation": 325.14,
+            "z_score": 3.44,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 892.9908482142857,
+          "mad": 63.805803571428555,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "G00022",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/20_21_52_14_CTS_BNL_S0G00025_S1IO-1865-1D_00075_S2G00027_S3G00022_RT_CHK/Report/FEMBG00022_RT_PCB_Based/DataBase_FEMB_G00022_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          32,
+          96
+        ],
+        "details": [
+          {
+            "channel": 32,
+            "chip": 2,
+            "value": 1281.49,
+            "median": 956.13,
+            "deviation": 325.36,
+            "z_score": 3.59,
+            "method": "IQR"
+          },
+          {
+            "channel": 96,
+            "chip": 6,
+            "value": 1261.83,
+            "median": 956.13,
+            "deviation": 305.71,
+            "z_score": 3.38,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 956.1263392857143,
+          "mad": 61.09375,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "IO-1865-1D_00075",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/20_21_52_14_CTS_BNL_S0G00025_S1IO-1865-1D_00075_S2G00027_S3G00022_RT_CHK/Report/FEMBIO-1865-1D_00075_RT_PCB_Based/DataBase_FEMB_IO-1865-1D_00075_S1_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          46
+        ],
+        "details": [
+          {
+            "channel": 46,
+            "chip": 2,
+            "value": 530.31,
+            "median": 980.26,
+            "deviation": 449.95,
+            "z_score": 3.66,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 980.2569196428572,
+          "mad": 82.85267857142856,
+          "count": 1
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          46
+        ],
+        "details": [
+          {
+            "channel": 46,
+            "chip": 2,
+            "value": 12490.0,
+            "median": 12862.0,
+            "deviation": 372.0,
+            "z_score": 3.8,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12862.0,
+          "mad": 66.0,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          46
+        ],
+        "details": [
+          {
+            "channel": 46,
+            "chip": 2,
+            "value": 8326.0,
+            "median": 8669.5,
+            "deviation": 343.5,
+            "z_score": 4.37,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8669.5,
+          "mad": 53.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "865-1G-05",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_01/20_19_48_00_CTS_BNL_S01865-1G-30_S11865-1J-41_S21865-1J-06_S31865-1G-05_RT_CHK/Report/FEMB1865-1G-05_RT_PCB_Based/DataBase_FEMB_865-1G-05_S3_P.csv",
+    "outliers": {
+      "PPK_mean": {
+        "channels": [
+          89
+        ],
+        "details": [
+          {
+            "channel": 89,
+            "chip": 5,
+            "value": 12557.0,
+            "median": 12894.0,
+            "deviation": 337.0,
+            "z_score": 3.34,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12894.0,
+          "mad": 68.0,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          89
+        ],
+        "details": [
+          {
+            "channel": 89,
+            "chip": 5,
+            "value": 8359.0,
+            "median": 8669.5,
+            "deviation": 310.5,
+            "z_score": 4.03,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8669.5,
+          "mad": 52.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00061",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_41_22_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00034_S1BNL_FEMB_IO-1826-1L_00039_S2BNL_FEMB_IO-1826-1L_00061_S3BNL_FEMB_IO-1826-1L_00040_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00061_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00061_S2_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          72
+        ],
+        "details": [
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 1598.69,
+            "median": 920.42,
+            "deviation": 678.27,
+            "z_score": 7.15,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 920.4164496527778,
+          "mad": 63.94118923611114,
+          "count": 1
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          72
+        ],
+        "details": [
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 13223.0,
+            "median": 12739.0,
+            "deviation": 484.0,
+            "z_score": 5.63,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12739.0,
+          "mad": 58.0,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          72
+        ],
+        "details": [
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 5033.0,
+            "median": 4395.5,
+            "deviation": 637.5,
+            "z_score": 7.61,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4395.5,
+          "mad": 56.5,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          72
+        ],
+        "details": [
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 9122.0,
+            "median": 8566.0,
+            "deviation": 556.0,
+            "z_score": 7.98,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8566.0,
+          "mad": 47.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00039",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_41_22_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00034_S1BNL_FEMB_IO-1826-1L_00039_S2BNL_FEMB_IO-1826-1L_00061_S3BNL_FEMB_IO-1826-1L_00040_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00039_S1_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          5
+        ],
+        "details": [
+          {
+            "channel": 5,
+            "chip": 0,
+            "value": 12.63,
+            "median": 11.18,
+            "deviation": 1.45,
+            "z_score": 3.69,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.178623896344213,
+          "mad": 0.2647182141164901,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          109
+        ],
+        "details": [
+          {
+            "channel": 109,
+            "chip": 6,
+            "value": 1289.33,
+            "median": 888.05,
+            "deviation": 401.28,
+            "z_score": 4.53,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 888.0483940972222,
+          "mad": 59.75086805555554,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          109
+        ],
+        "details": [
+          {
+            "channel": 109,
+            "chip": 6,
+            "value": 4745.0,
+            "median": 4439.5,
+            "deviation": 305.5,
+            "z_score": 3.78,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4439.5,
+          "mad": 54.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_I0-1865-1J_00013",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/27_18_59_12_CTS_BNL_S3BNL_FEMB_I0-1865-1J_00013_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00013_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00013_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          56,
+          88,
+          112
+        ],
+        "details": [
+          {
+            "channel": 56,
+            "chip": 3,
+            "value": 1263.29,
+            "median": 976.94,
+            "deviation": 286.35,
+            "z_score": 4.06,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1261.35,
+            "median": 976.94,
+            "deviation": 284.41,
+            "z_score": 4.03,
+            "method": "IQR"
+          },
+          {
+            "channel": 112,
+            "chip": 7,
+            "value": 1242.98,
+            "median": 976.94,
+            "deviation": 266.03,
+            "z_score": 3.77,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 976.9426339285715,
+          "mad": 47.585044642857156,
+          "count": 3
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_I0-1865-1J_00013",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/27_16_54_57_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00013_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00013_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00013_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          56,
+          88,
+          112
+        ],
+        "details": [
+          {
+            "channel": 56,
+            "chip": 3,
+            "value": 1250.89,
+            "median": 962.52,
+            "deviation": 288.38,
+            "z_score": 4.03,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1249.13,
+            "median": 962.52,
+            "deviation": 286.62,
+            "z_score": 4.0,
+            "method": "IQR"
+          },
+          {
+            "channel": 112,
+            "chip": 7,
+            "value": 1231.12,
+            "median": 962.52,
+            "deviation": 268.61,
+            "z_score": 3.75,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 962.5151909722222,
+          "mad": 48.27083333333326,
+          "count": 3
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00017",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/27_23_48_32_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00062_S1BNL_FEMB_IO-1826-1L_00047_S2BNL_FEMB_IO-1826-1L_00017_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00017_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00017_S2_P.csv",
+    "outliers": {
+      "PPK_mean": {
+        "channels": [
+          96,
+          104,
+          110
+        ],
+        "details": [
+          {
+            "channel": 96,
+            "chip": 6,
+            "value": 12334.0,
+            "median": 12778.5,
+            "deviation": 444.5,
+            "z_score": 5.26,
+            "method": "IQR"
+          },
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 12459.0,
+            "median": 12778.5,
+            "deviation": 319.5,
+            "z_score": 3.78,
+            "method": "IQR"
+          },
+          {
+            "channel": 110,
+            "chip": 6,
+            "value": 12431.0,
+            "median": 12778.5,
+            "deviation": 347.5,
+            "z_score": 4.11,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12778.5,
+          "mad": 57.0,
+          "count": 3
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00062",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/27_23_48_32_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00062_S1BNL_FEMB_IO-1826-1L_00047_S2BNL_FEMB_IO-1826-1L_00017_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00062_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00062_S0_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          88
+        ],
+        "details": [
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 9.24,
+            "median": 11.19,
+            "deviation": 1.95,
+            "z_score": 4.58,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.185139121896313,
+          "mad": 0.2864593823456607,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00047",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/27_23_48_32_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00062_S1BNL_FEMB_IO-1826-1L_00047_S2BNL_FEMB_IO-1826-1L_00017_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00047_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00047_S1_P.csv",
+    "outliers": {
+      "BL_mean": {
+        "channels": [
+          11
+        ],
+        "details": [
+          {
+            "channel": 11,
+            "chip": 0,
+            "value": 8848.0,
+            "median": 8571.0,
+            "deviation": 277.0,
+            "z_score": 4.92,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8571.0,
+          "mad": 38.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00046",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/27_23_48_32_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00062_S1BNL_FEMB_IO-1826-1L_00047_S2BNL_FEMB_IO-1826-1L_00017_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00046_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00046_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          95
+        ],
+        "details": [
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 1810.15,
+            "median": 869.69,
+            "deviation": 940.46,
+            "z_score": 9.21,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 869.6948660714286,
+          "mad": 68.89754464285716,
+          "count": 1
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          95
+        ],
+        "details": [
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 13124.0,
+            "median": 12735.5,
+            "deviation": 388.5,
+            "z_score": 4.94,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12735.5,
+          "mad": 53.0,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          95
+        ],
+        "details": [
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 5025.0,
+            "median": 4376.0,
+            "deviation": 649.0,
+            "z_score": 7.82,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4376.0,
+          "mad": 56.0,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          95
+        ],
+        "details": [
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 9071.0,
+            "median": 8553.5,
+            "deviation": 517.5,
+            "z_score": 7.76,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8553.5,
+          "mad": 45.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00044",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_15_07_33_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00024_S1BNL_FEMB_IO-1826-1L_00044_S2BNL_FEMB_IO-1826-1L_00019_S3BNL_FEMB_IO-1826-1L_00057_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00044_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00044_S1_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          72
+        ],
+        "details": [
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 1238.61,
+            "median": 914.34,
+            "deviation": 324.27,
+            "z_score": 3.58,
+            "method": "MAD"
+          }
+        ],
+        "stats": {
+          "median": 914.3408482142856,
+          "mad": 61.022098214285734,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00019",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_15_07_33_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00024_S1BNL_FEMB_IO-1826-1L_00044_S2BNL_FEMB_IO-1826-1L_00019_S3BNL_FEMB_IO-1826-1L_00057_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00019_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00019_S2_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          13
+        ],
+        "details": [
+          {
+            "channel": 13,
+            "chip": 0,
+            "value": 12.56,
+            "median": 11.23,
+            "deviation": 1.33,
+            "z_score": 3.29,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.22682064485078,
+          "mad": 0.2735935200400208,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          33
+        ],
+        "details": [
+          {
+            "channel": 33,
+            "chip": 2,
+            "value": 4143.0,
+            "median": 4420.0,
+            "deviation": 277.0,
+            "z_score": 3.7,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4420.0,
+          "mad": 50.5,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          33
+        ],
+        "details": [
+          {
+            "channel": 33,
+            "chip": 2,
+            "value": 8337.0,
+            "median": 8591.0,
+            "deviation": 254.0,
+            "z_score": 4.08,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8591.0,
+          "mad": 42.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00024",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_15_07_33_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00024_S1BNL_FEMB_IO-1826-1L_00044_S2BNL_FEMB_IO-1826-1L_00019_S3BNL_FEMB_IO-1826-1L_00057_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00024_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00024_S0_P.csv",
+    "outliers": {
+      "BL_mean": {
+        "channels": [
+          57,
+          68
+        ],
+        "details": [
+          {
+            "channel": 57,
+            "chip": 3,
+            "value": 8339.0,
+            "median": 8572.0,
+            "deviation": 233.0,
+            "z_score": 3.57,
+            "method": "IQR"
+          },
+          {
+            "channel": 68,
+            "chip": 4,
+            "value": 8807.0,
+            "median": 8572.0,
+            "deviation": 235.0,
+            "z_score": 3.6,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8572.0,
+          "mad": 44.0,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00049",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_19_55_11_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00063_S1BNL_FEMB_IO-1826-1L_00049_S2BNL_FEMB_IO-1826-1L_00029_S3BNL_FEMB_IO-1826-1L_00020_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00049_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00049_S1_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          120
+        ],
+        "details": [
+          {
+            "channel": 120,
+            "chip": 7,
+            "value": 1247.25,
+            "median": 902.7,
+            "deviation": 344.55,
+            "z_score": 3.69,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 902.6994357638889,
+          "mad": 62.99609375,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00020",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_19_55_11_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00063_S1BNL_FEMB_IO-1826-1L_00049_S2BNL_FEMB_IO-1826-1L_00029_S3BNL_FEMB_IO-1826-1L_00020_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00020_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00020_S3_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          88
+        ],
+        "details": [
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 9.77,
+            "median": 11.2,
+            "deviation": 1.43,
+            "z_score": 3.48,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.19619931925465,
+          "mad": 0.27618480017265057,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          120
+        ],
+        "details": [
+          {
+            "channel": 120,
+            "chip": 7,
+            "value": 1287.15,
+            "median": 927.85,
+            "deviation": 359.29,
+            "z_score": 3.87,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 927.8546006944445,
+          "mad": 62.57052951388886,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00063",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_19_55_11_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00063_S1BNL_FEMB_IO-1826-1L_00049_S2BNL_FEMB_IO-1826-1L_00029_S3BNL_FEMB_IO-1826-1L_00020_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00063_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00063_S0_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          113
+        ],
+        "details": [
+          {
+            "channel": 113,
+            "chip": 7,
+            "value": 12.64,
+            "median": 11.22,
+            "deviation": 1.42,
+            "z_score": 4.26,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.217773740269923,
+          "mad": 0.22494719255309548,
+          "count": 1
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          24
+        ],
+        "details": [
+          {
+            "channel": 24,
+            "chip": 1,
+            "value": 12464.0,
+            "median": 12752.0,
+            "deviation": 288.0,
+            "z_score": 3.53,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12752.0,
+          "mad": 55.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00045",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_14_53_56_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00013_S1BNL_FEMB_IO-1826-1L_00048_S2BNL_FEMB_IO-1826-1L_00045_S3BNL_FEMB_IO-1826-1L_00035_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00045_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00045_S2_P.csv",
+    "outliers": {
+      "PPK_mean": {
+        "channels": [
+          50
+        ],
+        "details": [
+          {
+            "channel": 50,
+            "chip": 3,
+            "value": 13002.0,
+            "median": 12719.0,
+            "deviation": 283.0,
+            "z_score": 3.53,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12719.0,
+          "mad": 54.0,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          40
+        ],
+        "details": [
+          {
+            "channel": 40,
+            "chip": 2,
+            "value": 4669.0,
+            "median": 4418.0,
+            "deviation": 251.0,
+            "z_score": 3.42,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4418.0,
+          "mad": 49.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00035",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_14_53_56_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00013_S1BNL_FEMB_IO-1826-1L_00048_S2BNL_FEMB_IO-1826-1L_00045_S3BNL_FEMB_IO-1826-1L_00035_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00035_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00035_S3_P.csv",
+    "outliers": {
+      "PPK_mean": {
+        "channels": [
+          112
+        ],
+        "details": [
+          {
+            "channel": 112,
+            "chip": 7,
+            "value": 12520.0,
+            "median": 12770.0,
+            "deviation": 250.0,
+            "z_score": 3.44,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12770.0,
+          "mad": 49.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00013",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_14_53_56_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00013_S1BNL_FEMB_IO-1826-1L_00048_S2BNL_FEMB_IO-1826-1L_00045_S3BNL_FEMB_IO-1826-1L_00035_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00013_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00013_S0_P.csv",
+    "outliers": {
+      "PPK_mean": {
+        "channels": [
+          112
+        ],
+        "details": [
+          {
+            "channel": 112,
+            "chip": 7,
+            "value": 12414.0,
+            "median": 12687.0,
+            "deviation": 273.0,
+            "z_score": 3.47,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12687.0,
+          "mad": 53.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00059",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_15_36_06_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00032_S1BNL_FEMB_IO-1826-1L_00059_S2BNL_FEMB_IO-1826-1L_00053_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00059_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00059_S1_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          67
+        ],
+        "details": [
+          {
+            "channel": 67,
+            "chip": 4,
+            "value": 0.0,
+            "median": 11.08,
+            "deviation": 11.08,
+            "z_score": 25.53,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.083926346800926,
+          "mad": 0.29288601644659806,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          67
+        ],
+        "details": [
+          {
+            "channel": 67,
+            "chip": 4,
+            "value": 0.0,
+            "median": 889.4,
+            "deviation": 889.4,
+            "z_score": 7.32,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 889.4002232142857,
+          "mad": 81.95758928571428,
+          "count": 1
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          67
+        ],
+        "details": [
+          {
+            "channel": 67,
+            "chip": 4,
+            "value": 0.0,
+            "median": 12753.5,
+            "deviation": 12753.5,
+            "z_score": 104.91,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12753.5,
+          "mad": 82.0,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          67
+        ],
+        "details": [
+          {
+            "channel": 67,
+            "chip": 4,
+            "value": 0.0,
+            "median": 4388.0,
+            "deviation": 4388.0,
+            "z_score": 54.81,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4388.0,
+          "mad": 54.0,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          67
+        ],
+        "details": [
+          {
+            "channel": 67,
+            "chip": 4,
+            "value": 0.0,
+            "median": 8570.5,
+            "deviation": 8570.5,
+            "z_score": 119.19,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8570.5,
+          "mad": 48.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00032",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_15_36_06_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00032_S1BNL_FEMB_IO-1826-1L_00059_S2BNL_FEMB_IO-1826-1L_00053_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00032_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00032_S0_P.csv",
+    "outliers": {
+      "NPK_mean": {
+        "channels": [
+          48,
+          56
+        ],
+        "details": [
+          {
+            "channel": 48,
+            "chip": 3,
+            "value": 4739.0,
+            "median": 4435.5,
+            "deviation": 303.5,
+            "z_score": 3.5,
+            "method": "IQR"
+          },
+          {
+            "channel": 56,
+            "chip": 3,
+            "value": 4730.0,
+            "median": 4435.5,
+            "deviation": 294.5,
+            "z_score": 3.4,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4435.5,
+          "mad": 58.5,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00008",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_24_19_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00041_S1BNL_FEMB_IO-1826-1L_00004_S2BNL_FEMB_IO-1826-1L_00008_S3BNL_FEMB_IO-1826-1L_00056_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00008_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00008_S2_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          66
+        ],
+        "details": [
+          {
+            "channel": 66,
+            "chip": 4,
+            "value": 12.61,
+            "median": 11.27,
+            "deviation": 1.34,
+            "z_score": 3.7,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.267129653133583,
+          "mad": 0.24431155744356037,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00004",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_24_19_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00041_S1BNL_FEMB_IO-1826-1L_00004_S2BNL_FEMB_IO-1826-1L_00008_S3BNL_FEMB_IO-1826-1L_00056_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00004_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00004_S1_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          26
+        ],
+        "details": [
+          {
+            "channel": 26,
+            "chip": 1,
+            "value": 15.09,
+            "median": 11.32,
+            "deviation": 3.77,
+            "z_score": 9.64,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.32189881376626,
+          "mad": 0.26378525648287177,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          26
+        ],
+        "details": [
+          {
+            "channel": 26,
+            "chip": 1,
+            "value": 1443.61,
+            "median": 855.41,
+            "deviation": 588.2,
+            "z_score": 5.98,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 855.4127232142857,
+          "mad": 66.33482142857144,
+          "count": 1
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          26
+        ],
+        "details": [
+          {
+            "channel": 26,
+            "chip": 1,
+            "value": 13227.0,
+            "median": 12736.5,
+            "deviation": 490.5,
+            "z_score": 5.25,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12736.5,
+          "mad": 63.0,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          26
+        ],
+        "details": [
+          {
+            "channel": 26,
+            "chip": 1,
+            "value": 4994.0,
+            "median": 4387.0,
+            "deviation": 607.0,
+            "z_score": 6.77,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4387.0,
+          "mad": 60.5,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          26
+        ],
+        "details": [
+          {
+            "channel": 26,
+            "chip": 1,
+            "value": 9107.0,
+            "median": 8561.5,
+            "deviation": 545.5,
+            "z_score": 7.59,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8561.5,
+          "mad": 48.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00041",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_24_19_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00041_S1BNL_FEMB_IO-1826-1L_00004_S2BNL_FEMB_IO-1826-1L_00008_S3BNL_FEMB_IO-1826-1L_00056_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00041_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00041_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          88
+        ],
+        "details": [
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1193.09,
+            "median": 894.39,
+            "deviation": 298.7,
+            "z_score": 3.34,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 894.3866071428572,
+          "mad": 60.3154017857143,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00021",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/29_22_36_44_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00021_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00021_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00021_S0_P.csv",
+    "outliers": {
+      "BL_mean": {
+        "channels": [
+          105
+        ],
+        "details": [
+          {
+            "channel": 105,
+            "chip": 6,
+            "value": 8396.0,
+            "median": 8588.5,
+            "deviation": 192.5,
+            "z_score": 3.51,
+            "method": "MAD"
+          }
+        ],
+        "stats": {
+          "median": 8588.5,
+          "mad": 37.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00006",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_07_38_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00014_S1BNL_FEMB_IO-1826-1L_00007_S2BNL_FEMB_IO-1826-1L_00051_S3BNL_FEMB_IO-1826-1L_00006_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00006_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00006_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          48
+        ],
+        "details": [
+          {
+            "channel": 48,
+            "chip": 3,
+            "value": 1192.97,
+            "median": 924.28,
+            "deviation": 268.7,
+            "z_score": 3.55,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 924.278125,
+          "mad": 51.00223214285711,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00051",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_07_38_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00014_S1BNL_FEMB_IO-1826-1L_00007_S2BNL_FEMB_IO-1826-1L_00051_S3BNL_FEMB_IO-1826-1L_00006_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00051_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00051_S2_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          96
+        ],
+        "details": [
+          {
+            "channel": 96,
+            "chip": 6,
+            "value": 1202.22,
+            "median": 919.5,
+            "deviation": 282.73,
+            "z_score": 3.44,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 919.4955357142858,
+          "mad": 55.389062499999966,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          95
+        ],
+        "details": [
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 8377.0,
+            "median": 8583.5,
+            "deviation": 206.5,
+            "z_score": 3.4,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8583.5,
+          "mad": 41.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00007",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_07_38_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00014_S1BNL_FEMB_IO-1826-1L_00007_S2BNL_FEMB_IO-1826-1L_00051_S3BNL_FEMB_IO-1826-1L_00006_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00007_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00007_S1_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          120
+        ],
+        "details": [
+          {
+            "channel": 120,
+            "chip": 7,
+            "value": 1278.07,
+            "median": 912.24,
+            "deviation": 365.83,
+            "z_score": 4.34,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 912.2368303571429,
+          "mad": 56.908258928571456,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00031",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_00_58_55_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00055_S1BNL_FEMB_IO-1826-1L_00031_S2BNL_FEMB_IO-1826-1L_00010_S3BNL_FEMB_IO-1826-1L_00054_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00031_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00031_S1_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          64,
+          72
+        ],
+        "details": [
+          {
+            "channel": 64,
+            "chip": 4,
+            "value": 1253.36,
+            "median": 913.25,
+            "deviation": 340.11,
+            "z_score": 3.94,
+            "method": "IQR"
+          },
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 1216.7,
+            "median": 913.25,
+            "deviation": 303.44,
+            "z_score": 3.51,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 913.2520089285714,
+          "mad": 58.292857142857144,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00054",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_00_58_55_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00055_S1BNL_FEMB_IO-1826-1L_00031_S2BNL_FEMB_IO-1826-1L_00010_S3BNL_FEMB_IO-1826-1L_00054_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00054_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00054_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          104
+        ],
+        "details": [
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 1182.78,
+            "median": 907.74,
+            "deviation": 275.04,
+            "z_score": 3.39,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 907.7395089285715,
+          "mad": 54.660044642857144,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00026",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_15_21_45_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00027_S1BNL_FEMB_IO-1826-1L_00001_S2BNL_FEMB_IO-1826-1L_00026_S3BNL_FEMB_IO-1826-1L_00003_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00026_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00026_S2_P.csv",
+    "outliers": {
+      "PPK_mean": {
+        "channels": [
+          44
+        ],
+        "details": [
+          {
+            "channel": 44,
+            "chip": 2,
+            "value": 13073.0,
+            "median": 12744.0,
+            "deviation": 329.0,
+            "z_score": 4.03,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12744.0,
+          "mad": 55.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00001",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_15_21_45_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00027_S1BNL_FEMB_IO-1826-1L_00001_S2BNL_FEMB_IO-1826-1L_00026_S3BNL_FEMB_IO-1826-1L_00003_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00001_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00001_S1_P.csv",
+    "outliers": {
+      "BL_mean": {
+        "channels": [
+          38
+        ],
+        "details": [
+          {
+            "channel": 38,
+            "chip": 2,
+            "value": 8330.0,
+            "median": 8584.5,
+            "deviation": 254.5,
+            "z_score": 4.24,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8584.5,
+          "mad": 40.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00028",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_28_06_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00028_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00028_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          48
+        ],
+        "details": [
+          {
+            "channel": 48,
+            "chip": 3,
+            "value": 1276.2,
+            "median": 924.42,
+            "deviation": 351.78,
+            "z_score": 3.6,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 924.4194196428571,
+          "mad": 65.86562500000002,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00027",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_28_06_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00027_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00027_S0_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          34
+        ],
+        "details": [
+          {
+            "channel": 34,
+            "chip": 2,
+            "value": 12.26,
+            "median": 10.63,
+            "deviation": 1.62,
+            "z_score": 3.54,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.63441300621553,
+          "mad": 0.30925515139383464,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          80
+        ],
+        "details": [
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 4641.0,
+            "median": 4399.5,
+            "deviation": 241.5,
+            "z_score": 3.58,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4399.5,
+          "mad": 45.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00019",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_28_06_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00019_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00019_S1_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          8,
+          80,
+          96
+        ],
+        "details": [
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 1218.88,
+            "median": 924.12,
+            "deviation": 294.76,
+            "z_score": 3.43,
+            "method": "IQR"
+          },
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 1193.44,
+            "median": 924.12,
+            "deviation": 269.32,
+            "z_score": 3.14,
+            "method": "IQR"
+          },
+          {
+            "channel": 96,
+            "chip": 6,
+            "value": 1253.58,
+            "median": 924.12,
+            "deviation": 329.46,
+            "z_score": 3.84,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 924.1229910714286,
+          "mad": 57.94375000000002,
+          "count": 3
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          67
+        ],
+        "details": [
+          {
+            "channel": 67,
+            "chip": 4,
+            "value": 13004.0,
+            "median": 12749.5,
+            "deviation": 254.5,
+            "z_score": 3.18,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12749.5,
+          "mad": 54.0,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          17
+        ],
+        "details": [
+          {
+            "channel": 17,
+            "chip": 1,
+            "value": 8356.0,
+            "median": 8590.5,
+            "deviation": 234.5,
+            "z_score": 3.48,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8590.5,
+          "mad": 45.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00035",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_28_06_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00035_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00035_S2_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          72
+        ],
+        "details": [
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 1205.66,
+            "median": 901.77,
+            "deviation": 303.89,
+            "z_score": 3.6,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 901.7669642857143,
+          "mad": 56.88593750000001,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00032",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_24_38_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00025_S1BNL_FEMB_IO-1865-1L_00039_S2BNL_FEMB_IO-1865-1L_00038_S3BNL_FEMB_IO-1865-1L_00032_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00032_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00032_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          16,
+          40,
+          88
+        ],
+        "details": [
+          {
+            "channel": 16,
+            "chip": 1,
+            "value": 1242.13,
+            "median": 969.61,
+            "deviation": 272.53,
+            "z_score": 3.33,
+            "method": "IQR"
+          },
+          {
+            "channel": 40,
+            "chip": 2,
+            "value": 1253.87,
+            "median": 969.61,
+            "deviation": 284.26,
+            "z_score": 3.47,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1266.62,
+            "median": 969.61,
+            "deviation": 297.01,
+            "z_score": 3.62,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 969.6069196428571,
+          "mad": 55.28191964285713,
+          "count": 3
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00025",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_24_38_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00025_S1BNL_FEMB_IO-1865-1L_00039_S2BNL_FEMB_IO-1865-1L_00038_S3BNL_FEMB_IO-1865-1L_00032_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00025_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00025_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          0,
+          40,
+          88,
+          120
+        ],
+        "details": [
+          {
+            "channel": 0,
+            "chip": 0,
+            "value": 1169.71,
+            "median": 940.17,
+            "deviation": 229.54,
+            "z_score": 3.52,
+            "method": "IQR"
+          },
+          {
+            "channel": 40,
+            "chip": 2,
+            "value": 1196.92,
+            "median": 940.17,
+            "deviation": 256.75,
+            "z_score": 3.94,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1172.74,
+            "median": 940.17,
+            "deviation": 232.57,
+            "z_score": 3.57,
+            "method": "IQR"
+          },
+          {
+            "channel": 120,
+            "chip": 7,
+            "value": 1172.69,
+            "median": 940.17,
+            "deviation": 232.52,
+            "z_score": 3.56,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 940.1700892857143,
+          "mad": 43.99642857142857,
+          "count": 4
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          101
+        ],
+        "details": [
+          {
+            "channel": 101,
+            "chip": 6,
+            "value": 8368.0,
+            "median": 8589.5,
+            "deviation": 221.5,
+            "z_score": 4.09,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8589.5,
+          "mad": 36.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00028",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_50_18_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00028_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00028_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          48
+        ],
+        "details": [
+          {
+            "channel": 48,
+            "chip": 3,
+            "value": 1312.33,
+            "median": 962.43,
+            "deviation": 349.9,
+            "z_score": 3.57,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 962.4327256944445,
+          "mad": 66.15147569444446,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00027",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_50_18_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00027_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00027_S0_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          28,
+          120
+        ],
+        "details": [
+          {
+            "channel": 28,
+            "chip": 1,
+            "value": 9.5,
+            "median": 10.67,
+            "deviation": 1.17,
+            "z_score": 3.81,
+            "method": "IQR"
+          },
+          {
+            "channel": 120,
+            "chip": 7,
+            "value": 9.4,
+            "median": 10.67,
+            "deviation": 1.27,
+            "z_score": 4.13,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.66866003344043,
+          "mad": 0.20741424521816132,
+          "count": 2
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          72,
+          80
+        ],
+        "details": [
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 4610.0,
+            "median": 4393.5,
+            "deviation": 216.5,
+            "z_score": 3.44,
+            "method": "IQR"
+          },
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 4645.0,
+            "median": 4393.5,
+            "deviation": 251.5,
+            "z_score": 3.99,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4393.5,
+          "mad": 42.5,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00019",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_50_18_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00019_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00019_S1_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          8,
+          80,
+          96
+        ],
+        "details": [
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 1250.53,
+            "median": 956.13,
+            "deviation": 294.4,
+            "z_score": 3.53,
+            "method": "IQR"
+          },
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 1223.0,
+            "median": 956.13,
+            "deviation": 266.87,
+            "z_score": 3.2,
+            "method": "IQR"
+          },
+          {
+            "channel": 96,
+            "chip": 6,
+            "value": 1283.07,
+            "median": 956.13,
+            "deviation": 326.95,
+            "z_score": 3.92,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 956.1273871527778,
+          "mad": 56.280598958333314,
+          "count": 3
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          17
+        ],
+        "details": [
+          {
+            "channel": 17,
+            "chip": 1,
+            "value": 8359.0,
+            "median": 8595.0,
+            "deviation": 236.0,
+            "z_score": 3.54,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8595.0,
+          "mad": 45.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00035",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_50_18_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00035_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00035_S2_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          72
+        ],
+        "details": [
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 1239.51,
+            "median": 935.5,
+            "deviation": 304.0,
+            "z_score": 3.63,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 935.5041232638889,
+          "mad": 56.4678819444444,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "J00027",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/30_21_08_16_CTS_BNL_S0J00027_S1J00055_S2G00017_S3IO-1865-1D_00013_RT_CHK/Report/FEMBJ00027_RT_PCB_Based/DataBase_FEMB_J00027_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          24,
+          88
+        ],
+        "details": [
+          {
+            "channel": 24,
+            "chip": 1,
+            "value": 1237.0,
+            "median": 910.38,
+            "deviation": 326.62,
+            "z_score": 3.9,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1225.57,
+            "median": 910.38,
+            "deviation": 315.19,
+            "z_score": 3.76,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 910.380859375,
+          "mad": 56.48980034722223,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00012",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_23_18_44_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00031_S1BNL_FEMB_IO-1865-1L_00012_S2BNL_FEMB_IO-1865-1L_00016_S3BNL_FEMB_IO-1865-1L_00003_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00012_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00012_S1_P.csv",
+    "outliers": {
+      "PPK_mean": {
+        "channels": [
+          8
+        ],
+        "details": [
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 12444.0,
+            "median": 12783.0,
+            "deviation": 339.0,
+            "z_score": 3.6,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12783.0,
+          "mad": 63.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00003",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_23_18_44_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00031_S1BNL_FEMB_IO-1865-1L_00012_S2BNL_FEMB_IO-1865-1L_00016_S3BNL_FEMB_IO-1865-1L_00003_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00003_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00003_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          88
+        ],
+        "details": [
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1280.45,
+            "median": 927.0,
+            "deviation": 353.45,
+            "z_score": 3.87,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 926.9984375,
+          "mad": 61.5566964285714,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00007",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_23_44_31_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00007_S1BNL_FEMB_IO-1865-1L_00034_S2BNL_FEMB_IO-1865-1L_00029_S3BNL_FEMB_IO-1865-1L_00030_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00007_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00007_S0_P.csv",
+    "outliers": {
+      "NPK_mean": {
+        "channels": [
+          32
+        ],
+        "details": [
+          {
+            "channel": 32,
+            "chip": 2,
+            "value": 4720.0,
+            "median": 4436.0,
+            "deviation": 284.0,
+            "z_score": 3.68,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4436.0,
+          "mad": 52.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00029",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_23_44_31_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00007_S1BNL_FEMB_IO-1865-1L_00034_S2BNL_FEMB_IO-1865-1L_00029_S3BNL_FEMB_IO-1865-1L_00030_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00029_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00029_S2_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          8
+        ],
+        "details": [
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 1343.87,
+            "median": 939.05,
+            "deviation": 404.82,
+            "z_score": 3.73,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 939.0488839285715,
+          "mad": 73.19910714285714,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          8
+        ],
+        "details": [
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 4707.0,
+            "median": 4435.5,
+            "deviation": 271.5,
+            "z_score": 3.9,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4435.5,
+          "mad": 47.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00007",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_15_14_43_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00030_S1BNL_FEMB_IO-1865-1L_00029_S2BNL_FEMB_IO-1865-1L_00007_S3BNL_FEMB_IO-1865-1L_00034_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00007_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00007_S2_P.csv",
+    "outliers": {
+      "NPK_mean": {
+        "channels": [
+          32
+        ],
+        "details": [
+          {
+            "channel": 32,
+            "chip": 2,
+            "value": 4715.0,
+            "median": 4440.0,
+            "deviation": 275.0,
+            "z_score": 3.6,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4440.0,
+          "mad": 51.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00029",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_15_14_43_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00030_S1BNL_FEMB_IO-1865-1L_00029_S2BNL_FEMB_IO-1865-1L_00007_S3BNL_FEMB_IO-1865-1L_00034_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00029_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00029_S1_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          8
+        ],
+        "details": [
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 1378.3,
+            "median": 975.84,
+            "deviation": 402.46,
+            "z_score": 3.75,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 975.8413628472222,
+          "mad": 72.34765625,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          8
+        ],
+        "details": [
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 4717.0,
+            "median": 4439.5,
+            "deviation": 277.5,
+            "z_score": 4.25,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4439.5,
+          "mad": 44.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00032",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_01_09_19_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00039_S1BNL_FEMB_IO-1865-1L_00025_S2BNL_FEMB_IO-1865-1L_00032_S3BNL_FEMB_IO-1865-1L_00038_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00032_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00032_S2_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          16,
+          40,
+          88
+        ],
+        "details": [
+          {
+            "channel": 16,
+            "chip": 1,
+            "value": 1201.71,
+            "median": 924.21,
+            "deviation": 277.5,
+            "z_score": 3.45,
+            "method": "IQR"
+          },
+          {
+            "channel": 40,
+            "chip": 2,
+            "value": 1213.03,
+            "median": 924.21,
+            "deviation": 288.81,
+            "z_score": 3.59,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1227.89,
+            "median": 924.21,
+            "deviation": 303.68,
+            "z_score": 3.78,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 924.21484375,
+          "mad": 54.22808159722223,
+          "count": 3
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00025",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_01_09_19_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00039_S1BNL_FEMB_IO-1865-1L_00025_S2BNL_FEMB_IO-1865-1L_00032_S3BNL_FEMB_IO-1865-1L_00038_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00025_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00025_S1_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          0,
+          40,
+          88,
+          120
+        ],
+        "details": [
+          {
+            "channel": 0,
+            "chip": 0,
+            "value": 1137.96,
+            "median": 908.23,
+            "deviation": 229.74,
+            "z_score": 3.48,
+            "method": "IQR"
+          },
+          {
+            "channel": 40,
+            "chip": 2,
+            "value": 1166.27,
+            "median": 908.23,
+            "deviation": 258.04,
+            "z_score": 3.91,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1142.8,
+            "median": 908.23,
+            "deviation": 234.57,
+            "z_score": 3.56,
+            "method": "IQR"
+          },
+          {
+            "channel": 120,
+            "chip": 7,
+            "value": 1141.22,
+            "median": 908.23,
+            "deviation": 232.99,
+            "z_score": 3.53,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 908.2261284722222,
+          "mad": 44.49848090277777,
+          "count": 4
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          101
+        ],
+        "details": [
+          {
+            "channel": 101,
+            "chip": 6,
+            "value": 8367.0,
+            "median": 8590.5,
+            "deviation": 223.5,
+            "z_score": 4.02,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8590.5,
+          "mad": 37.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00039",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_01_09_19_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00039_S1BNL_FEMB_IO-1865-1L_00025_S2BNL_FEMB_IO-1865-1L_00032_S3BNL_FEMB_IO-1865-1L_00038_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00039_S0_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          20,
+          88
+        ],
+        "details": [
+          {
+            "channel": 20,
+            "chip": 1,
+            "value": 11.99,
+            "median": 10.63,
+            "deviation": 1.35,
+            "z_score": 3.77,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 9.51,
+            "median": 10.63,
+            "deviation": 1.12,
+            "z_score": 3.12,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.633434484541528,
+          "mad": 0.24230604547008117,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00020",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_15_02_19_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00010_S1BNL_FEMB_IO-1865-1L_00020_S2BNL_FEMB_IO-1865-1L_00022_S3BNL_FEMB_IO-1865-1L_00037_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00020_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00020_S1_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          104
+        ],
+        "details": [
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 1281.41,
+            "median": 928.06,
+            "deviation": 353.35,
+            "z_score": 3.35,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 928.0591517857142,
+          "mad": 71.0801339285714,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00010",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_15_02_19_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00010_S1BNL_FEMB_IO-1865-1L_00020_S2BNL_FEMB_IO-1865-1L_00022_S3BNL_FEMB_IO-1865-1L_00037_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00010_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00010_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          24
+        ],
+        "details": [
+          {
+            "channel": 24,
+            "chip": 1,
+            "value": 1245.51,
+            "median": 943.67,
+            "deviation": 301.84,
+            "z_score": 3.58,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 943.6723214285714,
+          "mad": 56.916071428571456,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00012",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_15_30_28_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00003_S1BNL_FEMB_IO-1865-1L_00016_S2BNL_FEMB_IO-1865-1L_00012_S3BNL_FEMB_IO-1865-1L_00031_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00012_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00012_S2_P.csv",
+    "outliers": {
+      "PPK_mean": {
+        "channels": [
+          8
+        ],
+        "details": [
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 12453.0,
+            "median": 12770.0,
+            "deviation": 317.0,
+            "z_score": 3.48,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12770.0,
+          "mad": 61.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00003",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_15_30_28_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00003_S1BNL_FEMB_IO-1865-1L_00016_S2BNL_FEMB_IO-1865-1L_00012_S3BNL_FEMB_IO-1865-1L_00031_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00003_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00003_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          88
+        ],
+        "details": [
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1304.39,
+            "median": 949.97,
+            "deviation": 354.41,
+            "z_score": 3.95,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 949.9730902777778,
+          "mad": 60.479166666666686,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00020",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_23_32_22_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00010_S1BNL_FEMB_IO-1865-1L_00020_S2BNL_FEMB_IO-1865-1L_00022_S3BNL_FEMB_IO-1865-1L_00037_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00020_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00020_S1_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          104
+        ],
+        "details": [
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 1252.5,
+            "median": 891.3,
+            "deviation": 361.2,
+            "z_score": 3.45,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 891.2984375,
+          "mad": 70.63616071428572,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00010",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_23_32_22_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00010_S1BNL_FEMB_IO-1865-1L_00020_S2BNL_FEMB_IO-1865-1L_00022_S3BNL_FEMB_IO-1865-1L_00037_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00010_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00010_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          24
+        ],
+        "details": [
+          {
+            "channel": 24,
+            "chip": 1,
+            "value": 1208.02,
+            "median": 909.11,
+            "deviation": 298.92,
+            "z_score": 3.38,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 909.1084821428572,
+          "mad": 59.62723214285711,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00037",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_23_32_22_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00010_S1BNL_FEMB_IO-1865-1L_00020_S2BNL_FEMB_IO-1865-1L_00022_S3BNL_FEMB_IO-1865-1L_00037_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00037_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00037_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          16
+        ],
+        "details": [
+          {
+            "channel": 16,
+            "chip": 1,
+            "value": 1224.15,
+            "median": 913.93,
+            "deviation": 310.22,
+            "z_score": 3.68,
+            "method": "MAD"
+          }
+        ],
+        "stats": {
+          "median": 913.9316964285715,
+          "mad": 56.865401785714255,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00014",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_37_56_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00014_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00014_S3_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          88
+        ],
+        "details": [
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 9.03,
+            "median": 10.68,
+            "deviation": 1.64,
+            "z_score": 4.73,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.676190965685908,
+          "mad": 0.23455120295461196,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00026",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_37_56_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00026_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00026_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          16,
+          80
+        ],
+        "details": [
+          {
+            "channel": 16,
+            "chip": 1,
+            "value": 1318.95,
+            "median": 939.38,
+            "deviation": 379.57,
+            "z_score": 4.16,
+            "method": "IQR"
+          },
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 1312.32,
+            "median": 939.38,
+            "deviation": 372.94,
+            "z_score": 4.09,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 939.3763392857143,
+          "mad": 61.537946428571445,
+          "count": 2
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          16
+        ],
+        "details": [
+          {
+            "channel": 16,
+            "chip": 1,
+            "value": 4773.0,
+            "median": 4444.5,
+            "deviation": 328.5,
+            "z_score": 3.69,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4444.5,
+          "mad": 60.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00036",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_37_56_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00036_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00036_S2_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          8
+        ],
+        "details": [
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 9.32,
+            "median": 10.65,
+            "deviation": 1.33,
+            "z_score": 3.4,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.647293772998786,
+          "mad": 0.2633498915417034,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00006",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_37_56_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00006_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00006_S1_P.csv",
+    "outliers": {
+      "PPK_mean": {
+        "channels": [
+          80
+        ],
+        "details": [
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 12529.0,
+            "median": 12769.0,
+            "deviation": 240.0,
+            "z_score": 3.68,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12769.0,
+          "mad": 44.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00014",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_56_47_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00014_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00014_S3_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          109
+        ],
+        "details": [
+          {
+            "channel": 109,
+            "chip": 6,
+            "value": 11.94,
+            "median": 10.71,
+            "deviation": 1.23,
+            "z_score": 3.41,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.713270242532506,
+          "mad": 0.24336085454562273,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00026",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_56_47_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00026_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00026_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          16,
+          80
+        ],
+        "details": [
+          {
+            "channel": 16,
+            "chip": 1,
+            "value": 1287.8,
+            "median": 906.15,
+            "deviation": 381.65,
+            "z_score": 4.25,
+            "method": "IQR"
+          },
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 1283.06,
+            "median": 906.15,
+            "deviation": 376.91,
+            "z_score": 4.2,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 906.1459821428572,
+          "mad": 60.52589285714282,
+          "count": 2
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          16
+        ],
+        "details": [
+          {
+            "channel": 16,
+            "chip": 1,
+            "value": 4773.0,
+            "median": 4442.5,
+            "deviation": 330.5,
+            "z_score": 3.88,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4442.5,
+          "mad": 57.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00036",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_56_47_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00036_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00036_S2_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          0
+        ],
+        "details": [
+          {
+            "channel": 0,
+            "chip": 0,
+            "value": 1168.82,
+            "median": 911.92,
+            "deviation": 256.9,
+            "z_score": 3.13,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 911.9203125,
+          "mad": 55.359375,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00006",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_56_47_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00006_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00006_S1_P.csv",
+    "outliers": {
+      "PPK_mean": {
+        "channels": [
+          7,
+          80
+        ],
+        "details": [
+          {
+            "channel": 7,
+            "chip": 0,
+            "value": 12999.0,
+            "median": 12771.5,
+            "deviation": 227.5,
+            "z_score": 3.34,
+            "method": "IQR"
+          },
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 12536.0,
+            "median": 12771.5,
+            "deviation": 235.5,
+            "z_score": 3.45,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12771.5,
+          "mad": 46.0,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00002",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_16_18_31_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00002_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00002_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00002_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          8,
+          80
+        ],
+        "details": [
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 1347.31,
+            "median": 982.43,
+            "deviation": 364.88,
+            "z_score": 4.04,
+            "method": "IQR"
+          },
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 1374.81,
+            "median": 982.43,
+            "deviation": 392.38,
+            "z_score": 4.35,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 982.4312500000001,
+          "mad": 60.85290178571438,
+          "count": 2
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          8,
+          38,
+          80
+        ],
+        "details": [
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 4689.0,
+            "median": 4457.5,
+            "deviation": 231.5,
+            "z_score": 4.11,
+            "method": "IQR"
+          },
+          {
+            "channel": 38,
+            "chip": 2,
+            "value": 4285.0,
+            "median": 4457.5,
+            "deviation": 172.5,
+            "z_score": 3.06,
+            "method": "IQR"
+          },
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 4740.0,
+            "median": 4457.5,
+            "deviation": 282.5,
+            "z_score": 5.01,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4457.5,
+          "mad": 38.0,
+          "count": 3
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1L_00002",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_02_36_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00002_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00002_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00002_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          0,
+          8,
+          80
+        ],
+        "details": [
+          {
+            "channel": 0,
+            "chip": 0,
+            "value": 1278.75,
+            "median": 966.8,
+            "deviation": 311.95,
+            "z_score": 3.76,
+            "method": "IQR"
+          },
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 1330.55,
+            "median": 966.8,
+            "deviation": 363.75,
+            "z_score": 4.38,
+            "method": "IQR"
+          },
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 1349.78,
+            "median": 966.8,
+            "deviation": 382.98,
+            "z_score": 4.62,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 966.7991071428571,
+          "mad": 55.958928571428544,
+          "count": 3
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          0,
+          8,
+          38,
+          80,
+          96
+        ],
+        "details": [
+          {
+            "channel": 0,
+            "chip": 0,
+            "value": 4632.0,
+            "median": 4454.0,
+            "deviation": 178.0,
+            "z_score": 3.48,
+            "method": "IQR"
+          },
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 4698.0,
+            "median": 4454.0,
+            "deviation": 244.0,
+            "z_score": 4.77,
+            "method": "IQR"
+          },
+          {
+            "channel": 38,
+            "chip": 2,
+            "value": 4282.0,
+            "median": 4454.0,
+            "deviation": 172.0,
+            "z_score": 3.36,
+            "method": "IQR"
+          },
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 4719.0,
+            "median": 4454.0,
+            "deviation": 265.0,
+            "z_score": 5.18,
+            "method": "IQR"
+          },
+          {
+            "channel": 96,
+            "chip": 6,
+            "value": 4627.0,
+            "median": 4454.0,
+            "deviation": 173.0,
+            "z_score": 3.38,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4454.0,
+          "mad": 34.5,
+          "count": 5
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "fgdfgdfg",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_02/06_22_41_21_CTS_BNL_S0fgdfgdfg_RT_CHK/Report/FEMBfgdfgdfg_RT_PCB_Based/DataBase_FEMB_fgdfgdfg_S0_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          111
+        ],
+        "details": [
+          {
+            "channel": 111,
+            "chip": 6,
+            "value": 4.4,
+            "median": 10.56,
+            "deviation": 6.16,
+            "z_score": 14.3,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.555891852994684,
+          "mad": 0.29050031851644587,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          111
+        ],
+        "details": [
+          {
+            "channel": 111,
+            "chip": 6,
+            "value": 7746.18,
+            "median": 991.92,
+            "deviation": 6754.27,
+            "z_score": 64.29,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 991.9165178571429,
+          "mad": 70.86741071428565,
+          "count": 1
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          111
+        ],
+        "details": [
+          {
+            "channel": 111,
+            "chip": 6,
+            "value": 12010.0,
+            "median": 12816.5,
+            "deviation": 806.5,
+            "z_score": 9.46,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12816.5,
+          "mad": 57.5,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          111
+        ],
+        "details": [
+          {
+            "channel": 111,
+            "chip": 6,
+            "value": 11925.0,
+            "median": 4474.0,
+            "deviation": 7451.0,
+            "z_score": 76.15,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4474.0,
+          "mad": 66.0,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          111
+        ],
+        "details": [
+          {
+            "channel": 111,
+            "chip": 6,
+            "value": 11965.0,
+            "median": 8648.0,
+            "deviation": 3317.0,
+            "z_score": 47.1,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8648.0,
+          "mad": 47.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00004",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_08/03_18_53_24_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00059_S1BNL_FEMB_IO-1826-1L_00004_S2BNL_FEMB_IO-1826-1L_00061_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00004_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00004_S1_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          64,
+          65,
+          66,
+          67,
+          93,
+          94,
+          95,
+          96,
+          97,
+          127
+        ],
+        "details": [
+          {
+            "channel": 64,
+            "chip": 4,
+            "value": 29.45,
+            "median": 12.03,
+            "deviation": 17.42,
+            "z_score": 33.76,
+            "method": "IQR"
+          },
+          {
+            "channel": 65,
+            "chip": 4,
+            "value": 46.16,
+            "median": 12.03,
+            "deviation": 34.13,
+            "z_score": 66.16,
+            "method": "IQR"
+          },
+          {
+            "channel": 66,
+            "chip": 4,
+            "value": 49.79,
+            "median": 12.03,
+            "deviation": 37.76,
+            "z_score": 73.21,
+            "method": "IQR"
+          },
+          {
+            "channel": 67,
+            "chip": 4,
+            "value": 22.45,
+            "median": 12.03,
+            "deviation": 10.42,
+            "z_score": 20.19,
+            "method": "IQR"
+          },
+          {
+            "channel": 93,
+            "chip": 5,
+            "value": 44.69,
+            "median": 12.03,
+            "deviation": 32.66,
+            "z_score": 63.31,
+            "method": "IQR"
+          },
+          {
+            "channel": 94,
+            "chip": 5,
+            "value": 20.91,
+            "median": 12.03,
+            "deviation": 8.88,
+            "z_score": 17.21,
+            "method": "IQR"
+          },
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 22.07,
+            "median": 12.03,
+            "deviation": 10.04,
+            "z_score": 19.47,
+            "method": "IQR"
+          },
+          {
+            "channel": 96,
+            "chip": 6,
+            "value": 17.66,
+            "median": 12.03,
+            "deviation": 5.63,
+            "z_score": 10.91,
+            "method": "IQR"
+          },
+          {
+            "channel": 97,
+            "chip": 6,
+            "value": 18.23,
+            "median": 12.03,
+            "deviation": 6.2,
+            "z_score": 12.02,
+            "method": "IQR"
+          },
+          {
+            "channel": 127,
+            "chip": 7,
+            "value": 26.74,
+            "median": 12.03,
+            "deviation": 14.71,
+            "z_score": 28.51,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12.03078967982296,
+          "mad": 0.3479454085830911,
+          "count": 10
+        }
+      },
+      "ped": {
+        "channels": [
+          24
+        ],
+        "details": [
+          {
+            "channel": 24,
+            "chip": 1,
+            "value": 1244.97,
+            "median": 872.17,
+            "deviation": 372.8,
+            "z_score": 3.98,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 872.1683035714286,
+          "mad": 63.152455357142856,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00061",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_08/03_18_53_24_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00059_S1BNL_FEMB_IO-1826-1L_00004_S2BNL_FEMB_IO-1826-1L_00061_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00061_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00061_S2_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          80,
+          88
+        ],
+        "details": [
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 10.46,
+            "median": 11.71,
+            "deviation": 1.26,
+            "z_score": 3.4,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 10.35,
+            "median": 11.71,
+            "deviation": 1.36,
+            "z_score": 3.67,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.711508889061125,
+          "mad": 0.24945185298676442,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00046",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_08/03_18_53_24_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00059_S1BNL_FEMB_IO-1826-1L_00004_S2BNL_FEMB_IO-1826-1L_00061_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00046_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00046_S3_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          120
+        ],
+        "details": [
+          {
+            "channel": 120,
+            "chip": 7,
+            "value": 10.5,
+            "median": 11.84,
+            "deviation": 1.34,
+            "z_score": 2.84,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.842700145270062,
+          "mad": 0.3186847098336907,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          95
+        ],
+        "details": [
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 1705.84,
+            "median": 862.06,
+            "deviation": 843.78,
+            "z_score": 7.28,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 862.0551339285714,
+          "mad": 78.15334821428576,
+          "count": 1
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          95
+        ],
+        "details": [
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 13033.0,
+            "median": 12730.5,
+            "deviation": 302.5,
+            "z_score": 3.68,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12730.5,
+          "mad": 55.5,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          95
+        ],
+        "details": [
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 5021.0,
+            "median": 4379.5,
+            "deviation": 641.5,
+            "z_score": 7.66,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4379.5,
+          "mad": 56.5,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          95
+        ],
+        "details": [
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 9026.0,
+            "median": 8551.5,
+            "deviation": 474.5,
+            "z_score": 6.74,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8551.5,
+          "mad": 47.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00004",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_08/03_22_20_20_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00004_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00004_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00004_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          24
+        ],
+        "details": [
+          {
+            "channel": 24,
+            "chip": 1,
+            "value": 1297.25,
+            "median": 932.43,
+            "deviation": 364.82,
+            "z_score": 3.77,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 932.4345982142856,
+          "mad": 65.32611607142849,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1K_00039",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_10/01_19_38_42_CTS_BNL_S0BNL_FEMB_IO-1865-1K_00039_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1K_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1K_00039_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          16,
+          32,
+          40,
+          72,
+          94,
+          121
+        ],
+        "details": [
+          {
+            "channel": 16,
+            "chip": 1,
+            "value": 1159.27,
+            "median": 935.79,
+            "deviation": 223.49,
+            "z_score": 3.15,
+            "method": "IQR"
+          },
+          {
+            "channel": 32,
+            "chip": 2,
+            "value": 1201.33,
+            "median": 935.79,
+            "deviation": 265.54,
+            "z_score": 3.75,
+            "method": "IQR"
+          },
+          {
+            "channel": 40,
+            "chip": 2,
+            "value": 1242.65,
+            "median": 935.79,
+            "deviation": 306.86,
+            "z_score": 4.33,
+            "method": "IQR"
+          },
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 1162.83,
+            "median": 935.79,
+            "deviation": 227.05,
+            "z_score": 3.2,
+            "method": "IQR"
+          },
+          {
+            "channel": 94,
+            "chip": 5,
+            "value": 669.2,
+            "median": 935.79,
+            "deviation": 266.58,
+            "z_score": 3.76,
+            "method": "IQR"
+          },
+          {
+            "channel": 121,
+            "chip": 7,
+            "value": 699.97,
+            "median": 935.79,
+            "deviation": 235.81,
+            "z_score": 3.33,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 935.7862413194445,
+          "mad": 47.81944444444446,
+          "count": 6
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          121
+        ],
+        "details": [
+          {
+            "channel": 121,
+            "chip": 7,
+            "value": 4180.0,
+            "median": 4439.0,
+            "deviation": 259.0,
+            "z_score": 3.43,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4439.0,
+          "mad": 51.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1K_00039",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_10/01_19_30_27_CTS_BNL_S0BNL_FEMB_IO-1865-1K_00039_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1K_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1K_00039_S0_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          13
+        ],
+        "details": [
+          {
+            "channel": 13,
+            "chip": 0,
+            "value": 13.09,
+            "median": 11.13,
+            "deviation": 1.96,
+            "z_score": 4.52,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.130571147767407,
+          "mad": 0.29204546727998615,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          16,
+          32,
+          40,
+          72,
+          94,
+          121
+        ],
+        "details": [
+          {
+            "channel": 16,
+            "chip": 1,
+            "value": 1158.92,
+            "median": 935.28,
+            "deviation": 223.64,
+            "z_score": 3.12,
+            "method": "IQR"
+          },
+          {
+            "channel": 32,
+            "chip": 2,
+            "value": 1199.17,
+            "median": 935.28,
+            "deviation": 263.89,
+            "z_score": 3.69,
+            "method": "IQR"
+          },
+          {
+            "channel": 40,
+            "chip": 2,
+            "value": 1240.09,
+            "median": 935.28,
+            "deviation": 304.81,
+            "z_score": 4.26,
+            "method": "IQR"
+          },
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 1162.4,
+            "median": 935.28,
+            "deviation": 227.12,
+            "z_score": 3.17,
+            "method": "IQR"
+          },
+          {
+            "channel": 94,
+            "chip": 5,
+            "value": 668.47,
+            "median": 935.28,
+            "deviation": 266.81,
+            "z_score": 3.73,
+            "method": "IQR"
+          },
+          {
+            "channel": 121,
+            "chip": 7,
+            "value": 699.08,
+            "median": 935.28,
+            "deviation": 236.2,
+            "z_score": 3.3,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 935.2796874999999,
+          "mad": 48.282589285714266,
+          "count": 6
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          94,
+          121
+        ],
+        "details": [
+          {
+            "channel": 94,
+            "chip": 5,
+            "value": 4186.0,
+            "median": 4428.5,
+            "deviation": 242.5,
+            "z_score": 3.34,
+            "method": "IQR"
+          },
+          {
+            "channel": 121,
+            "chip": 7,
+            "value": 4180.0,
+            "median": 4428.5,
+            "deviation": 248.5,
+            "z_score": 3.42,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4428.5,
+          "mad": 49.0,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1K_00039",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_10/01_20_15_08_CTS_BNL_S0BNL_FEMB_IO-1865-1K_00039_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1K_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1K_00039_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          16,
+          32,
+          40,
+          72,
+          94,
+          121
+        ],
+        "details": [
+          {
+            "channel": 16,
+            "chip": 1,
+            "value": 1153.38,
+            "median": 931.65,
+            "deviation": 221.73,
+            "z_score": 3.15,
+            "method": "IQR"
+          },
+          {
+            "channel": 32,
+            "chip": 2,
+            "value": 1196.58,
+            "median": 931.65,
+            "deviation": 264.93,
+            "z_score": 3.77,
+            "method": "IQR"
+          },
+          {
+            "channel": 40,
+            "chip": 2,
+            "value": 1236.95,
+            "median": 931.65,
+            "deviation": 305.31,
+            "z_score": 4.34,
+            "method": "IQR"
+          },
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 1159.18,
+            "median": 931.65,
+            "deviation": 227.53,
+            "z_score": 3.23,
+            "method": "IQR"
+          },
+          {
+            "channel": 94,
+            "chip": 5,
+            "value": 664.18,
+            "median": 931.65,
+            "deviation": 267.47,
+            "z_score": 3.8,
+            "method": "IQR"
+          },
+          {
+            "channel": 121,
+            "chip": 7,
+            "value": 687.35,
+            "median": 931.65,
+            "deviation": 244.3,
+            "z_score": 3.47,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 931.6495225694445,
+          "mad": 47.449435763888914,
+          "count": 6
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          121
+        ],
+        "details": [
+          {
+            "channel": 121,
+            "chip": 7,
+            "value": 4187.0,
+            "median": 4436.0,
+            "deviation": 249.0,
+            "z_score": 3.33,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4436.0,
+          "mad": 50.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1K_00039",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_10/01_19_50_02_CTS_BNL_S0BNL_FEMB_IO-1865-1K_00039_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1K_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1K_00039_S0_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          17
+        ],
+        "details": [
+          {
+            "channel": 17,
+            "chip": 1,
+            "value": 13.22,
+            "median": 11.51,
+            "deviation": 1.71,
+            "z_score": 3.44,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.514246216606685,
+          "mad": 0.33517101683756767,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          32,
+          40,
+          72,
+          94,
+          121
+        ],
+        "details": [
+          {
+            "channel": 32,
+            "chip": 2,
+            "value": 1200.18,
+            "median": 932.82,
+            "deviation": 267.36,
+            "z_score": 3.85,
+            "method": "IQR"
+          },
+          {
+            "channel": 40,
+            "chip": 2,
+            "value": 1243.95,
+            "median": 932.82,
+            "deviation": 311.13,
+            "z_score": 4.48,
+            "method": "IQR"
+          },
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 1163.34,
+            "median": 932.82,
+            "deviation": 230.52,
+            "z_score": 3.32,
+            "method": "IQR"
+          },
+          {
+            "channel": 94,
+            "chip": 5,
+            "value": 662.73,
+            "median": 932.82,
+            "deviation": 270.09,
+            "z_score": 3.89,
+            "method": "IQR"
+          },
+          {
+            "channel": 121,
+            "chip": 7,
+            "value": 694.85,
+            "median": 932.82,
+            "deviation": 237.97,
+            "z_score": 3.43,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 932.8207465277778,
+          "mad": 46.82942708333343,
+          "count": 5
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          94,
+          121
+        ],
+        "details": [
+          {
+            "channel": 94,
+            "chip": 5,
+            "value": 4197.0,
+            "median": 4437.5,
+            "deviation": 240.5,
+            "z_score": 3.28,
+            "method": "IQR"
+          },
+          {
+            "channel": 121,
+            "chip": 7,
+            "value": 4190.0,
+            "median": 4437.5,
+            "deviation": 247.5,
+            "z_score": 3.37,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4437.5,
+          "mad": 49.5,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1K_00039",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_10/01_19_14_35_CTS_BNL_S0BNL_FEMB_IO-1865-1K_00039_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1K_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1K_00039_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          32,
+          40,
+          72,
+          94,
+          121
+        ],
+        "details": [
+          {
+            "channel": 32,
+            "chip": 2,
+            "value": 1186.17,
+            "median": 919.73,
+            "deviation": 266.43,
+            "z_score": 3.78,
+            "method": "IQR"
+          },
+          {
+            "channel": 40,
+            "chip": 2,
+            "value": 1225.31,
+            "median": 919.73,
+            "deviation": 305.58,
+            "z_score": 4.33,
+            "method": "IQR"
+          },
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 1150.38,
+            "median": 919.73,
+            "deviation": 230.65,
+            "z_score": 3.27,
+            "method": "IQR"
+          },
+          {
+            "channel": 94,
+            "chip": 5,
+            "value": 656.43,
+            "median": 919.73,
+            "deviation": 263.3,
+            "z_score": 3.73,
+            "method": "IQR"
+          },
+          {
+            "channel": 121,
+            "chip": 7,
+            "value": 682.23,
+            "median": 919.73,
+            "deviation": 237.5,
+            "z_score": 3.37,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 919.7323660714286,
+          "mad": 47.59598214285717,
+          "count": 5
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          94,
+          121
+        ],
+        "details": [
+          {
+            "channel": 94,
+            "chip": 5,
+            "value": 4186.0,
+            "median": 4427.5,
+            "deviation": 241.5,
+            "z_score": 3.43,
+            "method": "IQR"
+          },
+          {
+            "channel": 121,
+            "chip": 7,
+            "value": 4165.0,
+            "median": 4427.5,
+            "deviation": 262.5,
+            "z_score": 3.73,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4427.5,
+          "mad": 47.5,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1865-1K_00039",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_10/01_20_01_12_CTS_BNL_S0BNL_FEMB_IO-1865-1K_00039_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1K_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1K_00039_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          32,
+          40,
+          72,
+          94,
+          121
+        ],
+        "details": [
+          {
+            "channel": 32,
+            "chip": 2,
+            "value": 1195.35,
+            "median": 930.1,
+            "deviation": 265.25,
+            "z_score": 3.79,
+            "method": "IQR"
+          },
+          {
+            "channel": 40,
+            "chip": 2,
+            "value": 1238.22,
+            "median": 930.1,
+            "deviation": 308.12,
+            "z_score": 4.4,
+            "method": "IQR"
+          },
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 1160.09,
+            "median": 930.1,
+            "deviation": 229.99,
+            "z_score": 3.29,
+            "method": "IQR"
+          },
+          {
+            "channel": 94,
+            "chip": 5,
+            "value": 662.61,
+            "median": 930.1,
+            "deviation": 267.49,
+            "z_score": 3.82,
+            "method": "IQR"
+          },
+          {
+            "channel": 121,
+            "chip": 7,
+            "value": 687.41,
+            "median": 930.1,
+            "deviation": 242.69,
+            "z_score": 3.47,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 930.0985243055555,
+          "mad": 47.185763888888914,
+          "count": 5
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_I0-1865-1J_00013",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_05/07_14_18_42_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00013_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00013_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00013_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          56,
+          88,
+          112
+        ],
+        "details": [
+          {
+            "channel": 56,
+            "chip": 3,
+            "value": 1220.29,
+            "median": 924.84,
+            "deviation": 295.44,
+            "z_score": 3.89,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1216.57,
+            "median": 924.84,
+            "deviation": 291.73,
+            "z_score": 3.85,
+            "method": "IQR"
+          },
+          {
+            "channel": 112,
+            "chip": 7,
+            "value": 1200.1,
+            "median": 924.84,
+            "deviation": 275.26,
+            "z_score": 3.63,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 924.8415798611111,
+          "mad": 51.1690538194444,
+          "count": 3
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "D17",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_05/09_15_38_37_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00013_S1D42_S2D36_S3D17_RT_CHK/Report/FEMBD17_RT_PCB_Based/DataBase_FEMB_D17_S3_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          96,
+          114
+        ],
+        "details": [
+          {
+            "channel": 96,
+            "chip": 6,
+            "value": 9.29,
+            "median": 10.63,
+            "deviation": 1.33,
+            "z_score": 3.69,
+            "method": "IQR"
+          },
+          {
+            "channel": 114,
+            "chip": 7,
+            "value": 11.85,
+            "median": 10.63,
+            "deviation": 1.23,
+            "z_score": 3.39,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.62590846274433,
+          "mad": 0.2438345622266631,
+          "count": 2
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          30
+        ],
+        "details": [
+          {
+            "channel": 30,
+            "chip": 1,
+            "value": 4172.0,
+            "median": 4453.5,
+            "deviation": 281.5,
+            "z_score": 3.25,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4453.5,
+          "mad": 58.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_I0-1865-1J_00013",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_05/09_15_38_37_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00013_S1D42_S2D36_S3D17_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00013_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00013_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          56,
+          88
+        ],
+        "details": [
+          {
+            "channel": 56,
+            "chip": 3,
+            "value": 1207.01,
+            "median": 912.29,
+            "deviation": 294.72,
+            "z_score": 3.62,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1210.52,
+            "median": 912.29,
+            "deviation": 298.24,
+            "z_score": 3.67,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 912.2861607142856,
+          "mad": 54.86138392857134,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "D42",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_05/09_15_38_37_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00013_S1D42_S2D36_S3D17_RT_CHK/Report/FEMBD42_RT_PCB_Based/DataBase_FEMB_D42_S1_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          61
+        ],
+        "details": [
+          {
+            "channel": 61,
+            "chip": 3,
+            "value": 12.25,
+            "median": 10.58,
+            "deviation": 1.66,
+            "z_score": 3.48,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 10.584123135256473,
+          "mad": 0.3221319565726022,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "G00036",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_06/26_14_40_04_CTS_BNL_S0G00017_S1G00036_S2G00042_S3BNL_FEMB_I0-1865-1J_00013_RT_CHK/Report/FEMBG00036_RT_PCB_Based/DataBase_FEMB_G00036_S1_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          25
+        ],
+        "details": [
+          {
+            "channel": 25,
+            "chip": 1,
+            "value": 9.65,
+            "median": 11.04,
+            "deviation": 1.39,
+            "z_score": 3.41,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.037271527445057,
+          "mad": 0.2738562598580154,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_I0-1865-1J_00013",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_06/26_14_40_04_CTS_BNL_S0G00017_S1G00036_S2G00042_S3BNL_FEMB_I0-1865-1J_00013_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00013_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00013_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          0,
+          8,
+          16,
+          24,
+          32,
+          40,
+          48,
+          56,
+          64,
+          72,
+          80,
+          88,
+          96,
+          104,
+          112,
+          120
+        ],
+        "details": [
+          {
+            "channel": 0,
+            "chip": 0,
+            "value": 2375.78,
+            "median": 1521.9,
+            "deviation": 853.88,
+            "z_score": 7.94,
+            "method": "IQR"
+          },
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 2565.19,
+            "median": 1521.9,
+            "deviation": 1043.29,
+            "z_score": 9.7,
+            "method": "IQR"
+          },
+          {
+            "channel": 16,
+            "chip": 1,
+            "value": 2236.27,
+            "median": 1521.9,
+            "deviation": 714.37,
+            "z_score": 6.64,
+            "method": "IQR"
+          },
+          {
+            "channel": 24,
+            "chip": 1,
+            "value": 2294.5,
+            "median": 1521.9,
+            "deviation": 772.6,
+            "z_score": 7.18,
+            "method": "IQR"
+          },
+          {
+            "channel": 32,
+            "chip": 2,
+            "value": 2411.87,
+            "median": 1521.9,
+            "deviation": 889.97,
+            "z_score": 8.28,
+            "method": "IQR"
+          },
+          {
+            "channel": 40,
+            "chip": 2,
+            "value": 2390.5,
+            "median": 1521.9,
+            "deviation": 868.6,
+            "z_score": 8.08,
+            "method": "IQR"
+          },
+          {
+            "channel": 48,
+            "chip": 3,
+            "value": 2351.63,
+            "median": 1521.9,
+            "deviation": 829.73,
+            "z_score": 7.72,
+            "method": "IQR"
+          },
+          {
+            "channel": 56,
+            "chip": 3,
+            "value": 2383.88,
+            "median": 1521.9,
+            "deviation": 861.99,
+            "z_score": 8.01,
+            "method": "IQR"
+          },
+          {
+            "channel": 64,
+            "chip": 4,
+            "value": 2281.15,
+            "median": 1521.9,
+            "deviation": 759.25,
+            "z_score": 7.06,
+            "method": "IQR"
+          },
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 2388.2,
+            "median": 1521.9,
+            "deviation": 866.3,
+            "z_score": 8.06,
+            "method": "IQR"
+          },
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 2295.55,
+            "median": 1521.9,
+            "deviation": 773.66,
+            "z_score": 7.19,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 2445.44,
+            "median": 1521.9,
+            "deviation": 923.55,
+            "z_score": 8.59,
+            "method": "IQR"
+          },
+          {
+            "channel": 96,
+            "chip": 6,
+            "value": 2222.92,
+            "median": 1521.9,
+            "deviation": 701.03,
+            "z_score": 6.52,
+            "method": "IQR"
+          },
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 2126.61,
+            "median": 1521.9,
+            "deviation": 604.72,
+            "z_score": 5.62,
+            "method": "IQR"
+          },
+          {
+            "channel": 112,
+            "chip": 7,
+            "value": 2430.58,
+            "median": 1521.9,
+            "deviation": 908.68,
+            "z_score": 8.45,
+            "method": "IQR"
+          },
+          {
+            "channel": 120,
+            "chip": 7,
+            "value": 2331.99,
+            "median": 1521.9,
+            "deviation": 810.09,
+            "z_score": 7.53,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 1521.8956163194443,
+          "mad": 72.5407986111112,
+          "count": 16
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          0,
+          8,
+          16,
+          24,
+          32,
+          40,
+          48,
+          56,
+          64,
+          72,
+          80,
+          88,
+          96,
+          104,
+          112,
+          120
+        ],
+        "details": [
+          {
+            "channel": 0,
+            "chip": 0,
+            "value": 15140.0,
+            "median": 16023.5,
+            "deviation": 883.5,
+            "z_score": 8.16,
+            "method": "IQR"
+          },
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 15342.0,
+            "median": 16023.5,
+            "deviation": 681.5,
+            "z_score": 6.3,
+            "method": "IQR"
+          },
+          {
+            "channel": 16,
+            "chip": 1,
+            "value": 15134.0,
+            "median": 16023.5,
+            "deviation": 889.5,
+            "z_score": 8.22,
+            "method": "IQR"
+          },
+          {
+            "channel": 24,
+            "chip": 1,
+            "value": 15159.0,
+            "median": 16023.5,
+            "deviation": 864.5,
+            "z_score": 7.99,
+            "method": "IQR"
+          },
+          {
+            "channel": 32,
+            "chip": 2,
+            "value": 15220.0,
+            "median": 16023.5,
+            "deviation": 803.5,
+            "z_score": 7.42,
+            "method": "IQR"
+          },
+          {
+            "channel": 40,
+            "chip": 2,
+            "value": 15211.0,
+            "median": 16023.5,
+            "deviation": 812.5,
+            "z_score": 7.51,
+            "method": "IQR"
+          },
+          {
+            "channel": 48,
+            "chip": 3,
+            "value": 15376.0,
+            "median": 16023.5,
+            "deviation": 647.5,
+            "z_score": 5.98,
+            "method": "IQR"
+          },
+          {
+            "channel": 56,
+            "chip": 3,
+            "value": 15419.0,
+            "median": 16023.5,
+            "deviation": 604.5,
+            "z_score": 5.59,
+            "method": "IQR"
+          },
+          {
+            "channel": 64,
+            "chip": 4,
+            "value": 14933.0,
+            "median": 16023.5,
+            "deviation": 1090.5,
+            "z_score": 10.08,
+            "method": "IQR"
+          },
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 15100.0,
+            "median": 16023.5,
+            "deviation": 923.5,
+            "z_score": 8.53,
+            "method": "IQR"
+          },
+          {
+            "channel": 80,
+            "chip": 5,
+            "value": 15082.0,
+            "median": 16023.5,
+            "deviation": 941.5,
+            "z_score": 8.7,
+            "method": "IQR"
+          },
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 15068.0,
+            "median": 16023.5,
+            "deviation": 955.5,
+            "z_score": 8.83,
+            "method": "IQR"
+          },
+          {
+            "channel": 96,
+            "chip": 6,
+            "value": 15050.0,
+            "median": 16023.5,
+            "deviation": 973.5,
+            "z_score": 8.99,
+            "method": "IQR"
+          },
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 15065.0,
+            "median": 16023.5,
+            "deviation": 958.5,
+            "z_score": 8.86,
+            "method": "IQR"
+          },
+          {
+            "channel": 112,
+            "chip": 7,
+            "value": 15162.0,
+            "median": 16023.5,
+            "deviation": 861.5,
+            "z_score": 7.96,
+            "method": "IQR"
+          },
+          {
+            "channel": 120,
+            "chip": 7,
+            "value": 15069.0,
+            "median": 16023.5,
+            "deviation": 954.5,
+            "z_score": 8.82,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 16023.5,
+          "mad": 73.0,
+          "count": 16
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          0,
+          8,
+          32,
+          56,
+          112
+        ],
+        "details": [
+          {
+            "channel": 0,
+            "chip": 0,
+            "value": 6714.0,
+            "median": 6195.0,
+            "deviation": 519.0,
+            "z_score": 3.7,
+            "method": "IQR"
+          },
+          {
+            "channel": 8,
+            "chip": 0,
+            "value": 6872.0,
+            "median": 6195.0,
+            "deviation": 677.0,
+            "z_score": 4.83,
+            "method": "IQR"
+          },
+          {
+            "channel": 32,
+            "chip": 2,
+            "value": 6700.0,
+            "median": 6195.0,
+            "deviation": 505.0,
+            "z_score": 3.6,
+            "method": "IQR"
+          },
+          {
+            "channel": 56,
+            "chip": 3,
+            "value": 6706.0,
+            "median": 6195.0,
+            "deviation": 511.0,
+            "z_score": 3.65,
+            "method": "IQR"
+          },
+          {
+            "channel": 112,
+            "chip": 7,
+            "value": 6746.0,
+            "median": 6195.0,
+            "deviation": 551.0,
+            "z_score": 3.93,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 6195.0,
+          "mad": 94.5,
+          "count": 5
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          64,
+          72,
+          96,
+          104,
+          120
+        ],
+        "details": [
+          {
+            "channel": 64,
+            "chip": 4,
+            "value": 10686.0,
+            "median": 11414.5,
+            "deviation": 728.5,
+            "z_score": 4.09,
+            "method": "IQR"
+          },
+          {
+            "channel": 72,
+            "chip": 4,
+            "value": 10806.0,
+            "median": 11414.5,
+            "deviation": 608.5,
+            "z_score": 3.42,
+            "method": "IQR"
+          },
+          {
+            "channel": 96,
+            "chip": 6,
+            "value": 10813.0,
+            "median": 11414.5,
+            "deviation": 601.5,
+            "z_score": 3.38,
+            "method": "IQR"
+          },
+          {
+            "channel": 104,
+            "chip": 6,
+            "value": 10763.0,
+            "median": 11414.5,
+            "deviation": 651.5,
+            "z_score": 3.66,
+            "method": "IQR"
+          },
+          {
+            "channel": 120,
+            "chip": 7,
+            "value": 10816.0,
+            "median": 11414.5,
+            "deviation": 598.5,
+            "z_score": 3.36,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11414.5,
+          "mad": 120.0,
+          "count": 5
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_I0-1865-1J_00015",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_06/26_15_28_38_CTS_BNL_S0G00036_S1G00042_S2BNL_FEMB_I0-1865-1J_00015_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00015_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00015_S2_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          15,
+          20
+        ],
+        "details": [
+          {
+            "channel": 15,
+            "chip": 0,
+            "value": 12.73,
+            "median": 11.25,
+            "deviation": 1.48,
+            "z_score": 3.59,
+            "method": "IQR"
+          },
+          {
+            "channel": 20,
+            "chip": 1,
+            "value": 12.78,
+            "median": 11.25,
+            "deviation": 1.53,
+            "z_score": 3.71,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.252120983387806,
+          "mad": 0.2774743613086592,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00035",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_09/11_18_46_04_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00027_S2BNL_FEMB_IO-1826-1L_00007_S3BNL_FEMB_IO-1826-1L_00035_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00035_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00035_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          88
+        ],
+        "details": [
+          {
+            "channel": 88,
+            "chip": 5,
+            "value": 1232.32,
+            "median": 899.51,
+            "deviation": 332.82,
+            "z_score": 3.61,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 899.5073784722222,
+          "mad": 62.11480034722217,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00007",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_09/11_18_46_04_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00027_S2BNL_FEMB_IO-1826-1L_00007_S3BNL_FEMB_IO-1826-1L_00035_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00007_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00007_S2_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          15
+        ],
+        "details": [
+          {
+            "channel": 15,
+            "chip": 0,
+            "value": 13.04,
+            "median": 11.26,
+            "deviation": 1.78,
+            "z_score": 4.06,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.257972005769108,
+          "mad": 0.29664225799430444,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          120
+        ],
+        "details": [
+          {
+            "channel": 120,
+            "chip": 7,
+            "value": 1298.34,
+            "median": 917.45,
+            "deviation": 380.89,
+            "z_score": 4.35,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 917.4461805555555,
+          "mad": 59.092013888888914,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00017",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_09/11_19_03_16_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00024_S1BNL_FEMB_IO-1826-1L_00020_S2BNL_FEMB_IO-1826-1L_00017_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00017_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00017_S2_P.csv",
+    "outliers": {
+      "rms": {
+        "channels": [
+          15
+        ],
+        "details": [
+          {
+            "channel": 15,
+            "chip": 0,
+            "value": 12.84,
+            "median": 11.11,
+            "deviation": 1.73,
+            "z_score": 3.79,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 11.111771891253888,
+          "mad": 0.30821046098212346,
+          "count": 1
+        }
+      },
+      "ped": {
+        "channels": [
+          32
+        ],
+        "details": [
+          {
+            "channel": 32,
+            "chip": 2,
+            "value": 1240.36,
+            "median": 927.93,
+            "deviation": 312.43,
+            "z_score": 3.55,
+            "method": "MAD"
+          }
+        ],
+        "stats": {
+          "median": 927.9258928571428,
+          "mad": 59.41808035714297,
+          "count": 1
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          96,
+          110
+        ],
+        "details": [
+          {
+            "channel": 96,
+            "chip": 6,
+            "value": 12375.0,
+            "median": 12783.5,
+            "deviation": 408.5,
+            "z_score": 4.05,
+            "method": "IQR"
+          },
+          {
+            "channel": 110,
+            "chip": 6,
+            "value": 12448.0,
+            "median": 12783.5,
+            "deviation": 335.5,
+            "z_score": 3.33,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12783.5,
+          "mad": 68.0,
+          "count": 2
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00024",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_09/11_19_03_16_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00024_S1BNL_FEMB_IO-1826-1L_00020_S2BNL_FEMB_IO-1826-1L_00017_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00024_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00024_S0_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          64
+        ],
+        "details": [
+          {
+            "channel": 64,
+            "chip": 4,
+            "value": 1198.88,
+            "median": 887.09,
+            "deviation": 311.79,
+            "z_score": 3.53,
+            "method": "MAD"
+          }
+        ],
+        "stats": {
+          "median": 887.0861607142857,
+          "mad": 59.53482142857138,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          68
+        ],
+        "details": [
+          {
+            "channel": 68,
+            "chip": 4,
+            "value": 8812.0,
+            "median": 8569.5,
+            "deviation": 242.5,
+            "z_score": 3.59,
+            "method": "MAD"
+          }
+        ],
+        "stats": {
+          "median": 8569.5,
+          "mad": 45.5,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00046",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_09/11_19_03_16_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00024_S1BNL_FEMB_IO-1826-1L_00020_S2BNL_FEMB_IO-1826-1L_00017_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00046_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00046_S3_P.csv",
+    "outliers": {
+      "ped": {
+        "channels": [
+          95
+        ],
+        "details": [
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 2749.62,
+            "median": 865.9,
+            "deviation": 1883.72,
+            "z_score": 19.61,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 865.8970982142857,
+          "mad": 64.80245535714283,
+          "count": 1
+        }
+      },
+      "PPK_mean": {
+        "channels": [
+          95
+        ],
+        "details": [
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 13105.0,
+            "median": 12738.5,
+            "deviation": 366.5,
+            "z_score": 4.58,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 12738.5,
+          "mad": 54.0,
+          "count": 1
+        }
+      },
+      "NPK_mean": {
+        "channels": [
+          95
+        ],
+        "details": [
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 5061.0,
+            "median": 4390.5,
+            "deviation": 670.5,
+            "z_score": 8.22,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 4390.5,
+          "mad": 55.0,
+          "count": 1
+        }
+      },
+      "BL_mean": {
+        "channels": [
+          95
+        ],
+        "details": [
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 9080.0,
+            "median": 8559.0,
+            "deviation": 521.0,
+            "z_score": 7.81,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8559.0,
+          "mad": 45.0,
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "femb_id": "BNL_FEMB_IO-1826-1L_00051",
+    "csv_path": "/home/dune/Documents/data/FEMB_QC/Report/Time_2026_09/22_21_08_49_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00051_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00051_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00051_S0_P.csv",
+    "outliers": {
+      "BL_mean": {
+        "channels": [
+          95
+        ],
+        "details": [
+          {
+            "channel": 95,
+            "chip": 5,
+            "value": 8406.0,
+            "median": 8609.0,
+            "deviation": 203.0,
+            "z_score": 3.6,
+            "method": "IQR"
+          }
+        ],
+        "stats": {
+          "median": 8609.0,
+          "mad": 38.0,
+          "count": 1
+        }
+      }
+    }
+  }
+]

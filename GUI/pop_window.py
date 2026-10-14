@@ -566,3 +566,227 @@ def show_removal_popup(
 
     root.mainloop()
     return result["confirmed"]
+
+
+def show_visual_inspection_popup(
+    title="Visual Inspection",
+    image_path=None,
+    slot_name="P1",
+    femb_id=""
+):
+    """
+    Display a fullscreen popup for visual inspection with:
+    - Image showing inspection points (Normal vs Issue examples)
+    - Checkboxes for 5 inspection parts
+    - Text box for recording issues
+
+    Returns dict with:
+        - "passed": True if text box empty, False if issue noted, None if skipped
+        - "notes": content of text box (empty string if passed)
+        - "checked_parts": list of checked part numbers
+        - "skipped": True if slot was skipped (empty), False otherwise
+    """
+    result = {"passed": True, "notes": "", "checked_parts": [], "skipped": False}
+
+    def exit_fullscreen(event=None):
+        root.attributes('-fullscreen', False)
+
+    def on_submit():
+        # Collect checked parts
+        checked = []
+        for i, var in enumerate(checkbox_vars, start=1):
+            if var.get():
+                checked.append(i)
+        result["checked_parts"] = checked
+
+        # Get notes from text box
+        notes = text_box.get("1.0", "end-1c").strip()
+        result["notes"] = notes
+
+        # Debug output
+        print(f"[DEBUG] on_submit called")
+        print(f"[DEBUG] notes = '{notes}' (length={len(notes)})")
+        print(f"[DEBUG] notes is truthy: {bool(notes)}")
+
+        # If notes exist, inspection found issues
+        if notes:
+            result["passed"] = False
+            print(f"[DEBUG] Setting passed=False (issue found)")
+        else:
+            result["passed"] = True
+            print(f"[DEBUG] Setting passed=True (no notes)")
+
+        print(f"[DEBUG] Final result: {result}")
+        root.destroy()
+
+    def on_pass():
+        """Quick pass - no issues found"""
+        result["passed"] = True
+        result["notes"] = ""
+        result["checked_parts"] = [1, 2, 3, 4, 5]  # All parts checked as OK
+        result["skipped"] = False
+        root.destroy()
+
+    def on_skip():
+        """Skip this slot - no FEMB will be installed"""
+        result["passed"] = None  # None indicates skipped
+        result["notes"] = ""
+        result["checked_parts"] = []
+        result["skipped"] = True
+        root.destroy()
+
+    # === Initialize window ===
+    root = tk.Tk()
+    root.title(title)
+    root.attributes('-fullscreen', True)
+    root.bind("<Escape>", exit_fullscreen)
+
+    # === Font ===
+    font_large = ("Arial", 24)
+    font_medium = ("Arial", 18)
+    font_small = ("Arial", 14)
+
+    # === Screen size ===
+    screen_width = root.winfo_screenwidth()
+    screen_height = root.winfo_screenheight()
+
+    # === Main frame ===
+    main_frame = ttk.Frame(root, padding=20)
+    main_frame.pack(fill="both", expand=True)
+
+    # Grid: left column for controls, right column for image
+    main_frame.columnconfigure(0, weight=1)
+    main_frame.columnconfigure(1, weight=2)
+    main_frame.rowconfigure(0, weight=1)
+
+    # === LEFT COLUMN: Controls ===
+    control_frame = ttk.Frame(main_frame)
+    control_frame.grid(row=0, column=0, sticky="nsew", padx=(20, 40))
+
+    # Title
+    title_label = tk.Label(
+        control_frame,
+        text=f"Visual Inspection - {slot_name}",
+        font=("Arial", 28, "bold")
+    )
+    title_label.pack(pady=(20, 10))
+
+    # FEMB ID display
+    if femb_id:
+        id_label = tk.Label(control_frame, text=f"FEMB: {femb_id}", font=font_medium)
+        id_label.pack(pady=(0, 20))
+
+    # Instructions
+    instruction_label = tk.Label(
+        control_frame,
+        text="Check each part visually.\nIf issue found, describe in the text box below.",
+        font=font_medium,
+        fg="blue",
+        justify="center"
+    )
+    instruction_label.pack(pady=(10, 20))
+
+    # Checkbox frame for 5 parts
+    checkbox_frame = ttk.LabelFrame(control_frame, text="Inspection Checklist", padding=10)
+    checkbox_frame.pack(fill="x", pady=10)
+
+    checkbox_vars = []
+    part_descriptions = [
+        "Part 1: outside left",
+        "Part 2: outside right",
+        "Part 3: inside left",
+        "Part 4: inside right",
+        "Part 5: back side"
+    ]
+
+    for i, desc in enumerate(part_descriptions):
+        var = tk.BooleanVar(value=True)  # Default checked (OK)
+        cb = tk.Checkbutton(
+            checkbox_frame,
+            text=desc,
+            variable=var,
+            font=font_small
+        )
+        cb.pack(anchor="w", pady=2)
+        checkbox_vars.append(var)
+
+    # Text box frame for issue notes
+    text_frame = ttk.LabelFrame(control_frame, text="Issue Notes (leave empty if no issues)", padding=10)
+    text_frame.pack(fill="both", expand=True, pady=20)
+
+    text_box = tk.Text(text_frame, font=font_small, height=6, width=40)
+    text_box.pack(fill="both", expand=True)
+
+    # Status hint
+    hint_label = tk.Label(
+        control_frame,
+        text="Empty text box = PASS | Text in box = Issue recorded",
+        font=font_small,
+        fg="gray"
+    )
+    hint_label.pack(pady=(5, 10))
+
+    # Buttons frame
+    button_frame = ttk.Frame(control_frame)
+    button_frame.pack(pady=20)
+
+    # Pass button (green) - quick pass with no issues
+    pass_btn = tk.Button(
+        button_frame,
+        text="PASS (No Issues)",
+        command=on_pass,
+        font=("Arial", 18, "bold"),
+        width=16,
+        bg="#4CAF50",
+        fg="white"
+    )
+    pass_btn.pack(side="left", padx=10)
+
+    # Submit button (for recording issues)
+    submit_btn = tk.Button(
+        button_frame,
+        text="Submit",
+        command=on_submit,
+        font=("Arial", 18),
+        width=12
+    )
+    submit_btn.pack(side="left", padx=10)
+
+    # Skip Slot button (gray) - no FEMB for this slot
+    skip_btn = tk.Button(
+        button_frame,
+        text="Skip Slot (Empty)",
+        command=on_skip,
+        font=("Arial", 18),
+        width=16,
+        bg="#808080",
+        fg="white"
+    )
+    skip_btn.pack(side="left", padx=10)
+
+    # === RIGHT COLUMN: Image ===
+    if image_path:
+        try:
+            img = Image.open(image_path)
+
+            # Set width to ~60% of screen
+            img_width = int(screen_width * 0.58)
+            img_ratio = img.height / img.width
+            img_height = int(img_width * img_ratio)
+
+            # Clamp if too tall
+            if img_height > screen_height - 80:
+                img_height = screen_height - 80
+                img_width = int(img_height / img_ratio)
+
+            img = img.resize((img_width, img_height), Image.Resampling.LANCZOS)
+            photo = ImageTk.PhotoImage(img)
+
+            image_label = ttk.Label(main_frame, image=photo)
+            image_label.image = photo
+            image_label.grid(row=0, column=1, sticky="nsew", padx=20)
+        except Exception as e:
+            print(f"Error loading image: {e}")
+
+    root.mainloop()
+    return result

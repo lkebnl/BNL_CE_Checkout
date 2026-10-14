@@ -1,0 +1,57 @@
+Test Part,Test Item,Parameter,Reference Value,Tolerance/Range,Unit,Pass Criteria,Environment,Notes
+Part 1,Visual Inspection,Assembly Quality,N/A,N/A,N/A,No issues noted in text box,Both,Manual inspection of 5 parts: outside left/right inside left/right back side
+Part 2.1,Initial Power,BIAS Current,0,< 0.15,A,|I| < 0.15A,Both,Initial current check before configuration
+Part 2.1,Initial Power,LArASIC (FE) Current,0.3-0.7,> 0.3,A,I > 0.3A,Both,DC2DC0 current
+Part 2.1,Initial Power,COLDATA Current,0.1-0.3,< 0.3,A,I < 0.3A,Both,DC2DC1 current
+Part 2.1,Initial Power,ColdADC Current,1.2-1.99,1.2-1.99,A,1.2A < I < 1.99A,Both,DC2DC2 current (commented out in code)
+Part 2.2,Register Check,COLDATA Registers,Expected values,N/A,N/A,Register values match expected,Both,Two consecutive checks
+Part 2.2,Register Check,ColdADC Registers,Expected values,N/A,N/A,Register values match expected,Both,Two consecutive checks
+Part 3.1,SE Noise,RMS,Median,60%,ADC counts,|RMS - median| / median < 0.6,Both,200mV BL 14mV/fC 2us
+Part 3.1,SE Noise,Pedestal,Median,1500,ADC counts,|Ped - median| < 1500,Both,200mV BL 14mV/fC 2us
+Part 3.2,SE Power,BIAS Voltage,5.0,0.5,V,|V - 5.0| < 0.5V,Both,After SE configuration
+Part 3.2,SE Power,BIAS Current,0,0.2,A,|I| < 0.2A,Both,After SE configuration
+Part 3.2,SE Power,LArASIC Voltage,3.0,0.2,V,|V - 3.0| < 0.2V,Both,DC2DC0 voltage
+Part 3.2,SE Power,LArASIC Current,0.43 or 0.693,0.15,A,|I - ref| < 0.15A,Both,DC2DC0 current two reference values
+Part 3.2,SE Power,COLDATA Voltage,3.0,0.2,V,|V - 3.0| < 0.2V,Both,DC2DC1 voltage
+Part 3.2,SE Power,COLDATA Current,0.174 or 0.229,0.1,A,|I - ref| < 0.1A,Both,DC2DC1 current two reference values
+Part 3.2,SE Power,ColdADC Voltage,3.5,0.2,V,|V - 3.5| < 0.2V,Both,DC2DC2 voltage
+Part 3.2,SE Power,ColdADC Current,1.648 or 1.709,0.25,A,|I - ref| < 0.25A,Both,DC2DC2 current two reference values
+Part 3.2,SE Power,LArASIC Current (quick check),0.35,> 0.35,A,I > 0.35A,Both,Quick threshold check in main script
+Part 3.2,SE Power,COLDATA Current (quick check),0.35,< 0.35,A,I < 0.35A,Both,Quick threshold check in main script
+Part 3.2,SE Power,ColdADC Current (quick check),1.35-1.85,1.35-1.85,A,1.35A < I < 1.85A,Both,Quick threshold check in main script
+Part 3.3,SE LDO Monitor,GND,150,150,mV,|V - 150| < 150mV,Both,Ground reference
+Part 3.3,SE LDO Monitor,ADC Power (HALF),2245,100,mV,|V - 2245| < 100mV,Both,ADC power supply (multiply by 2)
+Part 3.3,SE LDO Monitor,CDVDDA,1187,100,mV,|V - 1187| < 100mV,Both,COLDATA analog supply
+Part 3.3,SE LDO Monitor,CDVDDIO,2236,100,mV,|V - 2236| < 100mV,Both,COLDATA IO supply
+Part 3.3,SE LDO Monitor,ACCVDD1P2,1097,100,mV,|V - 1097| < 100mV,Both,ADC core 1.2V supply
+Part 3.3,SE LDO Monitor,FE (LArASIC),1797,200,mV,|V - 1797| < 200mV,Both,Front-end ASIC supply
+Part 3.4,SE Pulse,Positive Peak (PPK),Median,1000,ADC counts,|PPK - median| < 1000,Both,900mV BL 14mV/fC 2us DAC=0x10
+Part 3.4,SE Pulse,Negative Peak (NPK),Median,1000,ADC counts,|NPK - median| < 1000,Both,900mV BL 14mV/fC 2us DAC=0x10
+Part 3.4,SE Pulse,Baseline (BL),Median,1000,ADC counts,|BL - median| < 1000,Both,900mV BL 14mV/fC 2us DAC=0x10
+Part 4.1,DIFF Pulse,Positive Peak (PPK),Median,1000,ADC counts,|PPK - median| < 1000,Both,Differential mode 900mV BL 14mV/fC 2us
+Part 4.1,DIFF Pulse,Negative Peak (NPK),Median,1000,ADC counts,|NPK - median| < 1000,Both,Differential mode
+Part 4.1,DIFF Pulse,Baseline (BL),Median,1000,ADC counts,|BL - median| < 1000,Both,Differential mode
+Part 4.2,DIFF Power,BIAS Current,-0.02 to 0.15,-0.02 to 0.15,A,-0.02A < I < 0.15A,Both,DIFF mode current check
+Part 4.2,DIFF Power,LArASIC Current,0.35-0.55,0.35-0.55,A,0.35A < I < 0.55A,Both,DIFF mode DC2DC0
+Part 4.2,DIFF Power,COLDATA Current,0.15-0.35,0.15-0.35,A,0.15A < I < 0.35A,Both,DIFF mode DC2DC1
+Part 4.2,DIFF Power,ColdADC Current,1.35-1.85,1.35-1.85,A,1.35A < I < 1.85A,Both,DIFF mode DC2DC2
+Part 4.3,DIFF LDO Monitor,GND,150,150,mV,|V - 150| < 150mV,Both,Same as SE LDO
+Part 4.3,DIFF LDO Monitor,ADC Power (HALF),2245,100,mV,|V - 2245| < 100mV,Both,Same as SE LDO
+Part 4.3,DIFF LDO Monitor,CDVDDA,1187,100,mV,|V - 1187| < 100mV,Both,Same as SE LDO
+Part 4.3,DIFF LDO Monitor,CDVDDIO,2236,100,mV,|V - 2236| < 100mV,Both,Same as SE LDO
+Part 4.3,DIFF LDO Monitor,ACCVDD1P2,1097,100,mV,|V - 1097| < 100mV,Both,Same as SE LDO
+Part 4.3,DIFF LDO Monitor,FE (LArASIC),1797,200,mV,|V - 1797| < 200mV,Both,Same as SE LDO
+Part 5,Monitor Path - RT,VSSA,150,150,mV,|V - 150| < 150mV,RT,Room Temperature 8 chips
+Part 5,Monitor Path - RT,FE Temperature,900,100,mV,|V - 900| < 100mV,RT,Room Temperature
+Part 5,Monitor Path - RT,FE Bandgap (BGP),1180,75,mV,|V - 1180| < 75mV,RT,Room Temperature
+Part 5,Monitor Path - RT,ADC VCMI,900,75,mV,|V - 900| < 75mV,RT,Room Temperature
+Part 5,Monitor Path - RT,ADC VCMO,1200,75,mV,|V - 1200| < 75mV,RT,Room Temperature
+Part 5,Monitor Path - RT,ADC VREFP,1920,75,mV,|V - 1920| < 75mV,RT,Room Temperature
+Part 5,Monitor Path - RT,ADC VREFN,470,75,mV,|V - 470| < 75mV,RT,Room Temperature
+Part 5,Monitor Path - LN,VSSA,70,150,mV,|V - 70| < 150mV,LN,Liquid Nitrogen 8 chips
+Part 5,Monitor Path - LN,FE Temperature,250,75,mV,|V - 250| < 75mV,LN,Liquid Nitrogen
+Part 5,Monitor Path - LN,FE Bandgap (BGP),1150,75,mV,|V - 1150| < 75mV,LN,Liquid Nitrogen
+Part 5,Monitor Path - LN,ADC VCMI,890,75,mV,|V - 890| < 75mV,LN,Liquid Nitrogen
+Part 5,Monitor Path - LN,ADC VCMO,1185,75,mV,|V - 1185| < 75mV,LN,Liquid Nitrogen
+Part 5,Monitor Path - LN,ADC VREFP,1930,75,mV,|V - 1930| < 75mV,LN,Liquid Nitrogen
+Part 5,Monitor Path - LN,ADC VREFN,440,75,mV,|V - 440| < 75mV,LN,Liquid Nitrogen

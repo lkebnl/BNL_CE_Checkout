@@ -8,6 +8,7 @@ import os
 import sys
 import time
 import csv
+import glob
 from datetime import datetime
 from colorama import init, Fore, Style
 
@@ -17,6 +18,7 @@ import GUI.Rigol_DP800 as rigol
 import GUI.pop_window as pop
 from qc_utils import QC_Process
 from qc_results import analyze_test_results, display_qc_results
+import components.assembly_log as assembly_log
 
 # Image paths for instruction popups
 IMG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'GUI', 'output_pngs')
@@ -71,6 +73,7 @@ def print_status(status_type, message):
 def scan_femb_qr_codes():
     """
     Scan QR codes for all 4 FEMB slots.
+    Includes visual inspection before each FEMB pickup.
     Returns a dictionary with slot assignments.
     """
     print_header("FEMB QR Code Scanning")
@@ -78,26 +81,52 @@ def scan_femb_qr_codes():
     print(Fore.YELLOW + "Click 'Skip' or press Enter with empty field to skip empty slots.\n" + Style.RESET_ALL)
 
     femb_ids = {}
-    # slot_key, display_name, image_file
+    # slot_key, display_name, install_image, visual_inspection_image
     slot_names = [
-        ("SLOT0", "Slot #1", "4.png"),
-        ("SLOT1", "Slot #2", "5.png"),
-        ("SLOT2", "Slot #3", "6.png"),
-        ("SLOT3", "Slot #4", "7.png")
+        ("SLOT0", "Slot #1", "4.png", "16.png", "P1"),
+        ("SLOT1", "Slot #2", "5.png", "16.png", "P2"),
+        ("SLOT2", "Slot #3", "6.png", "16.png", "P3"),
+        ("SLOT3", "Slot #4", "7.png", "16.png", "P4")
     ]
 
-    for slot_key, slot_desc, img_file in slot_names:
-        # Show installation instruction popup with QR input field
+    for slot_key, slot_desc, img_file, vi_img_file, position in slot_names:
         slot_num = int(slot_key[-1]) + 1
+
+        # Step 1: Show visual inspection popup BEFORE picking up FEMB
+        print(Fore.CYAN + f"\n[Visual Inspection] {slot_desc} ({position})" + Style.RESET_ALL)
+        vi_result = pop.show_visual_inspection_popup(
+            title=f"Visual Inspection - {position}",
+            image_path=os.path.join(IMG_DIR, vi_img_file),
+            slot_name=position,
+            femb_id=""  # Not known yet until QR scan
+        )
+
+        # Check if slot was skipped (no FEMB to install)
+        if vi_result.get("skipped", False):
+            print_status('info', f"{slot_desc} ({position}): Skipped (empty slot)")
+            femb_ids[slot_key] = ""
+            continue  # Skip QR scan, move to next slot
+
+        # Log visual inspection result to terminal
+        print(f"[DEBUG] vi_result = {vi_result}")  # Debug output
+        if vi_result["passed"]:
+            print_status('success', f"Visual Inspection {position}: PASS")
+        else:
+            print_status('warning', f"Visual Inspection {position}: Issue noted - {vi_result['notes']}")
+
+        # Step 2: Show installation instruction popup with QR input field
         femb_id = pop.show_input_popup(
-            title=f"Page {slot_num + 3}: Install FEMB into {slot_desc}",
+            title=f"Install FEMB into {slot_desc}",
             image_path=os.path.join(IMG_DIR, img_file),
             prompt=f"Scan FEMB QR Code for {slot_desc}:",
             require_confirmation=True
         )
 
         femb_ids[slot_key] = femb_id
+
+        # Step 3: Store visual inspection result with FEMB ID
         if femb_id:
+            assembly_log.visual_inspection_log[femb_id] = vi_result
             print_status('success', f"{slot_desc}: {femb_id}")
         else:
             print_status('info', f"{slot_desc}: Empty (skipped)")
@@ -106,17 +135,54 @@ def scan_femb_qr_codes():
     print("\n" + Fore.CYAN + "-" * 50 + Style.RESET_ALL)
     print(Fore.GREEN + "FEMB Assignment Summary:" + Style.RESET_ALL)
     installed_count = 0
-    for slot_key, slot_desc, _ in slot_names:
+    for slot_key, slot_desc, _, _, _ in slot_names:
         femb_id = femb_ids.get(slot_key, "")
         if femb_id:
-            print(f"  {slot_desc}: {Fore.GREEN}{femb_id}{Style.RESET_ALL}")
+            # Show visual inspection status
+            vi_status = assembly_log.visual_inspection_log.get(femb_id, {})
+            vi_text = "VI:PASS" if vi_status.get("passed", True) else "VI:ISSUE"
+            vi_color = Fore.GREEN if vi_status.get("passed", True) else Fore.YELLOW
+            print(f"  {slot_desc}: {Fore.GREEN}{femb_id}{Style.RESET_ALL} [{vi_color}{vi_text}{Style.RESET_ALL}]")
             installed_count += 1
         else:
             print(f"  {slot_desc}: {Fore.YELLOW}Empty{Style.RESET_ALL}")
 
     print(f"\nTotal FEMBs installed: {Fore.GREEN}{installed_count}{Style.RESET_ALL}")
 
+    # Save visual inspection data to JSON file for WIB
+    save_visual_inspection_json(femb_ids)
+
     return femb_ids
+
+
+def save_visual_inspection_json(femb_ids):
+    """
+    Save visual inspection data to a JSON file that will be sent to WIB.
+    The WIB will read this file when generating reports.
+    """
+    import json
+
+    vi_data = {}
+    for slot_key in ['SLOT0', 'SLOT1', 'SLOT2', 'SLOT3']:
+        femb_id = femb_ids.get(slot_key, '')
+        if femb_id:
+            vi_result = assembly_log.visual_inspection_log.get(femb_id, {})
+            vi_data[femb_id] = {
+                "passed": vi_result.get("passed", True),
+                "notes": vi_result.get("notes", ""),
+                "checked_parts": vi_result.get("checked_parts", [1, 2, 3, 4, 5]),
+                "slot": slot_key
+            }
+
+    # Save to JSON file
+    json_path = os.path.join(BASE_DIR, 'visual_inspection.json')
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump(vi_data, f, indent=2)
+
+    print_status('success', f"Visual inspection data saved to {json_path}")
+    print(f"[DEBUG] VI JSON content: {vi_data}")
+
+    return json_path
 
 
 def save_config(tester_name, tester_email, femb_ids, init_config):
@@ -158,6 +224,123 @@ def save_config(tester_name, tester_email, femb_ids, init_config):
         print(csv_data)
 
     return csv_data
+
+
+def inject_visual_inspection_to_reports(report_path, inform):
+    """
+    Inject visual inspection results into HTML reports after they are generated.
+    This is needed because the report is generated remotely and doesn't have access
+    to the local visual_inspection_log.
+    """
+    print(f"\n[DEBUG INJECTION] ========== START ==========")
+    print(f"[DEBUG INJECTION] report_path = {report_path}")
+    print(f"[DEBUG INJECTION] report_path type = {type(report_path)}")
+    print(f"[DEBUG INJECTION] inform SLOT keys:")
+    for sk in ['SLOT0', 'SLOT1', 'SLOT2', 'SLOT3']:
+        print(f"[DEBUG INJECTION]   {sk} = '{inform.get(sk, '')}'")
+    print(f"[DEBUG INJECTION] visual_inspection_log keys = {list(assembly_log.visual_inspection_log.keys())}")
+    print(f"[DEBUG INJECTION] visual_inspection_log content = {dict(assembly_log.visual_inspection_log)}")
+
+    if not report_path:
+        print_status('warning', "No report path provided for visual inspection injection")
+        return
+
+    # Handle if report_path is a list
+    if isinstance(report_path, list):
+        search_paths = report_path
+    else:
+        search_paths = [report_path]
+
+    # Find all HTML report files
+    html_files = []
+    for path in search_paths:
+        if path and os.path.exists(path):
+            found = glob.glob(os.path.join(path, "**", "report_FEMB_*.html"), recursive=True)
+            html_files.extend(found)
+            print(f"[DEBUG INJECTION] Searching in: {path}")
+            print(f"[DEBUG INJECTION] Found {len(found)} HTML files: {found}")
+
+    if not html_files:
+        print_status('info', "No HTML report files found to inject visual inspection")
+        return
+
+    for html_file in html_files:
+        # Extract FEMB ID from filename (e.g., report_FEMB_BNL_FEMB_10-1865-1K_00020_Slot0_P.html)
+        filename = os.path.basename(html_file)
+        print(f"[DEBUG INJECTION] Processing: {filename}")
+
+        # Try to match FEMB ID from inform
+        femb_id_found = None
+        for slot_key in ['SLOT0', 'SLOT1', 'SLOT2', 'SLOT3']:
+            femb_id = inform.get(slot_key, '')
+            femb_id_normalized = femb_id.replace('/', '_') if femb_id else ''
+            print(f"[DEBUG INJECTION]   Checking {slot_key}: '{femb_id}' -> '{femb_id_normalized}' in '{filename}'?")
+            if femb_id and femb_id_normalized in filename:
+                femb_id_found = femb_id
+                print(f"[DEBUG INJECTION]   MATCH FOUND!")
+                break
+
+        if not femb_id_found:
+            print(f"[DEBUG INJECTION]   No FEMB ID match for {filename}, skipping")
+            continue
+
+        # Get visual inspection data for this FEMB
+        print(f"[DEBUG INJECTION] Looking up vi_data for key: '{femb_id_found}'")
+        vi_data = assembly_log.visual_inspection_log.get(femb_id_found, {})
+        print(f"[DEBUG INJECTION] vi_data = {vi_data}")
+        vi_passed = vi_data.get("passed", True)
+        vi_notes = vi_data.get("notes", "")
+        vi_parts = vi_data.get("checked_parts", [1, 2, 3, 4, 5])
+        print(f"[DEBUG INJECTION] vi_passed={vi_passed}, vi_notes='{vi_notes}'")
+
+        # Create visual inspection HTML section
+        if vi_passed:
+            vi_header = '<h3><span style="color: green;">PART 00 Visual Inspection &nbsp;&nbsp; &lt; Pass &gt;</span></h3>'
+        else:
+            vi_header = '<h3><span style="color: red;">PART 00 Visual Inspection &nbsp;&nbsp; | Issue Found</span></h3>'
+
+        vi_table = "<table border='1' style='border-collapse: collapse;'>"
+        vi_table += "<tr><th>Item</th><th>Status</th></tr>"
+        vi_table += f"<tr><td>Visual Inspection Result</td><td>{'PASS' if vi_passed else 'ISSUE FOUND'}</td></tr>"
+        vi_table += f"<tr><td>Checked Parts</td><td>{', '.join(map(str, vi_parts)) if vi_parts else 'N/A'}</td></tr>"
+        if vi_notes:
+            vi_table += f"<tr><td>Issue Notes</td><td style='color: red;'>{vi_notes}</td></tr>"
+        vi_table += "</table><br><hr>"
+
+        vi_section = f"\n{vi_header}\n{vi_table}\n"
+
+        # Read the HTML file
+        try:
+            with open(html_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+
+            # Check if visual inspection section already exists
+            if "PART 00 Visual Inspection" in content:
+                continue  # Already injected
+
+            # Find insertion point - after <body> and before PART 01
+            # Try to insert before PART 01
+            if "PART 01" in content:
+                content = content.replace(
+                    "<h3>PART 01",
+                    f"{vi_section}\n<h3>PART 01"
+                )
+            elif "<body>" in content:
+                # Fallback: insert after body tag
+                content = content.replace(
+                    "<body>",
+                    f"<body>\n{vi_section}"
+                )
+
+            # Write back
+            with open(html_file, 'w', encoding='utf-8') as f:
+                f.write(content)
+
+            status_text = "PASS" if vi_passed else f"ISSUE: {vi_notes[:30]}..."
+            print_status('success', f"Injected VI into report: {filename} [{status_text}]")
+
+        except Exception as e:
+            print_status('error', f"Failed to inject VI into {filename}: {e}")
 
 
 def run_checkout_test(inform, psu):
@@ -229,6 +412,8 @@ def generate_result_summary(inform, data_path, report_path):
     ]
 
     slot_results = {}
+    visual_inspection_issues = []
+
     for slot_num in ['0', '1', '2', '3']:
         slot_key = f'SLOT{slot_num}'
         display_slot = int(slot_num) + 1
@@ -239,13 +424,19 @@ def generate_result_summary(inform, data_path, report_path):
             slot_results[slot_num] = ('empty', '')
             continue
 
+        # Check visual inspection result
+        vi_data = assembly_log.visual_inspection_log.get(femb_id, {})
+        vi_status = "VI:OK" if vi_data.get("passed", True) else "VI:ISSUE"
+        if not vi_data.get("passed", True):
+            visual_inspection_issues.append((display_slot, femb_id, vi_data.get("notes", "")))
+
         if slot_num in result.slot_status:
             passed, _ = result.slot_status[slot_num]
             status = "PASS" if passed else "FAIL"
-            summary_lines.append(f"  Slot {display_slot} ({femb_id}): {status}")
+            summary_lines.append(f"  Slot {display_slot} ({femb_id}): {status} [{vi_status}]")
             slot_results[slot_num] = ('pass' if passed else 'fail', femb_id)
         else:
-            summary_lines.append(f"  Slot {display_slot} ({femb_id}): No test data")
+            summary_lines.append(f"  Slot {display_slot} ({femb_id}): No test data [{vi_status}]")
             slot_results[slot_num] = ('no_data', femb_id)
 
     summary_lines.extend([
@@ -260,6 +451,17 @@ def generate_result_summary(inform, data_path, report_path):
         for slot_num, femb_id in failed_slots:
             display_slot = int(slot_num) + 1
             summary_lines.append(f"  - Slot {display_slot}: {femb_id}")
+
+    # Add visual inspection issues section
+    if visual_inspection_issues:
+        summary_lines.extend([
+            "",
+            "-" * 60,
+            "VISUAL INSPECTION ISSUES:",
+            "-" * 60,
+        ])
+        for slot, femb_id, notes in visual_inspection_issues:
+            summary_lines.append(f"  Slot {slot} ({femb_id}): {notes}")
 
     summary_text = "\n".join(summary_lines)
     return all_passed, summary_text, slot_results
@@ -459,6 +661,10 @@ def main():
         # Step 4: Run checkout test
         print_step(4, 5, "Running Checkout Test")
         data_path, report_path = run_checkout_test(inform, psu)
+
+        # Inject visual inspection results into HTML reports
+        print_status('info', "Injecting visual inspection results into reports...")
+        inject_visual_inspection_to_reports(report_path, inform)
 
         # Step 5: Generate results and send email
         print_step(5, 6, "Generating Results and Sending Email")

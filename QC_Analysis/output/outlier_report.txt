@@ -1,0 +1,2241 @@
+================================================================================
+FEMB QC Outlier Detection Report
+================================================================================
+
+Total boards with outliers: 114
+
+------------------------------------------------------------
+FEMB ID: J00011
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/21_20_03_02_CTS_BNL_S0J00011_S100043_RT_CHK/Report/FEMBJ00011_RT_PCB_Based/DataBase_FEMB_J00011_S0_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.93
+    MAD: 0.26
+    Outlier count: 1
+    Channels:
+      CH 15 (Chip0): value=12.67, deviation=1.74, z_score=4.48
+
+------------------------------------------------------------
+FEMB ID: 00043
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/21_20_03_02_CTS_BNL_S0J00011_S100043_RT_CHK/Report/FEMB00043_RT_PCB_Based/DataBase_FEMB_00043_S1_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.29
+    MAD: 0.28
+    Outlier count: 1
+    Channels:
+      CH104 (Chip6): value=4.31, deviation=6.98, z_score=17.03
+
+  ped:
+    Median: 942.58
+    MAD: 74.72
+    Outlier count: 1
+    Channels:
+      CH104 (Chip6): value=7181.94, deviation=6239.36, z_score=56.32
+
+  PPK_mean:
+    Median: 12846.50
+    MAD: 75.50
+    Outlier count: 1
+    Channels:
+      CH104 (Chip6): value=11565.00, deviation=1281.50, z_score=11.45
+
+  NPK_mean:
+    Median: 4415.50
+    MAD: 68.00
+    Outlier count: 1
+    Channels:
+      CH104 (Chip6): value=11418.00, deviation=7002.50, z_score=69.46
+
+  BL_mean:
+    Median: 8626.00
+    MAD: 62.00
+    Outlier count: 1
+    Channels:
+      CH104 (Chip6): value=11492.00, deviation=2866.00, z_score=31.18
+
+------------------------------------------------------------
+FEMB ID: 00043
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/21_18_43_11_CTS_BNL_S000043_RT_CHK/Report/FEMB00043_RT_PCB_Based/DataBase_FEMB_00043_S0_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.19
+    MAD: 0.28
+    Outlier count: 1
+    Channels:
+      CH104 (Chip6): value=4.25, deviation=6.95, z_score=16.65
+
+  ped:
+    Median: 963.66
+    MAD: 72.59
+    Outlier count: 1
+    Channels:
+      CH104 (Chip6): value=7184.58, deviation=6220.92, z_score=57.81
+
+  PPK_mean:
+    Median: 12859.00
+    MAD: 77.50
+    Outlier count: 1
+    Channels:
+      CH104 (Chip6): value=11559.00, deviation=1300.00, z_score=11.31
+
+  NPK_mean:
+    Median: 4427.50
+    MAD: 70.50
+    Outlier count: 1
+    Channels:
+      CH104 (Chip6): value=11414.00, deviation=6986.50, z_score=66.84
+
+  BL_mean:
+    Median: 8640.50
+    MAD: 62.00
+    Outlier count: 1
+    Channels:
+      CH104 (Chip6): value=11488.00, deviation=2847.50, z_score=30.98
+
+------------------------------------------------------------
+FEMB ID: 1865-1D-0068
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/24_04_01_15_CTS_BNL_S01865-1D-0068_RT_CHK/Report/FEMB1865-1D-0068_RT_PCB_Based/DataBase_FEMB_1865-1D-0068_S0_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.60
+    MAD: 0.38
+    Outlier count: 1
+    Channels:
+      CH 47 (Chip2): value=5.03, deviation=5.57, z_score=9.95
+
+  ped:
+    Median: 991.36
+    MAD: 62.91
+    Outlier count: 1
+    Channels:
+      CH 47 (Chip2): value=7552.29, deviation=6560.93, z_score=70.34
+
+  PPK_mean:
+    Median: 12911.00
+    MAD: 72.00
+    Outlier count: 1
+    Channels:
+      CH 47 (Chip2): value=11875.00, deviation=1036.00, z_score=9.71
+
+  NPK_mean:
+    Median: 4497.00
+    MAD: 58.00
+    Outlier count: 1
+    Channels:
+      CH 47 (Chip2): value=11782.00, deviation=7285.00, z_score=84.72
+
+  BL_mean:
+    Median: 8706.50
+    MAD: 52.00
+    Outlier count: 1
+    Channels:
+      CH 47 (Chip2): value=11826.00, deviation=3119.50, z_score=40.46
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_I0-1865-1G_00070
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_21_11_07_CTS_BNL_S0BNL_FEMB_IO-1865-1G00036_S1BNL_FEMB_I0-1865-1G_00062_S2BNL_FEMB_I0-1865-1G_00072_S3BNL_FEMB_I0-1865-1G_00070_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1G_00070_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1G_00070_S3_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.82
+    MAD: 0.28
+    Outlier count: 1
+    Channels:
+      CH 63 (Chip3): value=12.26, deviation=1.44, z_score=3.45
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_I0-1865-1G_00062
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_21_11_07_CTS_BNL_S0BNL_FEMB_IO-1865-1G00036_S1BNL_FEMB_I0-1865-1G_00062_S2BNL_FEMB_I0-1865-1G_00072_S3BNL_FEMB_I0-1865-1G_00070_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1G_00062_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1G_00062_S1_P.csv
+
+Outlier Channels:
+
+  PPK_mean:
+    Median: 12905.50
+    MAD: 58.00
+    Outlier count: 1
+    Channels:
+      CH 56 (Chip3): value=12599.00, deviation=306.50, z_score=3.56
+
+  BL_mean:
+    Median: 8660.50
+    MAD: 50.50
+    Outlier count: 1
+    Channels:
+      CH 62 (Chip3): value=8408.00, deviation=252.50, z_score=3.37
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_I0-1865-1J_00003
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_23_10_54_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00013_S1BNL_FEMB_I0-1865-1J_00003_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00003_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00003_S1_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 12.22
+    MAD: 0.29
+    Outlier count: 1
+    Channels:
+      CH 18 (Chip1): value=13.59, deviation=1.37, z_score=3.16
+
+  ped:
+    Median: 904.30
+    MAD: 63.60
+    Outlier count: 2
+    Channels:
+      CH 16 (Chip1): value=1228.59, deviation=324.29, z_score=3.44
+      CH 88 (Chip5): value=1288.49, deviation=384.20, z_score=4.07
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_I0-1865-1J_00013
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_23_10_54_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00013_S1BNL_FEMB_I0-1865-1J_00003_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00013_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00013_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 911.69
+    MAD: 51.67
+    Outlier count: 4
+    Channels:
+      CH 56 (Chip3): value=1211.12, deviation=299.43, z_score=3.91
+      CH 72 (Chip4): value=1172.67, deviation=260.98, z_score=3.41
+      CH 88 (Chip5): value=1217.93, deviation=306.23, z_score=4.00
+      CH112 (Chip7): value=1199.62, deviation=287.93, z_score=3.76
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_I0-1865-1J_00004
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_21_45_49_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00010_S100025_S200047_S3BNL_FEMB_I0-1865-1J_00004_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00004_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00004_S3_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.18
+    MAD: 0.24
+    Outlier count: 2
+    Channels:
+      CH 15 (Chip0): value=12.40, deviation=1.23, z_score=3.45
+      CH 43 (Chip2): value=4.34, deviation=6.83, z_score=19.27
+
+  ped:
+    Median: 904.60
+    MAD: 79.86
+    Outlier count: 1
+    Channels:
+      CH 43 (Chip2): value=7273.91, deviation=6369.32, z_score=53.80
+
+  PPK_mean:
+    Median: 12812.00
+    MAD: 79.50
+    Outlier count: 1
+    Channels:
+      CH 43 (Chip2): value=11679.00, deviation=1133.00, z_score=9.61
+
+  NPK_mean:
+    Median: 4405.00
+    MAD: 65.50
+    Outlier count: 1
+    Channels:
+      CH 43 (Chip2): value=11573.00, deviation=7168.00, z_score=73.81
+
+  BL_mean:
+    Median: 8605.00
+    MAD: 62.00
+    Outlier count: 1
+    Channels:
+      CH 43 (Chip2): value=11626.00, deviation=3021.00, z_score=32.87
+
+------------------------------------------------------------
+FEMB ID: 00025
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_21_45_49_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00010_S100025_S200047_S3BNL_FEMB_I0-1865-1J_00004_RT_CHK/Report/FEMB00025_RT_PCB_Based/DataBase_FEMB_00025_S1_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 854.63
+    MAD: 73.94
+    Outlier count: 1
+    Channels:
+      CH 13 (Chip0): value=1432.67, deviation=578.05, z_score=5.27
+
+  NPK_mean:
+    Median: 4430.50
+    MAD: 67.00
+    Outlier count: 2
+    Channels:
+      CH 13 (Chip0): value=4847.00, deviation=416.50, z_score=4.19
+      CH 25 (Chip1): value=4067.00, deviation=363.50, z_score=3.66
+
+  BL_mean:
+    Median: 8635.00
+    MAD: 56.00
+    Outlier count: 1
+    Channels:
+      CH 13 (Chip0): value=8993.00, deviation=358.00, z_score=4.31
+
+------------------------------------------------------------
+FEMB ID: 00047
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_21_45_49_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00010_S100025_S200047_S3BNL_FEMB_I0-1865-1J_00004_RT_CHK/Report/FEMB00047_RT_PCB_Based/DataBase_FEMB_00047_S2_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 903.47
+    MAD: 57.77
+    Outlier count: 1
+    Channels:
+      CH 40 (Chip2): value=1193.48, deviation=290.01, z_score=3.39
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_I0-1865-1J_00010
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_21_45_49_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00010_S100025_S200047_S3BNL_FEMB_I0-1865-1J_00004_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00010_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00010_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 903.56
+    MAD: 71.71
+    Outlier count: 1
+    Channels:
+      CH  8 (Chip0): value=1277.38, deviation=373.82, z_score=3.52
+
+  NPK_mean:
+    Median: 4424.00
+    MAD: 58.00
+    Outlier count: 1
+    Channels:
+      CH 86 (Chip5): value=4149.00, deviation=275.00, z_score=3.20
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1G00042
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_20_36_27_CTS_BNL_S0BNL_FEMB_IO-1865-1G00018_S1BNL_FEMB_I0-1865-1J_00015_S2BNL_FEMB_IO-1865-1G00042_S3BNL_FEMB_IO-1865-1G00033_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1G00042_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1G00042_S2_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.75
+    MAD: 0.32
+    Outlier count: 1
+    Channels:
+      CH 15 (Chip0): value=12.35, deviation=1.60, z_score=3.42
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1G00018
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_20_36_27_CTS_BNL_S0BNL_FEMB_IO-1865-1G00018_S1BNL_FEMB_I0-1865-1J_00015_S2BNL_FEMB_IO-1865-1G00042_S3BNL_FEMB_IO-1865-1G00033_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1G00018_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1G00018_S0_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.86
+    MAD: 0.31
+    Outlier count: 1
+    Channels:
+      CH 88 (Chip5): value=9.43, deviation=1.43, z_score=3.10
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1G00033
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/01_20_36_27_CTS_BNL_S0BNL_FEMB_IO-1865-1G00018_S1BNL_FEMB_I0-1865-1J_00015_S2BNL_FEMB_IO-1865-1G00042_S3BNL_FEMB_IO-1865-1G00033_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1G00033_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1G00033_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 921.88
+    MAD: 52.24
+    Outlier count: 1
+    Channels:
+      CH  0 (Chip0): value=1204.28, deviation=282.40, z_score=3.65
+
+------------------------------------------------------------
+FEMB ID: G00061
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/20_18_28_33_CTS_BNL_S0IO-1865-1D_00015_S1G00061_S2G00014_S3G00071_RT_CHK/Report/FEMBG00061_RT_PCB_Based/DataBase_FEMB_G00061_S1_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 915.62
+    MAD: 62.95
+    Outlier count: 1
+    Channels:
+      CH 24 (Chip1): value=1239.41, deviation=323.79, z_score=3.47
+
+  NPK_mean:
+    Median: 4458.50
+    MAD: 57.50
+    Outlier count: 1
+    Channels:
+      CH 96 (Chip6): value=4765.00, deviation=306.50, z_score=3.60
+
+------------------------------------------------------------
+FEMB ID: G00071
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/20_18_28_33_CTS_BNL_S0IO-1865-1D_00015_S1G00061_S2G00014_S3G00071_RT_CHK/Report/FEMBG00071_RT_PCB_Based/DataBase_FEMB_G00071_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 906.35
+    MAD: 62.24
+    Outlier count: 1
+    Channels:
+      CH 32 (Chip2): value=1220.31, deviation=313.96, z_score=3.40
+
+------------------------------------------------------------
+FEMB ID: IO-1865-1D_00015
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/20_18_28_33_CTS_BNL_S0IO-1865-1D_00015_S1G00061_S2G00014_S3G00071_RT_CHK/Report/FEMBIO-1865-1D_00015_RT_PCB_Based/DataBase_FEMB_IO-1865-1D_00015_S0_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.52
+    MAD: 0.33
+    Outlier count: 1
+    Channels:
+      CH 14 (Chip0): value=12.15, deviation=1.63, z_score=3.30
+
+------------------------------------------------------------
+FEMB ID: G00014
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/20_18_28_33_CTS_BNL_S0IO-1865-1D_00015_S1G00061_S2G00014_S3G00071_RT_CHK/Report/FEMBG00014_RT_PCB_Based/DataBase_FEMB_G00014_S2_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.65
+    MAD: 0.25
+    Outlier count: 1
+    Channels:
+      CH  0 (Chip0): value=9.32, deviation=1.33, z_score=3.63
+
+  ped:
+    Median: 881.48
+    MAD: 51.43
+    Outlier count: 1
+    Channels:
+      CH112 (Chip7): value=1194.77, deviation=313.30, z_score=4.11
+
+------------------------------------------------------------
+FEMB ID: G00025
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/20_21_52_14_CTS_BNL_S0G00025_S1IO-1865-1D_00075_S2G00027_S3G00022_RT_CHK/Report/FEMBG00025_RT_PCB_Based/DataBase_FEMB_G00025_S0_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.72
+    MAD: 0.33
+    Outlier count: 1
+    Channels:
+      CH 11 (Chip0): value=12.50, deviation=1.78, z_score=3.65
+
+  ped:
+    Median: 892.99
+    MAD: 63.81
+    Outlier count: 1
+    Channels:
+      CH 24 (Chip1): value=1218.13, deviation=325.14, z_score=3.44
+
+------------------------------------------------------------
+FEMB ID: G00022
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/20_21_52_14_CTS_BNL_S0G00025_S1IO-1865-1D_00075_S2G00027_S3G00022_RT_CHK/Report/FEMBG00022_RT_PCB_Based/DataBase_FEMB_G00022_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 956.13
+    MAD: 61.09
+    Outlier count: 2
+    Channels:
+      CH 32 (Chip2): value=1281.49, deviation=325.36, z_score=3.59
+      CH 96 (Chip6): value=1261.83, deviation=305.71, z_score=3.38
+
+------------------------------------------------------------
+FEMB ID: IO-1865-1D_00075
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_04/20_21_52_14_CTS_BNL_S0G00025_S1IO-1865-1D_00075_S2G00027_S3G00022_RT_CHK/Report/FEMBIO-1865-1D_00075_RT_PCB_Based/DataBase_FEMB_IO-1865-1D_00075_S1_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 980.26
+    MAD: 82.85
+    Outlier count: 1
+    Channels:
+      CH 46 (Chip2): value=530.31, deviation=449.95, z_score=3.66
+
+  PPK_mean:
+    Median: 12862.00
+    MAD: 66.00
+    Outlier count: 1
+    Channels:
+      CH 46 (Chip2): value=12490.00, deviation=372.00, z_score=3.80
+
+  BL_mean:
+    Median: 8669.50
+    MAD: 53.00
+    Outlier count: 1
+    Channels:
+      CH 46 (Chip2): value=8326.00, deviation=343.50, z_score=4.37
+
+------------------------------------------------------------
+FEMB ID: 865-1G-05
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_01/20_19_48_00_CTS_BNL_S01865-1G-30_S11865-1J-41_S21865-1J-06_S31865-1G-05_RT_CHK/Report/FEMB1865-1G-05_RT_PCB_Based/DataBase_FEMB_865-1G-05_S3_P.csv
+
+Outlier Channels:
+
+  PPK_mean:
+    Median: 12894.00
+    MAD: 68.00
+    Outlier count: 1
+    Channels:
+      CH 89 (Chip5): value=12557.00, deviation=337.00, z_score=3.34
+
+  BL_mean:
+    Median: 8669.50
+    MAD: 52.00
+    Outlier count: 1
+    Channels:
+      CH 89 (Chip5): value=8359.00, deviation=310.50, z_score=4.03
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00061
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_41_22_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00034_S1BNL_FEMB_IO-1826-1L_00039_S2BNL_FEMB_IO-1826-1L_00061_S3BNL_FEMB_IO-1826-1L_00040_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00061_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00061_S2_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 920.42
+    MAD: 63.94
+    Outlier count: 1
+    Channels:
+      CH 72 (Chip4): value=1598.69, deviation=678.27, z_score=7.15
+
+  PPK_mean:
+    Median: 12739.00
+    MAD: 58.00
+    Outlier count: 1
+    Channels:
+      CH 72 (Chip4): value=13223.00, deviation=484.00, z_score=5.63
+
+  NPK_mean:
+    Median: 4395.50
+    MAD: 56.50
+    Outlier count: 1
+    Channels:
+      CH 72 (Chip4): value=5033.00, deviation=637.50, z_score=7.61
+
+  BL_mean:
+    Median: 8566.00
+    MAD: 47.00
+    Outlier count: 1
+    Channels:
+      CH 72 (Chip4): value=9122.00, deviation=556.00, z_score=7.98
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00039
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_41_22_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00034_S1BNL_FEMB_IO-1826-1L_00039_S2BNL_FEMB_IO-1826-1L_00061_S3BNL_FEMB_IO-1826-1L_00040_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00039_S1_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.18
+    MAD: 0.26
+    Outlier count: 1
+    Channels:
+      CH  5 (Chip0): value=12.63, deviation=1.45, z_score=3.69
+
+  ped:
+    Median: 888.05
+    MAD: 59.75
+    Outlier count: 1
+    Channels:
+      CH109 (Chip6): value=1289.33, deviation=401.28, z_score=4.53
+
+  NPK_mean:
+    Median: 4439.50
+    MAD: 54.50
+    Outlier count: 1
+    Channels:
+      CH109 (Chip6): value=4745.00, deviation=305.50, z_score=3.78
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_I0-1865-1J_00013
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/27_18_59_12_CTS_BNL_S3BNL_FEMB_I0-1865-1J_00013_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00013_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00013_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 976.94
+    MAD: 47.59
+    Outlier count: 3
+    Channels:
+      CH 56 (Chip3): value=1263.29, deviation=286.35, z_score=4.06
+      CH 88 (Chip5): value=1261.35, deviation=284.41, z_score=4.03
+      CH112 (Chip7): value=1242.98, deviation=266.03, z_score=3.77
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_I0-1865-1J_00013
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/27_16_54_57_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00013_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00013_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00013_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 962.52
+    MAD: 48.27
+    Outlier count: 3
+    Channels:
+      CH 56 (Chip3): value=1250.89, deviation=288.38, z_score=4.03
+      CH 88 (Chip5): value=1249.13, deviation=286.62, z_score=4.00
+      CH112 (Chip7): value=1231.12, deviation=268.61, z_score=3.75
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00017
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/27_23_48_32_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00062_S1BNL_FEMB_IO-1826-1L_00047_S2BNL_FEMB_IO-1826-1L_00017_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00017_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00017_S2_P.csv
+
+Outlier Channels:
+
+  PPK_mean:
+    Median: 12778.50
+    MAD: 57.00
+    Outlier count: 3
+    Channels:
+      CH 96 (Chip6): value=12334.00, deviation=444.50, z_score=5.26
+      CH104 (Chip6): value=12459.00, deviation=319.50, z_score=3.78
+      CH110 (Chip6): value=12431.00, deviation=347.50, z_score=4.11
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00062
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/27_23_48_32_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00062_S1BNL_FEMB_IO-1826-1L_00047_S2BNL_FEMB_IO-1826-1L_00017_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00062_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00062_S0_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.19
+    MAD: 0.29
+    Outlier count: 1
+    Channels:
+      CH 88 (Chip5): value=9.24, deviation=1.95, z_score=4.58
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00047
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/27_23_48_32_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00062_S1BNL_FEMB_IO-1826-1L_00047_S2BNL_FEMB_IO-1826-1L_00017_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00047_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00047_S1_P.csv
+
+Outlier Channels:
+
+  BL_mean:
+    Median: 8571.00
+    MAD: 38.00
+    Outlier count: 1
+    Channels:
+      CH 11 (Chip0): value=8848.00, deviation=277.00, z_score=4.92
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00046
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/27_23_48_32_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00062_S1BNL_FEMB_IO-1826-1L_00047_S2BNL_FEMB_IO-1826-1L_00017_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00046_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00046_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 869.69
+    MAD: 68.90
+    Outlier count: 1
+    Channels:
+      CH 95 (Chip5): value=1810.15, deviation=940.46, z_score=9.21
+
+  PPK_mean:
+    Median: 12735.50
+    MAD: 53.00
+    Outlier count: 1
+    Channels:
+      CH 95 (Chip5): value=13124.00, deviation=388.50, z_score=4.94
+
+  NPK_mean:
+    Median: 4376.00
+    MAD: 56.00
+    Outlier count: 1
+    Channels:
+      CH 95 (Chip5): value=5025.00, deviation=649.00, z_score=7.82
+
+  BL_mean:
+    Median: 8553.50
+    MAD: 45.00
+    Outlier count: 1
+    Channels:
+      CH 95 (Chip5): value=9071.00, deviation=517.50, z_score=7.76
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00044
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_15_07_33_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00024_S1BNL_FEMB_IO-1826-1L_00044_S2BNL_FEMB_IO-1826-1L_00019_S3BNL_FEMB_IO-1826-1L_00057_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00044_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00044_S1_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 914.34
+    MAD: 61.02
+    Outlier count: 1
+    Channels:
+      CH 72 (Chip4): value=1238.61, deviation=324.27, z_score=3.58
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00019
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_15_07_33_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00024_S1BNL_FEMB_IO-1826-1L_00044_S2BNL_FEMB_IO-1826-1L_00019_S3BNL_FEMB_IO-1826-1L_00057_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00019_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00019_S2_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.23
+    MAD: 0.27
+    Outlier count: 1
+    Channels:
+      CH 13 (Chip0): value=12.56, deviation=1.33, z_score=3.29
+
+  NPK_mean:
+    Median: 4420.00
+    MAD: 50.50
+    Outlier count: 1
+    Channels:
+      CH 33 (Chip2): value=4143.00, deviation=277.00, z_score=3.70
+
+  BL_mean:
+    Median: 8591.00
+    MAD: 42.00
+    Outlier count: 1
+    Channels:
+      CH 33 (Chip2): value=8337.00, deviation=254.00, z_score=4.08
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00024
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_15_07_33_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00024_S1BNL_FEMB_IO-1826-1L_00044_S2BNL_FEMB_IO-1826-1L_00019_S3BNL_FEMB_IO-1826-1L_00057_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00024_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00024_S0_P.csv
+
+Outlier Channels:
+
+  BL_mean:
+    Median: 8572.00
+    MAD: 44.00
+    Outlier count: 2
+    Channels:
+      CH 57 (Chip3): value=8339.00, deviation=233.00, z_score=3.57
+      CH 68 (Chip4): value=8807.00, deviation=235.00, z_score=3.60
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00049
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_19_55_11_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00063_S1BNL_FEMB_IO-1826-1L_00049_S2BNL_FEMB_IO-1826-1L_00029_S3BNL_FEMB_IO-1826-1L_00020_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00049_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00049_S1_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 902.70
+    MAD: 63.00
+    Outlier count: 1
+    Channels:
+      CH120 (Chip7): value=1247.25, deviation=344.55, z_score=3.69
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00020
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_19_55_11_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00063_S1BNL_FEMB_IO-1826-1L_00049_S2BNL_FEMB_IO-1826-1L_00029_S3BNL_FEMB_IO-1826-1L_00020_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00020_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00020_S3_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.20
+    MAD: 0.28
+    Outlier count: 1
+    Channels:
+      CH 88 (Chip5): value=9.77, deviation=1.43, z_score=3.48
+
+  ped:
+    Median: 927.85
+    MAD: 62.57
+    Outlier count: 1
+    Channels:
+      CH120 (Chip7): value=1287.15, deviation=359.29, z_score=3.87
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00063
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_19_55_11_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00063_S1BNL_FEMB_IO-1826-1L_00049_S2BNL_FEMB_IO-1826-1L_00029_S3BNL_FEMB_IO-1826-1L_00020_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00063_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00063_S0_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.22
+    MAD: 0.22
+    Outlier count: 1
+    Channels:
+      CH113 (Chip7): value=12.64, deviation=1.42, z_score=4.26
+
+  PPK_mean:
+    Median: 12752.00
+    MAD: 55.00
+    Outlier count: 1
+    Channels:
+      CH 24 (Chip1): value=12464.00, deviation=288.00, z_score=3.53
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00045
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_14_53_56_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00013_S1BNL_FEMB_IO-1826-1L_00048_S2BNL_FEMB_IO-1826-1L_00045_S3BNL_FEMB_IO-1826-1L_00035_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00045_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00045_S2_P.csv
+
+Outlier Channels:
+
+  PPK_mean:
+    Median: 12719.00
+    MAD: 54.00
+    Outlier count: 1
+    Channels:
+      CH 50 (Chip3): value=13002.00, deviation=283.00, z_score=3.53
+
+  NPK_mean:
+    Median: 4418.00
+    MAD: 49.50
+    Outlier count: 1
+    Channels:
+      CH 40 (Chip2): value=4669.00, deviation=251.00, z_score=3.42
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00035
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_14_53_56_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00013_S1BNL_FEMB_IO-1826-1L_00048_S2BNL_FEMB_IO-1826-1L_00045_S3BNL_FEMB_IO-1826-1L_00035_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00035_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00035_S3_P.csv
+
+Outlier Channels:
+
+  PPK_mean:
+    Median: 12770.00
+    MAD: 49.00
+    Outlier count: 1
+    Channels:
+      CH112 (Chip7): value=12520.00, deviation=250.00, z_score=3.44
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00013
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_14_53_56_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00013_S1BNL_FEMB_IO-1826-1L_00048_S2BNL_FEMB_IO-1826-1L_00045_S3BNL_FEMB_IO-1826-1L_00035_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00013_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00013_S0_P.csv
+
+Outlier Channels:
+
+  PPK_mean:
+    Median: 12687.00
+    MAD: 53.00
+    Outlier count: 1
+    Channels:
+      CH112 (Chip7): value=12414.00, deviation=273.00, z_score=3.47
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00059
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_15_36_06_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00032_S1BNL_FEMB_IO-1826-1L_00059_S2BNL_FEMB_IO-1826-1L_00053_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00059_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00059_S1_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.08
+    MAD: 0.29
+    Outlier count: 1
+    Channels:
+      CH 67 (Chip4): value=0.00, deviation=11.08, z_score=25.53
+
+  ped:
+    Median: 889.40
+    MAD: 81.96
+    Outlier count: 1
+    Channels:
+      CH 67 (Chip4): value=0.00, deviation=889.40, z_score=7.32
+
+  PPK_mean:
+    Median: 12753.50
+    MAD: 82.00
+    Outlier count: 1
+    Channels:
+      CH 67 (Chip4): value=0.00, deviation=12753.50, z_score=104.91
+
+  NPK_mean:
+    Median: 4388.00
+    MAD: 54.00
+    Outlier count: 1
+    Channels:
+      CH 67 (Chip4): value=0.00, deviation=4388.00, z_score=54.81
+
+  BL_mean:
+    Median: 8570.50
+    MAD: 48.50
+    Outlier count: 1
+    Channels:
+      CH 67 (Chip4): value=0.00, deviation=8570.50, z_score=119.19
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00032
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_15_36_06_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00032_S1BNL_FEMB_IO-1826-1L_00059_S2BNL_FEMB_IO-1826-1L_00053_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00032_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00032_S0_P.csv
+
+Outlier Channels:
+
+  NPK_mean:
+    Median: 4435.50
+    MAD: 58.50
+    Outlier count: 2
+    Channels:
+      CH 48 (Chip3): value=4739.00, deviation=303.50, z_score=3.50
+      CH 56 (Chip3): value=4730.00, deviation=294.50, z_score=3.40
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00008
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_24_19_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00041_S1BNL_FEMB_IO-1826-1L_00004_S2BNL_FEMB_IO-1826-1L_00008_S3BNL_FEMB_IO-1826-1L_00056_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00008_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00008_S2_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.27
+    MAD: 0.24
+    Outlier count: 1
+    Channels:
+      CH 66 (Chip4): value=12.61, deviation=1.34, z_score=3.70
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00004
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_24_19_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00041_S1BNL_FEMB_IO-1826-1L_00004_S2BNL_FEMB_IO-1826-1L_00008_S3BNL_FEMB_IO-1826-1L_00056_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00004_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00004_S1_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.32
+    MAD: 0.26
+    Outlier count: 1
+    Channels:
+      CH 26 (Chip1): value=15.09, deviation=3.77, z_score=9.64
+
+  ped:
+    Median: 855.41
+    MAD: 66.33
+    Outlier count: 1
+    Channels:
+      CH 26 (Chip1): value=1443.61, deviation=588.20, z_score=5.98
+
+  PPK_mean:
+    Median: 12736.50
+    MAD: 63.00
+    Outlier count: 1
+    Channels:
+      CH 26 (Chip1): value=13227.00, deviation=490.50, z_score=5.25
+
+  NPK_mean:
+    Median: 4387.00
+    MAD: 60.50
+    Outlier count: 1
+    Channels:
+      CH 26 (Chip1): value=4994.00, deviation=607.00, z_score=6.77
+
+  BL_mean:
+    Median: 8561.50
+    MAD: 48.50
+    Outlier count: 1
+    Channels:
+      CH 26 (Chip1): value=9107.00, deviation=545.50, z_score=7.59
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00041
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_24_19_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00041_S1BNL_FEMB_IO-1826-1L_00004_S2BNL_FEMB_IO-1826-1L_00008_S3BNL_FEMB_IO-1826-1L_00056_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00041_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00041_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 894.39
+    MAD: 60.32
+    Outlier count: 1
+    Channels:
+      CH 88 (Chip5): value=1193.09, deviation=298.70, z_score=3.34
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00021
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/29_22_36_44_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00021_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00021_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00021_S0_P.csv
+
+Outlier Channels:
+
+  BL_mean:
+    Median: 8588.50
+    MAD: 37.00
+    Outlier count: 1
+    Channels:
+      CH105 (Chip6): value=8396.00, deviation=192.50, z_score=3.51
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00006
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_07_38_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00014_S1BNL_FEMB_IO-1826-1L_00007_S2BNL_FEMB_IO-1826-1L_00051_S3BNL_FEMB_IO-1826-1L_00006_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00006_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00006_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 924.28
+    MAD: 51.00
+    Outlier count: 1
+    Channels:
+      CH 48 (Chip3): value=1192.97, deviation=268.70, z_score=3.55
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00051
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_07_38_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00014_S1BNL_FEMB_IO-1826-1L_00007_S2BNL_FEMB_IO-1826-1L_00051_S3BNL_FEMB_IO-1826-1L_00006_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00051_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00051_S2_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 919.50
+    MAD: 55.39
+    Outlier count: 1
+    Channels:
+      CH 96 (Chip6): value=1202.22, deviation=282.73, z_score=3.44
+
+  BL_mean:
+    Median: 8583.50
+    MAD: 41.00
+    Outlier count: 1
+    Channels:
+      CH 95 (Chip5): value=8377.00, deviation=206.50, z_score=3.40
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00007
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_20_07_38_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00014_S1BNL_FEMB_IO-1826-1L_00007_S2BNL_FEMB_IO-1826-1L_00051_S3BNL_FEMB_IO-1826-1L_00006_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00007_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00007_S1_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 912.24
+    MAD: 56.91
+    Outlier count: 1
+    Channels:
+      CH120 (Chip7): value=1278.07, deviation=365.83, z_score=4.34
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00031
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_00_58_55_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00055_S1BNL_FEMB_IO-1826-1L_00031_S2BNL_FEMB_IO-1826-1L_00010_S3BNL_FEMB_IO-1826-1L_00054_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00031_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00031_S1_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 913.25
+    MAD: 58.29
+    Outlier count: 2
+    Channels:
+      CH 64 (Chip4): value=1253.36, deviation=340.11, z_score=3.94
+      CH 72 (Chip4): value=1216.70, deviation=303.44, z_score=3.51
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00054
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_00_58_55_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00055_S1BNL_FEMB_IO-1826-1L_00031_S2BNL_FEMB_IO-1826-1L_00010_S3BNL_FEMB_IO-1826-1L_00054_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00054_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00054_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 907.74
+    MAD: 54.66
+    Outlier count: 1
+    Channels:
+      CH104 (Chip6): value=1182.78, deviation=275.04, z_score=3.39
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00026
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_15_21_45_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00027_S1BNL_FEMB_IO-1826-1L_00001_S2BNL_FEMB_IO-1826-1L_00026_S3BNL_FEMB_IO-1826-1L_00003_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00026_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00026_S2_P.csv
+
+Outlier Channels:
+
+  PPK_mean:
+    Median: 12744.00
+    MAD: 55.00
+    Outlier count: 1
+    Channels:
+      CH 44 (Chip2): value=13073.00, deviation=329.00, z_score=4.03
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00001
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_07/28_15_21_45_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00027_S1BNL_FEMB_IO-1826-1L_00001_S2BNL_FEMB_IO-1826-1L_00026_S3BNL_FEMB_IO-1826-1L_00003_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00001_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00001_S1_P.csv
+
+Outlier Channels:
+
+  BL_mean:
+    Median: 8584.50
+    MAD: 40.50
+    Outlier count: 1
+    Channels:
+      CH 38 (Chip2): value=8330.00, deviation=254.50, z_score=4.24
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00028
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_28_06_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00028_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00028_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 924.42
+    MAD: 65.87
+    Outlier count: 1
+    Channels:
+      CH 48 (Chip3): value=1276.20, deviation=351.78, z_score=3.60
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00027
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_28_06_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00027_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00027_S0_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.63
+    MAD: 0.31
+    Outlier count: 1
+    Channels:
+      CH 34 (Chip2): value=12.26, deviation=1.62, z_score=3.54
+
+  NPK_mean:
+    Median: 4399.50
+    MAD: 45.50
+    Outlier count: 1
+    Channels:
+      CH 80 (Chip5): value=4641.00, deviation=241.50, z_score=3.58
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00019
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_28_06_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00019_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00019_S1_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 924.12
+    MAD: 57.94
+    Outlier count: 3
+    Channels:
+      CH  8 (Chip0): value=1218.88, deviation=294.76, z_score=3.43
+      CH 80 (Chip5): value=1193.44, deviation=269.32, z_score=3.14
+      CH 96 (Chip6): value=1253.58, deviation=329.46, z_score=3.84
+
+  PPK_mean:
+    Median: 12749.50
+    MAD: 54.00
+    Outlier count: 1
+    Channels:
+      CH 67 (Chip4): value=13004.00, deviation=254.50, z_score=3.18
+
+  BL_mean:
+    Median: 8590.50
+    MAD: 45.50
+    Outlier count: 1
+    Channels:
+      CH 17 (Chip1): value=8356.00, deviation=234.50, z_score=3.48
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00035
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_28_06_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00035_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00035_S2_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 901.77
+    MAD: 56.89
+    Outlier count: 1
+    Channels:
+      CH 72 (Chip4): value=1205.66, deviation=303.89, z_score=3.60
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00032
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_24_38_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00025_S1BNL_FEMB_IO-1865-1L_00039_S2BNL_FEMB_IO-1865-1L_00038_S3BNL_FEMB_IO-1865-1L_00032_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00032_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00032_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 969.61
+    MAD: 55.28
+    Outlier count: 3
+    Channels:
+      CH 16 (Chip1): value=1242.13, deviation=272.53, z_score=3.33
+      CH 40 (Chip2): value=1253.87, deviation=284.26, z_score=3.47
+      CH 88 (Chip5): value=1266.62, deviation=297.01, z_score=3.62
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00025
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_24_38_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00025_S1BNL_FEMB_IO-1865-1L_00039_S2BNL_FEMB_IO-1865-1L_00038_S3BNL_FEMB_IO-1865-1L_00032_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00025_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00025_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 940.17
+    MAD: 44.00
+    Outlier count: 4
+    Channels:
+      CH  0 (Chip0): value=1169.71, deviation=229.54, z_score=3.52
+      CH 40 (Chip2): value=1196.92, deviation=256.75, z_score=3.94
+      CH 88 (Chip5): value=1172.74, deviation=232.57, z_score=3.57
+      CH120 (Chip7): value=1172.69, deviation=232.52, z_score=3.56
+
+  BL_mean:
+    Median: 8589.50
+    MAD: 36.50
+    Outlier count: 1
+    Channels:
+      CH101 (Chip6): value=8368.00, deviation=221.50, z_score=4.09
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00028
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_50_18_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00028_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00028_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 962.43
+    MAD: 66.15
+    Outlier count: 1
+    Channels:
+      CH 48 (Chip3): value=1312.33, deviation=349.90, z_score=3.57
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00027
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_50_18_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00027_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00027_S0_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.67
+    MAD: 0.21
+    Outlier count: 2
+    Channels:
+      CH 28 (Chip1): value=9.50, deviation=1.17, z_score=3.81
+      CH120 (Chip7): value=9.40, deviation=1.27, z_score=4.13
+
+  NPK_mean:
+    Median: 4393.50
+    MAD: 42.50
+    Outlier count: 2
+    Channels:
+      CH 72 (Chip4): value=4610.00, deviation=216.50, z_score=3.44
+      CH 80 (Chip5): value=4645.00, deviation=251.50, z_score=3.99
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00019
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_50_18_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00019_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00019_S1_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 956.13
+    MAD: 56.28
+    Outlier count: 3
+    Channels:
+      CH  8 (Chip0): value=1250.53, deviation=294.40, z_score=3.53
+      CH 80 (Chip5): value=1223.00, deviation=266.87, z_score=3.20
+      CH 96 (Chip6): value=1283.07, deviation=326.95, z_score=3.92
+
+  BL_mean:
+    Median: 8595.00
+    MAD: 45.00
+    Outlier count: 1
+    Channels:
+      CH 17 (Chip1): value=8359.00, deviation=236.00, z_score=3.54
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00035
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_50_18_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00027_S1BNL_FEMB_IO-1865-1L_00019_S2BNL_FEMB_IO-1865-1L_00035_S3BNL_FEMB_IO-1865-1L_00028_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00035_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00035_S2_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 935.50
+    MAD: 56.47
+    Outlier count: 1
+    Channels:
+      CH 72 (Chip4): value=1239.51, deviation=304.00, z_score=3.63
+
+------------------------------------------------------------
+FEMB ID: J00027
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/30_21_08_16_CTS_BNL_S0J00027_S1J00055_S2G00017_S3IO-1865-1D_00013_RT_CHK/Report/FEMBJ00027_RT_PCB_Based/DataBase_FEMB_J00027_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 910.38
+    MAD: 56.49
+    Outlier count: 2
+    Channels:
+      CH 24 (Chip1): value=1237.00, deviation=326.62, z_score=3.90
+      CH 88 (Chip5): value=1225.57, deviation=315.19, z_score=3.76
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00012
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_23_18_44_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00031_S1BNL_FEMB_IO-1865-1L_00012_S2BNL_FEMB_IO-1865-1L_00016_S3BNL_FEMB_IO-1865-1L_00003_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00012_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00012_S1_P.csv
+
+Outlier Channels:
+
+  PPK_mean:
+    Median: 12783.00
+    MAD: 63.50
+    Outlier count: 1
+    Channels:
+      CH  8 (Chip0): value=12444.00, deviation=339.00, z_score=3.60
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00003
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_23_18_44_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00031_S1BNL_FEMB_IO-1865-1L_00012_S2BNL_FEMB_IO-1865-1L_00016_S3BNL_FEMB_IO-1865-1L_00003_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00003_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00003_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 927.00
+    MAD: 61.56
+    Outlier count: 1
+    Channels:
+      CH 88 (Chip5): value=1280.45, deviation=353.45, z_score=3.87
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00007
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_23_44_31_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00007_S1BNL_FEMB_IO-1865-1L_00034_S2BNL_FEMB_IO-1865-1L_00029_S3BNL_FEMB_IO-1865-1L_00030_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00007_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00007_S0_P.csv
+
+Outlier Channels:
+
+  NPK_mean:
+    Median: 4436.00
+    MAD: 52.00
+    Outlier count: 1
+    Channels:
+      CH 32 (Chip2): value=4720.00, deviation=284.00, z_score=3.68
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00029
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_23_44_31_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00007_S1BNL_FEMB_IO-1865-1L_00034_S2BNL_FEMB_IO-1865-1L_00029_S3BNL_FEMB_IO-1865-1L_00030_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00029_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00029_S2_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 939.05
+    MAD: 73.20
+    Outlier count: 1
+    Channels:
+      CH  8 (Chip0): value=1343.87, deviation=404.82, z_score=3.73
+
+  NPK_mean:
+    Median: 4435.50
+    MAD: 47.00
+    Outlier count: 1
+    Channels:
+      CH  8 (Chip0): value=4707.00, deviation=271.50, z_score=3.90
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00007
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_15_14_43_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00030_S1BNL_FEMB_IO-1865-1L_00029_S2BNL_FEMB_IO-1865-1L_00007_S3BNL_FEMB_IO-1865-1L_00034_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00007_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00007_S2_P.csv
+
+Outlier Channels:
+
+  NPK_mean:
+    Median: 4440.00
+    MAD: 51.50
+    Outlier count: 1
+    Channels:
+      CH 32 (Chip2): value=4715.00, deviation=275.00, z_score=3.60
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00029
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_15_14_43_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00030_S1BNL_FEMB_IO-1865-1L_00029_S2BNL_FEMB_IO-1865-1L_00007_S3BNL_FEMB_IO-1865-1L_00034_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00029_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00029_S1_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 975.84
+    MAD: 72.35
+    Outlier count: 1
+    Channels:
+      CH  8 (Chip0): value=1378.30, deviation=402.46, z_score=3.75
+
+  NPK_mean:
+    Median: 4439.50
+    MAD: 44.00
+    Outlier count: 1
+    Channels:
+      CH  8 (Chip0): value=4717.00, deviation=277.50, z_score=4.25
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00032
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_01_09_19_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00039_S1BNL_FEMB_IO-1865-1L_00025_S2BNL_FEMB_IO-1865-1L_00032_S3BNL_FEMB_IO-1865-1L_00038_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00032_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00032_S2_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 924.21
+    MAD: 54.23
+    Outlier count: 3
+    Channels:
+      CH 16 (Chip1): value=1201.71, deviation=277.50, z_score=3.45
+      CH 40 (Chip2): value=1213.03, deviation=288.81, z_score=3.59
+      CH 88 (Chip5): value=1227.89, deviation=303.68, z_score=3.78
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00025
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_01_09_19_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00039_S1BNL_FEMB_IO-1865-1L_00025_S2BNL_FEMB_IO-1865-1L_00032_S3BNL_FEMB_IO-1865-1L_00038_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00025_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00025_S1_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 908.23
+    MAD: 44.50
+    Outlier count: 4
+    Channels:
+      CH  0 (Chip0): value=1137.96, deviation=229.74, z_score=3.48
+      CH 40 (Chip2): value=1166.27, deviation=258.04, z_score=3.91
+      CH 88 (Chip5): value=1142.80, deviation=234.57, z_score=3.56
+      CH120 (Chip7): value=1141.22, deviation=232.99, z_score=3.53
+
+  BL_mean:
+    Median: 8590.50
+    MAD: 37.50
+    Outlier count: 1
+    Channels:
+      CH101 (Chip6): value=8367.00, deviation=223.50, z_score=4.02
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00039
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_01_09_19_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00039_S1BNL_FEMB_IO-1865-1L_00025_S2BNL_FEMB_IO-1865-1L_00032_S3BNL_FEMB_IO-1865-1L_00038_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00039_S0_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.63
+    MAD: 0.24
+    Outlier count: 2
+    Channels:
+      CH 20 (Chip1): value=11.99, deviation=1.35, z_score=3.77
+      CH 88 (Chip5): value=9.51, deviation=1.12, z_score=3.12
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00020
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_15_02_19_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00010_S1BNL_FEMB_IO-1865-1L_00020_S2BNL_FEMB_IO-1865-1L_00022_S3BNL_FEMB_IO-1865-1L_00037_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00020_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00020_S1_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 928.06
+    MAD: 71.08
+    Outlier count: 1
+    Channels:
+      CH104 (Chip6): value=1281.41, deviation=353.35, z_score=3.35
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00010
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_15_02_19_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00010_S1BNL_FEMB_IO-1865-1L_00020_S2BNL_FEMB_IO-1865-1L_00022_S3BNL_FEMB_IO-1865-1L_00037_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00010_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00010_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 943.67
+    MAD: 56.92
+    Outlier count: 1
+    Channels:
+      CH 24 (Chip1): value=1245.51, deviation=301.84, z_score=3.58
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00012
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_15_30_28_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00003_S1BNL_FEMB_IO-1865-1L_00016_S2BNL_FEMB_IO-1865-1L_00012_S3BNL_FEMB_IO-1865-1L_00031_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00012_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00012_S2_P.csv
+
+Outlier Channels:
+
+  PPK_mean:
+    Median: 12770.00
+    MAD: 61.50
+    Outlier count: 1
+    Channels:
+      CH  8 (Chip0): value=12453.00, deviation=317.00, z_score=3.48
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00003
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_15_30_28_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00003_S1BNL_FEMB_IO-1865-1L_00016_S2BNL_FEMB_IO-1865-1L_00012_S3BNL_FEMB_IO-1865-1L_00031_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00003_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00003_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 949.97
+    MAD: 60.48
+    Outlier count: 1
+    Channels:
+      CH 88 (Chip5): value=1304.39, deviation=354.41, z_score=3.95
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00020
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_23_32_22_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00010_S1BNL_FEMB_IO-1865-1L_00020_S2BNL_FEMB_IO-1865-1L_00022_S3BNL_FEMB_IO-1865-1L_00037_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00020_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00020_S1_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 891.30
+    MAD: 70.64
+    Outlier count: 1
+    Channels:
+      CH104 (Chip6): value=1252.50, deviation=361.20, z_score=3.45
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00010
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_23_32_22_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00010_S1BNL_FEMB_IO-1865-1L_00020_S2BNL_FEMB_IO-1865-1L_00022_S3BNL_FEMB_IO-1865-1L_00037_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00010_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00010_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 909.11
+    MAD: 59.63
+    Outlier count: 1
+    Channels:
+      CH 24 (Chip1): value=1208.02, deviation=298.92, z_score=3.38
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00037
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_23_32_22_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00010_S1BNL_FEMB_IO-1865-1L_00020_S2BNL_FEMB_IO-1865-1L_00022_S3BNL_FEMB_IO-1865-1L_00037_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00037_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00037_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 913.93
+    MAD: 56.87
+    Outlier count: 1
+    Channels:
+      CH 16 (Chip1): value=1224.15, deviation=310.22, z_score=3.68
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00014
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_37_56_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00014_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00014_S3_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.68
+    MAD: 0.23
+    Outlier count: 1
+    Channels:
+      CH 88 (Chip5): value=9.03, deviation=1.64, z_score=4.73
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00026
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_37_56_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00026_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00026_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 939.38
+    MAD: 61.54
+    Outlier count: 2
+    Channels:
+      CH 16 (Chip1): value=1318.95, deviation=379.57, z_score=4.16
+      CH 80 (Chip5): value=1312.32, deviation=372.94, z_score=4.09
+
+  NPK_mean:
+    Median: 4444.50
+    MAD: 60.00
+    Outlier count: 1
+    Channels:
+      CH 16 (Chip1): value=4773.00, deviation=328.50, z_score=3.69
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00036
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_37_56_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00036_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00036_S2_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.65
+    MAD: 0.26
+    Outlier count: 1
+    Channels:
+      CH  8 (Chip0): value=9.32, deviation=1.33, z_score=3.40
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00006
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_14_37_56_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00006_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00006_S1_P.csv
+
+Outlier Channels:
+
+  PPK_mean:
+    Median: 12769.00
+    MAD: 44.00
+    Outlier count: 1
+    Channels:
+      CH 80 (Chip5): value=12529.00, deviation=240.00, z_score=3.68
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00014
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_56_47_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00014_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00014_S3_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.71
+    MAD: 0.24
+    Outlier count: 1
+    Channels:
+      CH109 (Chip6): value=11.94, deviation=1.23, z_score=3.41
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00026
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_56_47_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00026_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00026_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 906.15
+    MAD: 60.53
+    Outlier count: 2
+    Channels:
+      CH 16 (Chip1): value=1287.80, deviation=381.65, z_score=4.25
+      CH 80 (Chip5): value=1283.06, deviation=376.91, z_score=4.20
+
+  NPK_mean:
+    Median: 4442.50
+    MAD: 57.50
+    Outlier count: 1
+    Channels:
+      CH 16 (Chip1): value=4773.00, deviation=330.50, z_score=3.88
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00036
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_56_47_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00036_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00036_S2_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 911.92
+    MAD: 55.36
+    Outlier count: 1
+    Channels:
+      CH  0 (Chip0): value=1168.82, deviation=256.90, z_score=3.13
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00006
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_56_47_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00026_S1BNL_FEMB_IO-1865-1L_00006_S2BNL_FEMB_IO-1865-1L_00036_S3BNL_FEMB_IO-1865-1L_00014_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00006_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00006_S1_P.csv
+
+Outlier Channels:
+
+  PPK_mean:
+    Median: 12771.50
+    MAD: 46.00
+    Outlier count: 2
+    Channels:
+      CH  7 (Chip0): value=12999.00, deviation=227.50, z_score=3.34
+      CH 80 (Chip5): value=12536.00, deviation=235.50, z_score=3.45
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00002
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/23_16_18_31_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00002_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00002_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00002_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 982.43
+    MAD: 60.85
+    Outlier count: 2
+    Channels:
+      CH  8 (Chip0): value=1347.31, deviation=364.88, z_score=4.04
+      CH 80 (Chip5): value=1374.81, deviation=392.38, z_score=4.35
+
+  NPK_mean:
+    Median: 4457.50
+    MAD: 38.00
+    Outlier count: 3
+    Channels:
+      CH  8 (Chip0): value=4689.00, deviation=231.50, z_score=4.11
+      CH 38 (Chip2): value=4285.00, deviation=172.50, z_score=3.06
+      CH 80 (Chip5): value=4740.00, deviation=282.50, z_score=5.01
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1L_00002
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_03/24_00_02_36_CTS_BNL_S0BNL_FEMB_IO-1865-1L_00002_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1L_00002_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1L_00002_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 966.80
+    MAD: 55.96
+    Outlier count: 3
+    Channels:
+      CH  0 (Chip0): value=1278.75, deviation=311.95, z_score=3.76
+      CH  8 (Chip0): value=1330.55, deviation=363.75, z_score=4.38
+      CH 80 (Chip5): value=1349.78, deviation=382.98, z_score=4.62
+
+  NPK_mean:
+    Median: 4454.00
+    MAD: 34.50
+    Outlier count: 5
+    Channels:
+      CH  0 (Chip0): value=4632.00, deviation=178.00, z_score=3.48
+      CH  8 (Chip0): value=4698.00, deviation=244.00, z_score=4.77
+      CH 38 (Chip2): value=4282.00, deviation=172.00, z_score=3.36
+      CH 80 (Chip5): value=4719.00, deviation=265.00, z_score=5.18
+      CH 96 (Chip6): value=4627.00, deviation=173.00, z_score=3.38
+
+------------------------------------------------------------
+FEMB ID: fgdfgdfg
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_02/06_22_41_21_CTS_BNL_S0fgdfgdfg_RT_CHK/Report/FEMBfgdfgdfg_RT_PCB_Based/DataBase_FEMB_fgdfgdfg_S0_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.56
+    MAD: 0.29
+    Outlier count: 1
+    Channels:
+      CH111 (Chip6): value=4.40, deviation=6.16, z_score=14.30
+
+  ped:
+    Median: 991.92
+    MAD: 70.87
+    Outlier count: 1
+    Channels:
+      CH111 (Chip6): value=7746.18, deviation=6754.27, z_score=64.29
+
+  PPK_mean:
+    Median: 12816.50
+    MAD: 57.50
+    Outlier count: 1
+    Channels:
+      CH111 (Chip6): value=12010.00, deviation=806.50, z_score=9.46
+
+  NPK_mean:
+    Median: 4474.00
+    MAD: 66.00
+    Outlier count: 1
+    Channels:
+      CH111 (Chip6): value=11925.00, deviation=7451.00, z_score=76.15
+
+  BL_mean:
+    Median: 8648.00
+    MAD: 47.50
+    Outlier count: 1
+    Channels:
+      CH111 (Chip6): value=11965.00, deviation=3317.00, z_score=47.10
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00004
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_08/03_18_53_24_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00059_S1BNL_FEMB_IO-1826-1L_00004_S2BNL_FEMB_IO-1826-1L_00061_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00004_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00004_S1_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 12.03
+    MAD: 0.35
+    Outlier count: 10
+    Channels:
+      CH 64 (Chip4): value=29.45, deviation=17.42, z_score=33.76
+      CH 65 (Chip4): value=46.16, deviation=34.13, z_score=66.16
+      CH 66 (Chip4): value=49.79, deviation=37.76, z_score=73.21
+      CH 67 (Chip4): value=22.45, deviation=10.42, z_score=20.19
+      CH 93 (Chip5): value=44.69, deviation=32.66, z_score=63.31
+      CH 94 (Chip5): value=20.91, deviation=8.88, z_score=17.21
+      CH 95 (Chip5): value=22.07, deviation=10.04, z_score=19.47
+      CH 96 (Chip6): value=17.66, deviation=5.63, z_score=10.91
+      CH 97 (Chip6): value=18.23, deviation=6.20, z_score=12.02
+      CH127 (Chip7): value=26.74, deviation=14.71, z_score=28.51
+
+  ped:
+    Median: 872.17
+    MAD: 63.15
+    Outlier count: 1
+    Channels:
+      CH 24 (Chip1): value=1244.97, deviation=372.80, z_score=3.98
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00061
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_08/03_18_53_24_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00059_S1BNL_FEMB_IO-1826-1L_00004_S2BNL_FEMB_IO-1826-1L_00061_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00061_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00061_S2_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.71
+    MAD: 0.25
+    Outlier count: 2
+    Channels:
+      CH 80 (Chip5): value=10.46, deviation=1.26, z_score=3.40
+      CH 88 (Chip5): value=10.35, deviation=1.36, z_score=3.67
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00046
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_08/03_18_53_24_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00059_S1BNL_FEMB_IO-1826-1L_00004_S2BNL_FEMB_IO-1826-1L_00061_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00046_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00046_S3_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.84
+    MAD: 0.32
+    Outlier count: 1
+    Channels:
+      CH120 (Chip7): value=10.50, deviation=1.34, z_score=2.84
+
+  ped:
+    Median: 862.06
+    MAD: 78.15
+    Outlier count: 1
+    Channels:
+      CH 95 (Chip5): value=1705.84, deviation=843.78, z_score=7.28
+
+  PPK_mean:
+    Median: 12730.50
+    MAD: 55.50
+    Outlier count: 1
+    Channels:
+      CH 95 (Chip5): value=13033.00, deviation=302.50, z_score=3.68
+
+  NPK_mean:
+    Median: 4379.50
+    MAD: 56.50
+    Outlier count: 1
+    Channels:
+      CH 95 (Chip5): value=5021.00, deviation=641.50, z_score=7.66
+
+  BL_mean:
+    Median: 8551.50
+    MAD: 47.50
+    Outlier count: 1
+    Channels:
+      CH 95 (Chip5): value=9026.00, deviation=474.50, z_score=6.74
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00004
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_08/03_22_20_20_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00004_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00004_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00004_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 932.43
+    MAD: 65.33
+    Outlier count: 1
+    Channels:
+      CH 24 (Chip1): value=1297.25, deviation=364.82, z_score=3.77
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1K_00039
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_10/01_19_38_42_CTS_BNL_S0BNL_FEMB_IO-1865-1K_00039_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1K_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1K_00039_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 935.79
+    MAD: 47.82
+    Outlier count: 6
+    Channels:
+      CH 16 (Chip1): value=1159.27, deviation=223.49, z_score=3.15
+      CH 32 (Chip2): value=1201.33, deviation=265.54, z_score=3.75
+      CH 40 (Chip2): value=1242.65, deviation=306.86, z_score=4.33
+      CH 72 (Chip4): value=1162.83, deviation=227.05, z_score=3.20
+      CH 94 (Chip5): value=669.20, deviation=266.58, z_score=3.76
+      CH121 (Chip7): value=699.97, deviation=235.81, z_score=3.33
+
+  NPK_mean:
+    Median: 4439.00
+    MAD: 51.00
+    Outlier count: 1
+    Channels:
+      CH121 (Chip7): value=4180.00, deviation=259.00, z_score=3.43
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1K_00039
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_10/01_19_30_27_CTS_BNL_S0BNL_FEMB_IO-1865-1K_00039_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1K_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1K_00039_S0_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.13
+    MAD: 0.29
+    Outlier count: 1
+    Channels:
+      CH 13 (Chip0): value=13.09, deviation=1.96, z_score=4.52
+
+  ped:
+    Median: 935.28
+    MAD: 48.28
+    Outlier count: 6
+    Channels:
+      CH 16 (Chip1): value=1158.92, deviation=223.64, z_score=3.12
+      CH 32 (Chip2): value=1199.17, deviation=263.89, z_score=3.69
+      CH 40 (Chip2): value=1240.09, deviation=304.81, z_score=4.26
+      CH 72 (Chip4): value=1162.40, deviation=227.12, z_score=3.17
+      CH 94 (Chip5): value=668.47, deviation=266.81, z_score=3.73
+      CH121 (Chip7): value=699.08, deviation=236.20, z_score=3.30
+
+  NPK_mean:
+    Median: 4428.50
+    MAD: 49.00
+    Outlier count: 2
+    Channels:
+      CH 94 (Chip5): value=4186.00, deviation=242.50, z_score=3.34
+      CH121 (Chip7): value=4180.00, deviation=248.50, z_score=3.42
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1K_00039
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_10/01_20_15_08_CTS_BNL_S0BNL_FEMB_IO-1865-1K_00039_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1K_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1K_00039_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 931.65
+    MAD: 47.45
+    Outlier count: 6
+    Channels:
+      CH 16 (Chip1): value=1153.38, deviation=221.73, z_score=3.15
+      CH 32 (Chip2): value=1196.58, deviation=264.93, z_score=3.77
+      CH 40 (Chip2): value=1236.95, deviation=305.31, z_score=4.34
+      CH 72 (Chip4): value=1159.18, deviation=227.53, z_score=3.23
+      CH 94 (Chip5): value=664.18, deviation=267.47, z_score=3.80
+      CH121 (Chip7): value=687.35, deviation=244.30, z_score=3.47
+
+  NPK_mean:
+    Median: 4436.00
+    MAD: 50.50
+    Outlier count: 1
+    Channels:
+      CH121 (Chip7): value=4187.00, deviation=249.00, z_score=3.33
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1K_00039
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_10/01_19_50_02_CTS_BNL_S0BNL_FEMB_IO-1865-1K_00039_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1K_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1K_00039_S0_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.51
+    MAD: 0.34
+    Outlier count: 1
+    Channels:
+      CH 17 (Chip1): value=13.22, deviation=1.71, z_score=3.44
+
+  ped:
+    Median: 932.82
+    MAD: 46.83
+    Outlier count: 5
+    Channels:
+      CH 32 (Chip2): value=1200.18, deviation=267.36, z_score=3.85
+      CH 40 (Chip2): value=1243.95, deviation=311.13, z_score=4.48
+      CH 72 (Chip4): value=1163.34, deviation=230.52, z_score=3.32
+      CH 94 (Chip5): value=662.73, deviation=270.09, z_score=3.89
+      CH121 (Chip7): value=694.85, deviation=237.97, z_score=3.43
+
+  NPK_mean:
+    Median: 4437.50
+    MAD: 49.50
+    Outlier count: 2
+    Channels:
+      CH 94 (Chip5): value=4197.00, deviation=240.50, z_score=3.28
+      CH121 (Chip7): value=4190.00, deviation=247.50, z_score=3.37
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1K_00039
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_10/01_19_14_35_CTS_BNL_S0BNL_FEMB_IO-1865-1K_00039_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1K_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1K_00039_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 919.73
+    MAD: 47.60
+    Outlier count: 5
+    Channels:
+      CH 32 (Chip2): value=1186.17, deviation=266.43, z_score=3.78
+      CH 40 (Chip2): value=1225.31, deviation=305.58, z_score=4.33
+      CH 72 (Chip4): value=1150.38, deviation=230.65, z_score=3.27
+      CH 94 (Chip5): value=656.43, deviation=263.30, z_score=3.73
+      CH121 (Chip7): value=682.23, deviation=237.50, z_score=3.37
+
+  NPK_mean:
+    Median: 4427.50
+    MAD: 47.50
+    Outlier count: 2
+    Channels:
+      CH 94 (Chip5): value=4186.00, deviation=241.50, z_score=3.43
+      CH121 (Chip7): value=4165.00, deviation=262.50, z_score=3.73
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1865-1K_00039
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_10/01_20_01_12_CTS_BNL_S0BNL_FEMB_IO-1865-1K_00039_RT_CHK/Report/FEMBBNL_FEMB_IO-1865-1K_00039_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1865-1K_00039_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 930.10
+    MAD: 47.19
+    Outlier count: 5
+    Channels:
+      CH 32 (Chip2): value=1195.35, deviation=265.25, z_score=3.79
+      CH 40 (Chip2): value=1238.22, deviation=308.12, z_score=4.40
+      CH 72 (Chip4): value=1160.09, deviation=229.99, z_score=3.29
+      CH 94 (Chip5): value=662.61, deviation=267.49, z_score=3.82
+      CH121 (Chip7): value=687.41, deviation=242.69, z_score=3.47
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_I0-1865-1J_00013
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_05/07_14_18_42_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00013_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00013_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00013_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 924.84
+    MAD: 51.17
+    Outlier count: 3
+    Channels:
+      CH 56 (Chip3): value=1220.29, deviation=295.44, z_score=3.89
+      CH 88 (Chip5): value=1216.57, deviation=291.73, z_score=3.85
+      CH112 (Chip7): value=1200.10, deviation=275.26, z_score=3.63
+
+------------------------------------------------------------
+FEMB ID: D17
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_05/09_15_38_37_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00013_S1D42_S2D36_S3D17_RT_CHK/Report/FEMBD17_RT_PCB_Based/DataBase_FEMB_D17_S3_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.63
+    MAD: 0.24
+    Outlier count: 2
+    Channels:
+      CH 96 (Chip6): value=9.29, deviation=1.33, z_score=3.69
+      CH114 (Chip7): value=11.85, deviation=1.23, z_score=3.39
+
+  NPK_mean:
+    Median: 4453.50
+    MAD: 58.50
+    Outlier count: 1
+    Channels:
+      CH 30 (Chip1): value=4172.00, deviation=281.50, z_score=3.25
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_I0-1865-1J_00013
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_05/09_15_38_37_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00013_S1D42_S2D36_S3D17_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00013_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00013_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 912.29
+    MAD: 54.86
+    Outlier count: 2
+    Channels:
+      CH 56 (Chip3): value=1207.01, deviation=294.72, z_score=3.62
+      CH 88 (Chip5): value=1210.52, deviation=298.24, z_score=3.67
+
+------------------------------------------------------------
+FEMB ID: D42
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_05/09_15_38_37_CTS_BNL_S0BNL_FEMB_I0-1865-1J_00013_S1D42_S2D36_S3D17_RT_CHK/Report/FEMBD42_RT_PCB_Based/DataBase_FEMB_D42_S1_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 10.58
+    MAD: 0.32
+    Outlier count: 1
+    Channels:
+      CH 61 (Chip3): value=12.25, deviation=1.66, z_score=3.48
+
+------------------------------------------------------------
+FEMB ID: G00036
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_06/26_14_40_04_CTS_BNL_S0G00017_S1G00036_S2G00042_S3BNL_FEMB_I0-1865-1J_00013_RT_CHK/Report/FEMBG00036_RT_PCB_Based/DataBase_FEMB_G00036_S1_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.04
+    MAD: 0.27
+    Outlier count: 1
+    Channels:
+      CH 25 (Chip1): value=9.65, deviation=1.39, z_score=3.41
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_I0-1865-1J_00013
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_06/26_14_40_04_CTS_BNL_S0G00017_S1G00036_S2G00042_S3BNL_FEMB_I0-1865-1J_00013_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00013_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00013_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 1521.90
+    MAD: 72.54
+    Outlier count: 16
+    Channels:
+      CH  0 (Chip0): value=2375.78, deviation=853.88, z_score=7.94
+      CH  8 (Chip0): value=2565.19, deviation=1043.29, z_score=9.70
+      CH 16 (Chip1): value=2236.27, deviation=714.37, z_score=6.64
+      CH 24 (Chip1): value=2294.50, deviation=772.60, z_score=7.18
+      CH 32 (Chip2): value=2411.87, deviation=889.97, z_score=8.28
+      CH 40 (Chip2): value=2390.50, deviation=868.60, z_score=8.08
+      CH 48 (Chip3): value=2351.63, deviation=829.73, z_score=7.72
+      CH 56 (Chip3): value=2383.88, deviation=861.99, z_score=8.01
+      CH 64 (Chip4): value=2281.15, deviation=759.25, z_score=7.06
+      CH 72 (Chip4): value=2388.20, deviation=866.30, z_score=8.06
+      CH 80 (Chip5): value=2295.55, deviation=773.66, z_score=7.19
+      CH 88 (Chip5): value=2445.44, deviation=923.55, z_score=8.59
+      CH 96 (Chip6): value=2222.92, deviation=701.03, z_score=6.52
+      CH104 (Chip6): value=2126.61, deviation=604.72, z_score=5.62
+      CH112 (Chip7): value=2430.58, deviation=908.68, z_score=8.45
+      CH120 (Chip7): value=2331.99, deviation=810.09, z_score=7.53
+
+  PPK_mean:
+    Median: 16023.50
+    MAD: 73.00
+    Outlier count: 16
+    Channels:
+      CH  0 (Chip0): value=15140.00, deviation=883.50, z_score=8.16
+      CH  8 (Chip0): value=15342.00, deviation=681.50, z_score=6.30
+      CH 16 (Chip1): value=15134.00, deviation=889.50, z_score=8.22
+      CH 24 (Chip1): value=15159.00, deviation=864.50, z_score=7.99
+      CH 32 (Chip2): value=15220.00, deviation=803.50, z_score=7.42
+      CH 40 (Chip2): value=15211.00, deviation=812.50, z_score=7.51
+      CH 48 (Chip3): value=15376.00, deviation=647.50, z_score=5.98
+      CH 56 (Chip3): value=15419.00, deviation=604.50, z_score=5.59
+      CH 64 (Chip4): value=14933.00, deviation=1090.50, z_score=10.08
+      CH 72 (Chip4): value=15100.00, deviation=923.50, z_score=8.53
+      CH 80 (Chip5): value=15082.00, deviation=941.50, z_score=8.70
+      CH 88 (Chip5): value=15068.00, deviation=955.50, z_score=8.83
+      CH 96 (Chip6): value=15050.00, deviation=973.50, z_score=8.99
+      CH104 (Chip6): value=15065.00, deviation=958.50, z_score=8.86
+      CH112 (Chip7): value=15162.00, deviation=861.50, z_score=7.96
+      CH120 (Chip7): value=15069.00, deviation=954.50, z_score=8.82
+
+  NPK_mean:
+    Median: 6195.00
+    MAD: 94.50
+    Outlier count: 5
+    Channels:
+      CH  0 (Chip0): value=6714.00, deviation=519.00, z_score=3.70
+      CH  8 (Chip0): value=6872.00, deviation=677.00, z_score=4.83
+      CH 32 (Chip2): value=6700.00, deviation=505.00, z_score=3.60
+      CH 56 (Chip3): value=6706.00, deviation=511.00, z_score=3.65
+      CH112 (Chip7): value=6746.00, deviation=551.00, z_score=3.93
+
+  BL_mean:
+    Median: 11414.50
+    MAD: 120.00
+    Outlier count: 5
+    Channels:
+      CH 64 (Chip4): value=10686.00, deviation=728.50, z_score=4.09
+      CH 72 (Chip4): value=10806.00, deviation=608.50, z_score=3.42
+      CH 96 (Chip6): value=10813.00, deviation=601.50, z_score=3.38
+      CH104 (Chip6): value=10763.00, deviation=651.50, z_score=3.66
+      CH120 (Chip7): value=10816.00, deviation=598.50, z_score=3.36
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_I0-1865-1J_00015
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_06/26_15_28_38_CTS_BNL_S0G00036_S1G00042_S2BNL_FEMB_I0-1865-1J_00015_RT_CHK/Report/FEMBBNL_FEMB_I0-1865-1J_00015_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_I0-1865-1J_00015_S2_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.25
+    MAD: 0.28
+    Outlier count: 2
+    Channels:
+      CH 15 (Chip0): value=12.73, deviation=1.48, z_score=3.59
+      CH 20 (Chip1): value=12.78, deviation=1.53, z_score=3.71
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00035
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_09/11_18_46_04_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00027_S2BNL_FEMB_IO-1826-1L_00007_S3BNL_FEMB_IO-1826-1L_00035_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00035_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00035_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 899.51
+    MAD: 62.11
+    Outlier count: 1
+    Channels:
+      CH 88 (Chip5): value=1232.32, deviation=332.82, z_score=3.61
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00007
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_09/11_18_46_04_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00027_S2BNL_FEMB_IO-1826-1L_00007_S3BNL_FEMB_IO-1826-1L_00035_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00007_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00007_S2_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.26
+    MAD: 0.30
+    Outlier count: 1
+    Channels:
+      CH 15 (Chip0): value=13.04, deviation=1.78, z_score=4.06
+
+  ped:
+    Median: 917.45
+    MAD: 59.09
+    Outlier count: 1
+    Channels:
+      CH120 (Chip7): value=1298.34, deviation=380.89, z_score=4.35
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00017
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_09/11_19_03_16_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00024_S1BNL_FEMB_IO-1826-1L_00020_S2BNL_FEMB_IO-1826-1L_00017_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00017_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00017_S2_P.csv
+
+Outlier Channels:
+
+  rms:
+    Median: 11.11
+    MAD: 0.31
+    Outlier count: 1
+    Channels:
+      CH 15 (Chip0): value=12.84, deviation=1.73, z_score=3.79
+
+  ped:
+    Median: 927.93
+    MAD: 59.42
+    Outlier count: 1
+    Channels:
+      CH 32 (Chip2): value=1240.36, deviation=312.43, z_score=3.55
+
+  PPK_mean:
+    Median: 12783.50
+    MAD: 68.00
+    Outlier count: 2
+    Channels:
+      CH 96 (Chip6): value=12375.00, deviation=408.50, z_score=4.05
+      CH110 (Chip6): value=12448.00, deviation=335.50, z_score=3.33
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00024
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_09/11_19_03_16_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00024_S1BNL_FEMB_IO-1826-1L_00020_S2BNL_FEMB_IO-1826-1L_00017_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00024_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00024_S0_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 887.09
+    MAD: 59.53
+    Outlier count: 1
+    Channels:
+      CH 64 (Chip4): value=1198.88, deviation=311.79, z_score=3.53
+
+  BL_mean:
+    Median: 8569.50
+    MAD: 45.50
+    Outlier count: 1
+    Channels:
+      CH 68 (Chip4): value=8812.00, deviation=242.50, z_score=3.59
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00046
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_09/11_19_03_16_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00024_S1BNL_FEMB_IO-1826-1L_00020_S2BNL_FEMB_IO-1826-1L_00017_S3BNL_FEMB_IO-1826-1L_00046_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00046_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00046_S3_P.csv
+
+Outlier Channels:
+
+  ped:
+    Median: 865.90
+    MAD: 64.80
+    Outlier count: 1
+    Channels:
+      CH 95 (Chip5): value=2749.62, deviation=1883.72, z_score=19.61
+
+  PPK_mean:
+    Median: 12738.50
+    MAD: 54.00
+    Outlier count: 1
+    Channels:
+      CH 95 (Chip5): value=13105.00, deviation=366.50, z_score=4.58
+
+  NPK_mean:
+    Median: 4390.50
+    MAD: 55.00
+    Outlier count: 1
+    Channels:
+      CH 95 (Chip5): value=5061.00, deviation=670.50, z_score=8.22
+
+  BL_mean:
+    Median: 8559.00
+    MAD: 45.00
+    Outlier count: 1
+    Channels:
+      CH 95 (Chip5): value=9080.00, deviation=521.00, z_score=7.81
+
+------------------------------------------------------------
+FEMB ID: BNL_FEMB_IO-1826-1L_00051
+CSV Path: /home/dune/Documents/data/FEMB_QC/Report/Time_2026_09/22_21_08_49_CTS_BNL_S0BNL_FEMB_IO-1826-1L_00051_RT_CHK/Report/FEMBBNL_FEMB_IO-1826-1L_00051_RT_PCB_Based/DataBase_FEMB_BNL_FEMB_IO-1826-1L_00051_S0_P.csv
+
+Outlier Channels:
+
+  BL_mean:
+    Median: 8609.00
+    MAD: 38.00
+    Outlier count: 1
+    Channels:
+      CH 95 (Chip5): value=8406.00, deviation=203.00, z_score=3.60
+

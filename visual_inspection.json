@@ -1,0 +1,14 @@
+{
+  "BNL_FEMB_IO-1826-1L_00061": {
+    "passed": true,
+    "notes": "",
+    "checked_parts": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "slot": "SLOT0"
+  }
+}

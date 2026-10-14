@@ -44,6 +44,10 @@ qc_log00 = defaultdict(dict)
 
 final_status = defaultdict(dict)
 
+# Visual inspection log - stores inspection results before FEMB pickup
+# Structure: visual_inspection_log[femb_id] = {"passed": True/False, "notes": "...", "checked_parts": [1,2,3,4,5]}
+visual_inspection_log = defaultdict(dict)
+
 power_rail_report_log = defaultdict(dict)
 power_rail_report_csv = defaultdict(dict)
 
