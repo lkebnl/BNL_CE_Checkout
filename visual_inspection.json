@@ -1,5 +1,5 @@
 {
-  "BNL_FEMB_IO-1826-1L_00061": {
+  "BNL_FEMB_IO-1865-1K_00039": {
     "passed": true,
     "notes": "",
     "checked_parts": [
@@ -10,5 +10,17 @@
       5
     ],
     "slot": "SLOT0"
+  },
+  "BNL_FEMB_IO-1826-1L_00051": {
+    "passed": true,
+    "notes": "",
+    "checked_parts": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "slot": "SLOT1"
   }
 }
